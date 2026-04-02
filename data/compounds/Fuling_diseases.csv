@@ -1,0 +1,168 @@
+target_name,target_ID,drugbank_ID,disease_name,disease_ID
+Muscarinic acetylcholine receptor M1,38,103,Alzheimer's Disease,51
+Muscarinic acetylcholine receptor M1,38,103,Bronchospasm (histamine induced),125
+Muscarinic acetylcholine receptor M1,38,103,Cognitive deficits,196
+Muscarinic acetylcholine receptor M1,38,103,Schizophrenia,711
+"Glycogen phosphorylase, muscle form",350,1152,Diabetes Mellitus Type 2,236
+"Glycogen phosphorylase, muscle form",350,1152,Noninsulin-dependent diabetes mellitus,567
+Interleukin-6,351,1159,Cachexia,127
+Interleukin-6,351,1159,Glioblastoma multiforme,332
+Interleukin-6,351,1159,Hyperinflammatory provoked organ injury,393
+Interleukin-6,351,1159,"Inflammatory Disorders, Unspecified",420
+Interleukin-6,351,1159,Multiple Myeloma,527
+Interleukin-6,351,1159,"Osteoporosis, unspecified",595
+Interleukin-6,351,1159,Systemic-onset juvenile idiopathic arthritis,762
+Cathepsin D,363,1243,Alzheimer's Disease,51
+Cathepsin D,363,1243,Breast cancer,117
+Androgen receptor,48,146,Prostate cancer,659
+Androgen receptor,48,146,Spinal and bulbar muscular atrophy,747
+Androgen receptor,48,146,XY disorders of sex development (Other),1006
+Androgen receptor,48,146,XY disorders of sex development (Disorders in androgen synthesis or action),1005
+Androgen receptor,48,146,Spinal and bulbar muscular atrophy of Kennedy,1004
+Androgen receptor,48,146,"Hypospadias 1, X-linked",1003
+Androgen receptor,48,146,Androgen insensitivity,1002
+Heat shock protein HSP 90,444,1939,Breast cancer,117
+Heat shock protein HSP 90,444,1939,Chronic Myelogenous Leukemia (CML),178
+Heat shock protein HSP 90,444,1939,Gastrointestinal Stromal Tumors (GIST),321
+Heat shock protein HSP 90,444,1939,Hematological Malignancies,357
+Heat shock protein HSP 90,444,1939,HER2-positive Metastatic Breast Cancer,367
+Heat shock protein HSP 90,444,1939,Melanoma,505
+Heat shock protein HSP 90,444,1939,Multiple Myeloma,527
+Heat shock protein HSP 90,444,1939,Non-small Cell Lung Cancer,569
+Heat shock protein HSP 90,444,1939,Ovarian cancer,597
+Heat shock protein HSP 90,444,1939,Prostate cancer,659
+Heat shock protein HSP 90,444,1939,Refractory Hematological Malignancies,683
+Heat shock protein HSP 90,444,1939,Solid tumors,744
+Prostaglandin G/H synthase 1,6,20,"Cardiovascular disease, unspecified",144
+Prostaglandin G/H synthase 1,6,20,Chronic inflammatory diseases,174
+Sodium channel protein type 5 subunit alpha,70,220,Analgesics,55
+Sodium channel protein type 5 subunit alpha,70,220,Cardiac dysrhythmias,139
+Sodium channel protein type 5 subunit alpha,70,220,Epileptic seizures,280
+Sodium channel protein type 5 subunit alpha,70,220,Pain,607
+Sodium channel protein type 5 subunit alpha,70,220,Refractory partial epilepsy,684
+Sodium channel protein type 5 subunit alpha,70,220,Sustained ventricular tachycardia,757
+Rhodopsin,477,2207,Vitamin A deficiency,827
+"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,Angioedema,64
+"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,"Cancer, unspecific",130
+"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,Heart Failure,353
+"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,Myocardial Infarction,533
+"Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform",491,2404,Solid tumors,744
+Apoptosis regulator Bcl-2,86,273,Chronic lymphocytic leukemia,176
+Apoptosis regulator Bcl-2,86,273,Prostate cancer (hormone refractory),661
+Apoptosis regulator Bcl-2,86,273,Waldenstrom's macroglobulinemia,833
+Collagen alpha-1(I) chain,731,28,"Bone Diseases, Metabolic",107
+Collagen alpha-1(I) chain,731,28,"Fractures, Bone",302
+Collagen alpha-1(I) chain,731,28,Multiple Myeloma,527
+Collagen alpha-1(I) chain,731,28,Osteonecrosis,590
+Collagen alpha-1(I) chain,731,28,Osteoporosis,592
+Prostaglandin G/H synthase 2,94,290,Abdominal aortic aneurysm,1
+Prostaglandin G/H synthase 2,94,290,Adenomatous polyposis,24
+Prostaglandin G/H synthase 2,94,290,Alzheimer's Disease,51
+Prostaglandin G/H synthase 2,94,290,Analgesics,55
+Prostaglandin G/H synthase 2,94,290,Arthritis,75
+Prostaglandin G/H synthase 2,94,290,Bladder cancer,103
+Prostaglandin G/H synthase 2,94,290,Breast cancer,117
+Prostaglandin G/H synthase 2,94,290,"Cancer, unspecific",130
+Prostaglandin G/H synthase 2,94,290,"Carcinoma in situ, unspecified",134
+Prostaglandin G/H synthase 2,94,290,Carpal tunnel syndrome,147
+Prostaglandin G/H synthase 2,94,290,Colorectal cancer,200
+Prostaglandin G/H synthase 2,94,290,"Dysmenorrhea, unspecified",264
+Prostaglandin G/H synthase 2,94,290,Endometriosis,273
+Prostaglandin G/H synthase 2,94,290,Genitourinary tumors,325
+Prostaglandin G/H synthase 2,94,290,Gestational hypertension,327
+Prostaglandin G/H synthase 2,94,290,Inflammation,416
+Prostaglandin G/H synthase 2,94,290,Inflammatory diseases,418
+Prostaglandin G/H synthase 2,94,290,Lung Cancer,471
+Prostaglandin G/H synthase 2,94,290,Malignant mesothelioma,496
+Prostaglandin G/H synthase 2,94,290,Meningioma,508
+Prostaglandin G/H synthase 2,94,290,Myocardial Infarction,533
+Prostaglandin G/H synthase 2,94,290,Oropharyngeal squamous cell carcinoma,585
+Prostaglandin G/H synthase 2,94,290,Osteoarthritis,586
+Prostaglandin G/H synthase 2,94,290,"Pain, unspecified",611
+Prostaglandin G/H synthase 2,94,290,Pathological angiogenesis,622
+Prostaglandin G/H synthase 2,94,290,Peutz-Jeghers syndrome,633
+Prostaglandin G/H synthase 2,94,290,Prostate cancer,659
+Prostaglandin G/H synthase 2,94,290,Pyresis,676
+Prostaglandin G/H synthase 2,94,290,Renal Cell Carcinoma,689
+Prostaglandin G/H synthase 2,94,290,"Rheumatoid arthritis, unspecified",703
+Prostaglandin G/H synthase 2,94,290,Stroke,754
+Prostaglandin G/H synthase 2,94,290,Vascular lesion regression,814
+Carbonic anhydrase II,117,357,Glaucoma,330
+Carbonic anhydrase II,117,357,Pancreatic Cancer,612
+Carbonic anhydrase II,117,357,Renal failure,692
+Cholinesterase,559,3923,Alzheimer's Disease,51
+Cholinesterase,559,3923,Schizophrenia,711
+Amine oxidase [flavin-containing] B,565,3939,Major Depressive Disorder,488
+Amine oxidase [flavin-containing] B,565,3939,Neurological diseases,558
+Amine oxidase [flavin-containing] B,565,3939,Parkinson's disease,621
+Amine oxidase [flavin-containing] A,566,3941,Depression,228
+Amine oxidase [flavin-containing] A,566,3941,Mood [affective] disorders,522
+Amine oxidase [flavin-containing] A,566,3941,Social phobias,742
+Gamma-aminobutyric-acid receptor alpha-2 subunit,141,423,"Anxiety disorder, unspecified",72
+Gamma-aminobutyric-acid receptor alpha-2 subunit,141,423,Disorders of initiating and maintaining sleep [insomnias],255
+Alcohol dehydrogenase 1B,726,444,Alcoholism,41
+Pancreatic alpha-amylase,622,4513,Hypoglycemia,403
+Pancreatic alpha-amylase,622,4513,Pancreatic disease,614
+Retinoic acid receptor RXR-alpha,158,459,Prostate cancer,659
+"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,Bronchial asthma,122
+"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,Chronic myeloid leukemia,179
+"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,Vascular disease,810
+Muscarinic acetylcholine receptor M3,16,51,Airway hyperreactivity,39
+Muscarinic acetylcholine receptor M3,16,51,Urge incontinence,802
+Alcohol dehydrogenase 1C,727,517,Alcoholism,41
+Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,Alzheimer's Disease,51
+Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,Central nervous system diseases,150
+Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,Cognitive deficits,196
+Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,Delirium,224
+Gamma-aminobutyric-acid receptor alpha-5 subunit,181,523,Dementia,226
+Sodium-dependent noradrenaline transporter,186,540,Depression,228
+Gamma-aminobutyric-acid receptor alpha-3 subunit,200,580,"Anxiety disorder, unspecified",72
+Gamma-aminobutyric-acid receptor alpha-3 subunit,200,580,Disorders of initiating and maintaining sleep [insomnias],255
+Progesterone receptor,209,614,Breast cancer,117
+Muscarinic acetylcholine receptor M2,210,617,Alzheimer's Disease,51
+Muscarinic acetylcholine receptor M2,210,617,Analgesics,55
+Muscarinic acetylcholine receptor M2,210,617,Autoimmune cardiomyopathy,87
+Muscarinic acetylcholine receptor M2,210,617,Bronchoconstriction (cold air-induced),124
+Muscarinic acetylcholine receptor M2,210,617,"Chronic obstructive pulmonary disease, unspecified",183
+Muscarinic acetylcholine receptor M2,210,617,Hypothermia,409
+Muscarinic acetylcholine receptor M2,210,617,Neurogenic bladder,552
+Muscarinic acetylcholine receptor M2,210,617,"Pain, unspecified",611
+Muscarinic acetylcholine receptor M2,210,617,"Tremor, unspecified",789
+Alpha-1B adrenergic receptor,216,632,Shy-Drager syndrome,726
+Phospholipase A2,708,6500,Arthritis,75
+Phospholipase A2,708,6500,Eicosanoid-mediated disorders,267
+Phospholipase A2,708,6500,Inflammation,416
+Rhinovirus coat protein,709,6521,Acute nasopharyngitis [common cold],16
+Mineralocorticoid receptor,252,737,Autoimmune and sudden sensorineural hearing loss,86
+Mineralocorticoid receptor,252,737,Brain injury,113
+Mineralocorticoid receptor,252,737,Hyperkalemic distal renal tubular acidosis (RTA type 4),1017
+Mineralocorticoid receptor,252,737,"Pseudohypoaldosteronism type I, autosomal dominant",1016
+Mineralocorticoid receptor,252,737,"Hypertension, early-onset, autosomal dominant, with exacerbation in pregnancy",1015
+Tumor necrosis factor,265,777,Asthma,77
+Tumor necrosis factor,265,777,Behcet's disease,97
+Tumor necrosis factor,265,777,Chronic inflammatory diseases,174
+Tumor necrosis factor,265,777,Congestive Heart Failure,203
+Tumor necrosis factor,265,777,"Crohns's Disease, unspecified",213
+Tumor necrosis factor,265,777,Heart Failure,353
+Tumor necrosis factor,265,777,Hyperimmunoglobulinemia D,392
+Tumor necrosis factor,265,777,Noninsulin-dependent diabetes mellitus,567
+Tumor necrosis factor,265,777,Periodic fever syndrome,626
+Tumor necrosis factor,265,777,Rheumatic diseases,701
+Tumor necrosis factor,265,777,"Rheumatoid arthritis, unspecified",703
+Tumor necrosis factor,265,777,Solid Tumor,743
+DNA topoisomerase II,287,817,Acute promyelocytic leukemia,19
+DNA topoisomerase II,287,817,Bacterial Infections,93
+DNA topoisomerase II,287,817,"Cancer, unspecific",130
+DNA topoisomerase II,287,817,Fungal diseases,304
+DNA topoisomerase II,287,817,Herpes virus infection,372
+DNA topoisomerase II,287,817,Leishmania Infections,454
+DNA topoisomerase II,287,817,Malaria,489
+DNA topoisomerase II,287,817,Trichomoniasis,790
+Glucocorticoid receptor,308,871,Cocaine dependence,193
+Glucocorticoid receptor,308,871,Drug dependence,258
+Glucocorticoid receptor,308,871,Major Depressive Disorder,488
+Glucocorticoid receptor,308,871,XX disorders of sex development (Disorders related to androgen excess),1012
+Gamma-aminobutyric acid receptor subunit alpha-1,309,872,Anxiety Disorders,73
+Gamma-aminobutyric acid receptor subunit alpha-1,309,872,Insomnia,429
+T-lymphocyte activation antigen CD86,325,942,Rheumatoid arthritis,702
+T-lymphocyte activation antigen CD80,326,944,Rheumatoid arthritis,702

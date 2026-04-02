@@ -1,0 +1,198 @@
+gene_symbol,uniprot_id,target_name
+PTGS1,A0A087X296,Prostaglandin G/H synthase 1
+CHRM1,P11229,Muscarinic acetylcholine receptor M1
+SCN5A,Q14524,Sodium channel protein type 5 subunit alpha
+PTGS2,A0A7P0T828,Prostaglandin G/H synthase 2
+RXRA,P19793,Retinoic acid receptor RXR-alpha
+ADRA1A,B0ZBD3,Alpha-1A adrenergic receptor
+ADRA1B,P35368,Alpha-1B adrenergic receptor
+DAT1,Q6LC27,Sodium-dependent dopamine transporter
+ADRB2,Q9BYZ0,Beta-2 adrenergic receptor
+SLC6A4,P31645,Sodium-dependent serotonin transporter
+HSP90AB4P,Q58FF6,Heat shock protein HSP 90
+MAOB,P27338,Amine oxidase [flavin-containing] B
+DRD1,P21728,Dopamine D1 receptor
+CHRM3,P20309,Muscarinic acetylcholine receptor M3
+ADRA2A,P08913,Alpha-2A adrenergic receptor
+carbonic anhydrase II/ CA II,Q6LD99,Carbonic anhydrase II
+ADRA2C,Q4W594,Alpha-2C adrenergic receptor
+ADRA1D,B0ZBE0,Alpha-1D adrenergic receptor
+OPRM1,L0E130,Mu-type opioid receptor
+NCOA2,H0YBB6,Nuclear receptor coactivator 2
+PGR,A0A4P8D7F0,Progesterone receptor
+AR,A0A6H0MAE6,Androgen receptor
+TOP2A,J3KTB7,DNA topoisomerase II
+ACHE,C9JD78,Acetylcholinesterase
+NCOA1,B5MCN7,Nuclear receptor coactivator 1
+KCNMA1,A0A1W2PRA7,Calcium-activated potassium channel subunit alpha 1
+CDK2,E7ESI2,Cell division protein kinase 2
+ESR1,Q9H2M2,Estrogen receptor
+VEGFA,P15692,Vascular endothelial growth factor A
+MMP2,P08253,72 kDa type IV collagenase
+NFKBIA,A0A8V8TLE7,NF-kappa-B inhibitor alpha
+IL8,A0A7U3S0Q4,Interleukin-8
+PRKCB,P05771,Protein kinase C beta type
+GSTP1,B2C310,Glutathione S-transferase P
+IGF2R,Q13661,Insulin-like growth factor II
+GSTM1,H3BQT3,Glutathione S-transferase Mu 1
+GSTM2,E9PGV1,Glutathione S-transferase Mu 2
+GSTA1,P08263,Glutathione S-transferase A1
+GSTA2,P09210,Glutathione S-transferase A2
+LACTBL1,A8MY62,Beta-lactamase
+PKIA,P61925,cAMP-dependent protein kinase inhibitor alpha
+dpp4,A0A7S5DJN1,Dipeptidyl peptidase IV
+PRSS1,Q7Z445,Trypsin-1
+AKT1,B0LPE5,RAC-alpha serine/threonine-protein kinase
+BCL2,A0A1L4AQQ8,Apoptosis regulator Bcl-2
+FOS,P01100,Proto-oncogene c-Fos
+Bax,A0A0C4MVT1,Apoptosis regulator BAX
+CASP3,A0A8V8TPU5,Caspase-3
+TP53,A0A0U1RQC9,Cellular tumor antigen p53
+HIF1A,D0VY79,Hypoxia-inducible factor 1-alpha
+FOSL1,P15407,Fos-related antigen 1
+FOSL2,P15408,Fos-related antigen 2
+CCNB1,P14635,G2/mitotic-specific cyclin-B1
+MPO,P05164,Myeloperoxidase
+ALOX12,K7ENN9,"Arachidonate 12-lipoxygenase, 12S-type"
+EGLN1,Q9GZT9,Egl nine homolog 1
+NOX5,Q96PH1,NADPH oxidase 5
+FABP5,Q01469,"Fatty acid-binding protein, epidermal"
+ppar gamma2,Q9UEF6,Peroxisome proliferator activated receptor gamma
+ESR2,A0A679EN27,Estrogen receptor beta
+MAPK14,E7EX54,Mitogen-activated protein kinase 14
+GSK3B,A0A7I2V2N4,Glycogen synthase kinase-3 beta
+CHEK1,E9PKQ3,Serine/threonine-protein kinase Chk1
+CCNA2,P20248,Cyclin-A2
+KCNH2,A0AAQ5BGQ9,Potassium voltage-gated channel subfamily H member 2
+CHRM2,P08172,Muscarinic acetylcholine receptor M2
+CHRNA2,Q15822,Neuronal acetylcholine receptor subunit alpha-2
+CASP9,F8VWA5,Caspase-9
+JUNB,P17275,Transcription factor AP-1
+CASP8,A0A8Q3SID9,Caspase-8
+PRKCA,P17252,Protein kinase C alpha type
+TGFB1,A0A078BCH8,Transforming growth factor beta-1
+PON1,P27169,Serum paraoxonase/arylesterase 1
+MAP2,E7EV03,Microtubule-associated protein 2
+FASN,A0A1B0GVK4,Fatty acid synthase
+NR1i2,F1D8P9,Nuclear receptor subfamily 1 group I member 2
+PLA2G4A,W0FXB0,Cytosolic phospholipase A2
+ABCC2,Q92887,Canalicular multispecific organic anion transporter 1
+MTOR,A0A8V8TRG9,Serine/threonine-protein kinase mTOR
+ADH1C,A0A087WU81,Alcohol dehydrogenase 1C
+IGHG1,P01857,Ig gamma-1 chain C region
+SLC6A2,P23975,Sodium-dependent noradrenaline transporter
+LTA4H,P09960,Leukotriene A-4 hydrolase
+MAOA,A0A1W5KJW8,Amine oxidase [flavin-containing] A
+CTRB1,P17538,Chymotrypsinogen B
+ADRB1,P08588,Beta-1 adrenergic receptor
+GABRA6,Q16445,Gamma-aminobutyric-acid receptor subunit alpha-6
+LYZD2,A0A080YUZ9,Lysozyme
+EGFR,A0A068JCC9,Epidermal growth factor receptor
+BCL2L1,Q5QP59,Bcl-2-like protein 1
+MAPK1IP1L,Q8NDC0,Mitogen-activated protein kinase 1
+IL10,B3VI66,Interleukin-10
+RB1,A0A3B3IS71,Retinoblastoma-associated protein
+CDK4,F8VXD2,Cell division protein kinase 4
+TNF-alpha,A0A510GFL8,Tumor necrosis factor
+IL6,A0A8Q3SJL1,Interleukin-6
+XDH,A0AA96C912,Xanthine dehydrogenase/oxidase
+MDM2,F5GWH7,E3 ubiquitin-protein ligase Mdm2
+PCNA,Q7Z6A1,Proliferating cell nuclear antigen
+ERBB2,E2I6F8,Receptor tyrosine-protein kinase erbB-2
+HMOX1,B1AHA8,Heme oxygenase 1
+CASP7,A0A5F9ZHZ6,Caspase-7
+ICAM1,K7EKL8,Intercellular adhesion molecule 1
+BIRC5,A3E0Z4,Baculoviral IAP repeat-containing protein 5
+IL2,Q6NZ91,Interleukin-2
+IL-4,G8Z3H3,Interleukin-4
+SLC2A4,F5H081,"Solute carrier family 2, facilitated glucose transporter member 4"
+INSR,P06213,Insulin receptor
+CD40LG,A0A8Q3WKP2,CD40 ligand
+NUF2,B1AQT3,Kinetochore protein Nuf2
+ADCY2,Q08462,Adenylate cyclase type 2
+CHRM5,P08912,Muscarinic acetylcholine receptor M5
+OPRD1,P41143,Delta-type opioid receptor
+ADRA2B,P18089,Alpha-2B adrenergic receptor
+DRD3,P35462,D(3) dopamine receptor
+HTR3A,A0A0B4J205,5-hydroxytryptamine receptor 3A
+DRD2,B5BUP4,D(2) dopamine receptor
+DRD4,K9MAZ0,D(4) dopamine receptor
+NR3C1,H6V744,Glucocorticoid receptor
+MMP3,P08254,Stromelysin-1
+EIF6,A0A0B4J1Y7,Eukaryotic translation initiation factor 6
+EGF,A0A494C018,Pro-epidermal growth factor
+AHSA1,O95433,Activator of 90 kDa heat shock protein ATPase homolog 1
+ELK1,Q6FG56,ETS domain-containing protein Elk-1
+POR,A0A9L9PY49,NADPH--cytochrome P450 reductase
+RAF1,L7RRS6,RAF proto-oncogene serine/threonine-protein kinase
+STAT1,P42224,Signal transducer and activator of transcription 1-alpha/beta
+RUNX1T1,Q06455,Protein CBFA2T1
+ACC1,D3YTJ0,Acetyl-CoA carboxylase 1
+CYP1A2,P05177,Cytochrome P450 1A2
+CAV1,A0A7P0YWJ6,Caveolin-1
+CXNK1,A0A654IE86,Gap junction alpha-1 protein
+CYP1A1,P04798,Cytochrome P450 1A1
+IL1B,A0AA51YZX7,Interleukin-1 beta
+CCL2,P13500,C-C motif chemokine 2
+VCAM1,E9PDD2,Vascular cell adhesion protein 1
+EP3f,Q5CZ60,Prostaglandin E2 receptor EP3 subtype
+DUOX2,S6BJ80,Dual oxidase 2
+HEL-S-102,V9HW43,Heat shock protein beta-1
+SULT1E1,P49888,Estrogen sulfotransferase
+CYP1B1,Q4U3K8,Cytochrome P450 1B1
+PLAT,B4DN26,Tissue-type plasminogen activator
+PAI-1,A0A5B9RUH0,Plasminogen activator inhibitor 1
+COL1A1,Q9UE86,Collagen alpha-1(I) chain
+ALOX5,A0A087X109,Arachidonate 5-lipoxygenase
+PTEN,A0A8V8TQX2,"Phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN"
+IL1A,P01583,Interleukin-1 alpha
+ABCG2,I7JB59,ATP-binding cassette sub-family G member 2
+NFE2L2,C9J0Y1,Nuclear factor erythroid 2-related factor 2
+PARP1,A0A7I2V384,Poly [ADP-ribose] polymerase 1
+COL3A1,P02461,Collagen alpha-1(III) chain
+CXCL11,O14625,C-X-C motif chemokine 11
+CXCL2,P19875,C-X-C motif chemokine 2
+DCAF5,G3V4Z1,DDB1- and CUL4-associated factor 5
+NR1I3,D6REZ7,Nuclear receptor subfamily 1 group I member 3
+CHEK2,B7ZBF2,Serine/threonine-protein kinase Chk2
+PPARD,Q03181,Peroxisome proliferator-activated receptor delta
+CRP,P02741,C-reactive protein
+CXCL10,P02778,C-X-C motif chemokine 10
+opn,C4B6Q2,Osteopontin
+RUNX2,Q13950,Runt-related transcription factor 2
+RASSF1,Q9NS23,Ras association domain-containing protein 1
+E2F1,Q01094,Transcription factor E2F1
+E2F2,Q14209,Transcription factor E2F2
+ACP3,P15309,Prostatic acid phosphatase
+CTSD,P07339,Cathepsin D
+IRF1,C9JD95,Interferon regulatory factor 1
+DIO1,P49895,Type I iodothyronine deiodinase
+NPEPPSL1,A6NEC2,Puromycin-sensitive aminopeptidase
+NKX3-1,Q99801,Homeobox protein Nkx-3.1
+SYNGAP1,A0A140T8W4,Ras GTPase-activating protein 1
+PNP,G3V2H3,Purine nucleoside phosphorylase
+AHCYL1,O43865,Putative adenosylhomocysteinase 2
+ABAT,H3BNQ7,"4-aminobutyrate aminotransferase, mitochondrial"
+GOT1L1,Q8NHS2,"Aspartate aminotransferase, cytoplasmic"
+SRC,P12931,Proto-oncogene tyrosine-protein kinase SRC
+CDC25B,P30305,M-phase inducer phosphatase 2
+BCHE,P06276,Cholinesterase
+ADH1A,P07327,Alcohol dehydrogenase 1A
+GIG18,Q2TU84,Aspartate aminotransferase
+ME2,P23368,"NAD-dependent malic enzyme, mitochondrial"
+ME3,Q16798,"NADP-dependent malic enzyme, mitochondrial"
+PRSS3,P35030,Trypsin-3
+NOS1,P29475,"Nitric-oxide synthase, brain"
+ALDH5A1,X5DNC0,"Succinate semialdehyde dehydrogenase, mitochondrial"
+OAT,P04181,"Ornithine aminotransferase, mitochondrial"
+ACAT1,H0YEL7,Acetyl-CoA acetyltransferase
+ADSS1,Q8N142,Adenylosuccinate synthetase
+MDH2,G3XAL0,Malate dehydrogenase
+GLUD1,E9KL48,"Glutamate dehydrogenase 1, mitochondrial"
+OTC,A0AAQ5BGV3,"Ornithine carbamoyltransferase, mitochondrial"
+HHCMA56,Q12953,Oxidoreductase
+SDHA,D6RFM5,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial"
+P3H1,H7C2W6,Prolyl 3-hydroxylase 1
+OXCT2,Q9BYC2,"Succinyl-CoA:3-ketoacid-coenzyme A transferase 2, mitochondrial"
+P4HA2,A8MXE0,Prolyl 4-hydroxylase subunit alpha-2
+GFOD2,Q3B7J2,Glucose--fructose oxidoreductase

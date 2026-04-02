@@ -1,0 +1,233 @@
+target_name,target_ID,drugbank_ID,disease_name,disease_ID
+Muscarinic acetylcholine receptor M1,38,103,Alzheimer's Disease,51
+Muscarinic acetylcholine receptor M1,38,103,Bronchospasm (histamine induced),125
+Muscarinic acetylcholine receptor M1,38,103,Cognitive deficits,196
+Muscarinic acetylcholine receptor M1,38,103,Schizophrenia,711
+Urokinase-type plasminogen activator,346,1074,"Cancer, unspecific",130
+Urokinase-type plasminogen activator,346,1074,Melanoma,505
+Androgen receptor,48,146,Prostate cancer,659
+Androgen receptor,48,146,Spinal and bulbar muscular atrophy,747
+Androgen receptor,48,146,XY disorders of sex development (Other),1006
+Androgen receptor,48,146,XY disorders of sex development (Disorders in androgen synthesis or action),1005
+Androgen receptor,48,146,Spinal and bulbar muscular atrophy of Kennedy,1004
+Androgen receptor,48,146,"Hypospadias 1, X-linked",1003
+Androgen receptor,48,146,Androgen insensitivity,1002
+Glycogen synthase kinase-3 beta,422,1721,Alzheimer's Disease,51
+Glycogen synthase kinase-3 beta,422,1721,Bipolar Affective Disorder,100
+Glycogen synthase kinase-3 beta,422,1721,Brain injury,113
+Glycogen synthase kinase-3 beta,422,1721,Immunodeficiency,413
+Glycogen synthase kinase-3 beta,422,1721,Ischemia,441
+Glycogen synthase kinase-3 beta,422,1721,Noninsulin-dependent diabetes mellitus,567
+Heat shock protein HSP 90,444,1939,Breast cancer,117
+Heat shock protein HSP 90,444,1939,Chronic Myelogenous Leukemia (CML),178
+Heat shock protein HSP 90,444,1939,Gastrointestinal Stromal Tumors (GIST),321
+Heat shock protein HSP 90,444,1939,Hematological Malignancies,357
+Heat shock protein HSP 90,444,1939,HER2-positive Metastatic Breast Cancer,367
+Heat shock protein HSP 90,444,1939,Melanoma,505
+Heat shock protein HSP 90,444,1939,Multiple Myeloma,527
+Heat shock protein HSP 90,444,1939,Non-small Cell Lung Cancer,569
+Heat shock protein HSP 90,444,1939,Ovarian cancer,597
+Heat shock protein HSP 90,444,1939,Prostate cancer,659
+Heat shock protein HSP 90,444,1939,Refractory Hematological Malignancies,683
+Heat shock protein HSP 90,444,1939,Solid tumors,744
+Prostaglandin G/H synthase 1,6,20,"Cardiovascular disease, unspecified",144
+Prostaglandin G/H synthase 1,6,20,Chronic inflammatory diseases,174
+Sodium channel protein type 5 subunit alpha,70,220,Analgesics,55
+Sodium channel protein type 5 subunit alpha,70,220,Cardiac dysrhythmias,139
+Sodium channel protein type 5 subunit alpha,70,220,Epileptic seizures,280
+Sodium channel protein type 5 subunit alpha,70,220,Pain,607
+Sodium channel protein type 5 subunit alpha,70,220,Refractory partial epilepsy,684
+Sodium channel protein type 5 subunit alpha,70,220,Sustained ventricular tachycardia,757
+Dopamine D1 receptor,7,23,Parkinson's disease,621
+Coagulation factor Xa,79,239,Atrial fibrillation and flutter,83
+Coagulation factor Xa,79,239,"Cardiovascular disease, unspecified",144
+Coagulation factor Xa,79,239,Coagulative disorders,192
+Coagulation factor Xa,79,239,Thromboembolic disorders,770
+Coagulation factor Xa,79,239,Thromboembolism,771
+Coagulation factor Xa,79,239,Thrombosis,772
+Coagulation factor Xa,79,239,Thrombotic disease,773
+Muscarinic acetylcholine receptor M5,87,274,Opioid dependence,578
+Muscarinic acetylcholine receptor M5,87,274,Schizophrenia,711
+Prostaglandin G/H synthase 2,94,290,Abdominal aortic aneurysm,1
+Prostaglandin G/H synthase 2,94,290,Adenomatous polyposis,24
+Prostaglandin G/H synthase 2,94,290,Alzheimer's Disease,51
+Prostaglandin G/H synthase 2,94,290,Analgesics,55
+Prostaglandin G/H synthase 2,94,290,Arthritis,75
+Prostaglandin G/H synthase 2,94,290,Bladder cancer,103
+Prostaglandin G/H synthase 2,94,290,Breast cancer,117
+Prostaglandin G/H synthase 2,94,290,"Cancer, unspecific",130
+Prostaglandin G/H synthase 2,94,290,"Carcinoma in situ, unspecified",134
+Prostaglandin G/H synthase 2,94,290,Carpal tunnel syndrome,147
+Prostaglandin G/H synthase 2,94,290,Colorectal cancer,200
+Prostaglandin G/H synthase 2,94,290,"Dysmenorrhea, unspecified",264
+Prostaglandin G/H synthase 2,94,290,Endometriosis,273
+Prostaglandin G/H synthase 2,94,290,Genitourinary tumors,325
+Prostaglandin G/H synthase 2,94,290,Gestational hypertension,327
+Prostaglandin G/H synthase 2,94,290,Inflammation,416
+Prostaglandin G/H synthase 2,94,290,Inflammatory diseases,418
+Prostaglandin G/H synthase 2,94,290,Lung Cancer,471
+Prostaglandin G/H synthase 2,94,290,Malignant mesothelioma,496
+Prostaglandin G/H synthase 2,94,290,Meningioma,508
+Prostaglandin G/H synthase 2,94,290,Myocardial Infarction,533
+Prostaglandin G/H synthase 2,94,290,Oropharyngeal squamous cell carcinoma,585
+Prostaglandin G/H synthase 2,94,290,Osteoarthritis,586
+Prostaglandin G/H synthase 2,94,290,"Pain, unspecified",611
+Prostaglandin G/H synthase 2,94,290,Pathological angiogenesis,622
+Prostaglandin G/H synthase 2,94,290,Peutz-Jeghers syndrome,633
+Prostaglandin G/H synthase 2,94,290,Prostate cancer,659
+Prostaglandin G/H synthase 2,94,290,Pyresis,676
+Prostaglandin G/H synthase 2,94,290,Renal Cell Carcinoma,689
+Prostaglandin G/H synthase 2,94,290,"Rheumatoid arthritis, unspecified",703
+Prostaglandin G/H synthase 2,94,290,Stroke,754
+Prostaglandin G/H synthase 2,94,290,Vascular lesion regression,814
+"Nitric-oxide synthase, endothelial",95,291,Angina,62
+"Nitric-oxide synthase, endothelial",95,291,"Cardiovascular disease, unspecified",144
+"Nitric-oxide synthase, endothelial",95,291,Colon cancer,199
+"Nitric-oxide synthase, endothelial",95,291,Coronary Artery Disease,205
+"Nitric-oxide synthase, endothelial",95,291,Helminth infection,356
+"Nitric-oxide synthase, endothelial",95,291,"Hypertension, Angina",398
+"Nitric-oxide synthase, endothelial",95,291,Inflammation,416
+"Nitric-oxide synthase, endothelial",95,291,Schizophrenia,711
+"Nitric-oxide synthase, endothelial",95,291,Sepsis,720
+Leukotriene A-4 hydrolase,521,3060,Inflammation,416
+Leukotriene A-4 hydrolase,521,3060,"Leukemia, Myeloid",458
+Leukotriene A-4 hydrolase,521,3060,Myocardial Infarction,533
+Leukotriene A-4 hydrolase,521,3060,Oesophageal cancer,577
+Leukotriene A-4 hydrolase,521,3060,Solid tumors,744
+Alpha-2A adrenergic receptor,105,318,Heart Failure,353
+Alpha-2A adrenergic receptor,105,318,Hypertension,397
+Alpha-2A adrenergic receptor,105,318,Ischemic heart disease,443
+5-hydroxytryptamine receptor 3A,113,341,Chemotherapy-induced nausea and vomiting,160
+5-hydroxytryptamine receptor 3A,113,341,Diarrhea,246
+5-hydroxytryptamine receptor 3A,113,341,Irritable bowel syndrome,438
+5-hydroxytryptamine receptor 3A,113,341,Postoperative nausea and vomiting,649
+Carbonic anhydrase II,117,357,Glaucoma,330
+Carbonic anhydrase II,117,357,Pancreatic Cancer,612
+Carbonic anhydrase II,117,357,Renal failure,692
+Coagulation factor VII,123,369,Coagulative disorders,192
+Alpha-2C adrenergic receptor,126,378,Neuropsychiatric disorders,562
+Alpha-2C adrenergic receptor,126,378,Raynaud's syndrome,679
+Amine oxidase [flavin-containing] B,565,3939,Major Depressive Disorder,488
+Amine oxidase [flavin-containing] B,565,3939,Neurological diseases,558
+Amine oxidase [flavin-containing] B,565,3939,Parkinson's disease,621
+Amine oxidase [flavin-containing] A,566,3941,Depression,228
+Amine oxidase [flavin-containing] A,566,3941,Mood [affective] disorders,522
+Amine oxidase [flavin-containing] A,566,3941,Social phobias,742
+"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,Alzheimer's Disease,51
+"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,Analgesics,55
+"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,Drug dependence,258
+"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,Neuropsychiatric disorders,562
+"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,Pain,607
+"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,Schizophrenia,711
+Muscarinic acetylcholine receptor M4,154,450,Analgesics,55
+Muscarinic acetylcholine receptor M4,154,450,Manic disorder,499
+Muscarinic acetylcholine receptor M4,154,450,Neurologic and psychiatric diseases,556
+Muscarinic acetylcholine receptor M4,154,450,"Pain, unspecified",611
+Muscarinic acetylcholine receptor M4,154,450,Parkinsonian symptoms,620
+Retinoic acid receptor RXR-alpha,158,459,Prostate cancer,659
+Delta-type opioid receptor,163,467,Analgesics,55
+Delta-type opioid receptor,163,467,Cough,210
+Delta-type opioid receptor,163,467,Dyspnea,265
+Delta-type opioid receptor,163,467,Ischemia,441
+Delta-type opioid receptor,163,467,"Pain, unspecified",611
+Delta-type opioid receptor,163,467,Parkinson's disease,621
+Acetylcholinesterase,165,474,Alzheimer's Disease,51
+Acetylcholinesterase,165,474,Cognitive deficits,196
+Acetylcholinesterase,165,474,Hypoxic-ischemic encephalopathy,410
+Acetylcholinesterase,165,474,Motor neurone disease,525
+Acetylcholinesterase,165,474,Parkinson's disease,621
+Acetylcholinesterase,165,474,"Blood group, Yt system",1001
+Acetylcholinesterase,165,474,Parkinson Disease,619
+"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,Bronchial asthma,122
+"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,Chronic myeloid leukemia,179
+"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,Vascular disease,810
+5-hydroxytryptamine 2A receptor,175,502,Acute ureteric colic,22
+5-hydroxytryptamine 2A receptor,175,502,"Anxiety disorder, unspecified",72
+5-hydroxytryptamine 2A receptor,175,502,Arterial embolism and thrombosis,74
+5-hydroxytryptamine 2A receptor,175,502,Cocaine dependence,193
+5-hydroxytryptamine 2A receptor,175,502,Depression,228
+5-hydroxytryptamine 2A receptor,175,502,Diabetic nephropathy,242
+5-hydroxytryptamine 2A receptor,175,502,Diabetic neuropathy,243
+5-hydroxytryptamine 2A receptor,175,502,Essential (primary) hypertension,286
+5-hydroxytryptamine 2A receptor,175,502,Migraine,517
+5-hydroxytryptamine 2A receptor,175,502,Schizophrenia,711
+Muscarinic acetylcholine receptor M3,16,51,Airway hyperreactivity,39
+Muscarinic acetylcholine receptor M3,16,51,Urge incontinence,802
+Sodium-dependent noradrenaline transporter,186,540,Depression,228
+Alpha-1A adrenergic receptor,191,556,Benign prostate hyperplasia,98
+Alpha-1A adrenergic receptor,191,556,Hypertrophic vascular disease,402
+5-hydroxytryptamine 2C receptor,203,590,Acute ureteric colic,22
+5-hydroxytryptamine 2C receptor,203,590,Cocaine dependence,193
+5-hydroxytryptamine 2C receptor,203,590,Motor disorder,524
+5-hydroxytryptamine 2C receptor,203,590,Schizophrenia,711
+Progesterone receptor,209,614,Breast cancer,117
+Muscarinic acetylcholine receptor M2,210,617,Alzheimer's Disease,51
+Muscarinic acetylcholine receptor M2,210,617,Analgesics,55
+Muscarinic acetylcholine receptor M2,210,617,Autoimmune cardiomyopathy,87
+Muscarinic acetylcholine receptor M2,210,617,Bronchoconstriction (cold air-induced),124
+Muscarinic acetylcholine receptor M2,210,617,"Chronic obstructive pulmonary disease, unspecified",183
+Muscarinic acetylcholine receptor M2,210,617,Hypothermia,409
+Muscarinic acetylcholine receptor M2,210,617,Neurogenic bladder,552
+Muscarinic acetylcholine receptor M2,210,617,"Pain, unspecified",611
+Muscarinic acetylcholine receptor M2,210,617,"Tremor, unspecified",789
+mRNA of PKA Catalytic Subunit C-alpha,699,6263,Not Available,571
+Alpha-2B adrenergic receptor,214,629,Heart Failure,353
+Alpha-2B adrenergic receptor,214,629,Hypertension,397
+Alpha-2B adrenergic receptor,214,629,Ischemic heart disease,443
+Alpha-1B adrenergic receptor,216,632,Shy-Drager syndrome,726
+Sodium-dependent dopamine transporter,239,713,Parkinson's disease,621
+Beta-2 adrenergic receptor,261,766,"Anxiety disorder, unspecified",72
+Beta-2 adrenergic receptor,261,766,Asthma,77
+Beta-2 adrenergic receptor,261,766,Cardiac arrhythmias,137
+Beta-2 adrenergic receptor,261,766,"Chronic obstructive pulmonary disease, unspecified",183
+Beta-2 adrenergic receptor,261,766,Depression,228
+Beta-2 adrenergic receptor,261,766,Glaucoma,330
+Beta-2 adrenergic receptor,261,766,Hypertension,397
+Beta-2 adrenergic receptor,261,766,Inflammation,416
+Beta-2 adrenergic receptor,261,766,Multiple Sclerosis,529
+Beta-2 adrenergic receptor,261,766,Obstructive airway disease,574
+Beta-2 adrenergic receptor,261,766,Respiratory distress syndrome,699
+Beta-2 adrenergic receptor,261,766,Skeletal muscle wasting,734
+Beta-2 adrenergic receptor,261,766,Skeletal muscle weakness,735
+Alpha-1D adrenergic receptor,272,789,Hypertension,397
+Neuronal acetylcholine receptor subunit alpha-2,284,813,Anesthesia,60
+Neuronal acetylcholine receptor subunit alpha-2,284,813,Postoperative residual curarisation,650
+DNA topoisomerase II,287,817,Acute promyelocytic leukemia,19
+DNA topoisomerase II,287,817,Bacterial Infections,93
+DNA topoisomerase II,287,817,"Cancer, unspecific",130
+DNA topoisomerase II,287,817,Fungal diseases,304
+DNA topoisomerase II,287,817,Herpes virus infection,372
+DNA topoisomerase II,287,817,Leishmania Infections,454
+DNA topoisomerase II,287,817,Malaria,489
+DNA topoisomerase II,287,817,Trichomoniasis,790
+Sodium-dependent serotonin transporter,290,824,Schizophrenia,711
+D(2) dopamine receptor,292,831,"Anxiety disorder, unspecified",72
+D(2) dopamine receptor,292,831,Attention-deficit hyperactivity disorder,84
+D(2) dopamine receptor,292,831,Cocaine dependence,193
+D(2) dopamine receptor,292,831,Cognitive deficits,196
+D(2) dopamine receptor,292,831,Delusional disorder,225
+D(2) dopamine receptor,292,831,Depression,228
+D(2) dopamine receptor,292,831,Disabling peak-dose dyskinesias,251
+D(2) dopamine receptor,292,831,Erectile dysfunction,283
+D(2) dopamine receptor,292,831,Gastric emptying disorders,310
+D(2) dopamine receptor,292,831,Gilles de la Tourette's disorder,329
+D(2) dopamine receptor,292,831,Nausea and vomiting,538
+D(2) dopamine receptor,292,831,Neuroleptic malignant syndrome,555
+D(2) dopamine receptor,292,831,Neurological diseases,558
+D(2) dopamine receptor,292,831,Parkinson's disease,621
+D(2) dopamine receptor,292,831,Psychiatric illness,670
+D(2) dopamine receptor,292,831,Respiratory diseases,698
+D(2) dopamine receptor,292,831,Schizophrenia,711
+D(2) dopamine receptor,292,831,Vomiting,831
+Mu-type opioid receptor,299,847,Analgesics,55
+Mu-type opioid receptor,299,847,Cough,210
+Mu-type opioid receptor,299,847,Diarrhea,246
+Mu-type opioid receptor,299,847,Dyspnea,265
+Mu-type opioid receptor,299,847,Opioid-induced bowel dysfunction,579
+Mu-type opioid receptor,299,847,"Pain, unspecified",611
+Glucocorticoid receptor,308,871,Cocaine dependence,193
+Glucocorticoid receptor,308,871,Drug dependence,258
+Glucocorticoid receptor,308,871,Major Depressive Disorder,488
+Glucocorticoid receptor,308,871,XX disorders of sex development (Disorders related to androgen excess),1012
+Gamma-aminobutyric acid receptor subunit alpha-1,309,872,Anxiety Disorders,73
+Gamma-aminobutyric acid receptor subunit alpha-1,309,872,Insomnia,429

@@ -1,0 +1,21 @@
+# Large files
+*.doc
+*.docx
+TCMSP-Spider/
+
+# Temp/test scripts
+scripts/stage1_test_*.py
+scripts/stage1_find_api.py
+scripts/stage2_test_stp.py
+read_doc.py
+extract_clean.py
+thesis_text.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Docking intermediate files
+results/docking/receptors/*.pdb
+results/docking/ligands/*.smi
+results/docking/ligands/*.sdf

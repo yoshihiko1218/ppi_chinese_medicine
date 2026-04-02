@@ -1,0 +1,153 @@
+MODEL 1
+REMARK VINA RESULT:      -6.5      0.000      0.000
+REMARK  Name = results/docking/ligands/luteolin.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  O_21
+REMARK    2  A    between atoms: C_4  and  O_20
+REMARK    3  A    between atoms: C_6  and  C_7
+REMARK    4  A    between atoms: C_12  and  O_19
+REMARK    5  A    between atoms: C_14  and  O_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.903   8.132  79.807  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      47.873   8.905  80.184  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      47.305   8.740  81.528  0.00  0.00    +0.000 A 
+ATOM      4  O   UNL     1      46.366   9.426  81.919  0.00  0.00    +0.000 OA
+ATOM      5  C   UNL     1      47.918   7.730  82.394  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      47.479   7.525  83.705  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      48.085   6.561  84.505  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      49.130   5.803  83.980  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      49.573   5.997  82.674  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      48.968   6.971  81.879  0.00  0.00    +0.000 A 
+ATOM     11  O   UNL     1      49.456   7.138  80.605  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  17
+ATOM     12  C   UNL     1      49.147   7.467  77.399  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      49.760   7.574  76.143  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      50.778   8.500  75.962  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      51.181   9.307  77.020  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      50.582   9.203  78.268  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      49.543   8.280  78.479  0.00  0.00    +0.000 A 
+BRANCH  15  18
+ATOM     18  O   UNL     1      52.183  10.218  76.842  0.00  0.00    +0.000 OA
+ATOM     19  H   UNL     1      52.616  10.283  77.716  0.00  0.00    +0.000 HD
+ENDBRANCH  15  18
+BRANCH  14  20
+ATOM     20  O   UNL     1      51.419   8.653  74.766  0.00  0.00    +0.000 OA
+ATOM     21  H   UNL     1      50.747   8.717  74.066  0.00  0.00    +0.000 HD
+ENDBRANCH  14  20
+ENDBRANCH   1  17
+BRANCH   8  22
+ATOM     22  O   UNL     1      49.755   4.851  84.728  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      50.646   5.165  84.957  0.00  0.00    +0.000 HD
+ENDBRANCH   8  22
+BRANCH   6  24
+ATOM     24  O   UNL     1      46.458   8.242  84.270  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      45.866   7.613  84.743  0.00  0.00    +0.000 HD
+ENDBRANCH   6  24
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.4      9.850     11.863
+REMARK  Name = results/docking/ligands/luteolin.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  O_21
+REMARK    2  A    between atoms: C_4  and  O_20
+REMARK    3  A    between atoms: C_6  and  C_7
+REMARK    4  A    between atoms: C_12  and  O_19
+REMARK    5  A    between atoms: C_14  and  O_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.904  17.734  85.466  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      47.346  16.997  86.440  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      46.862  15.647  86.132  0.00  0.00    +0.000 A 
+ATOM      4  O   UNL     1      46.349  14.935  86.989  0.00  0.00    +0.000 OA
+ATOM      5  C   UNL     1      47.030  15.174  84.755  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      46.640  13.888  84.370  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      46.818  13.466  83.055  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      47.384  14.342  82.133  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      47.774  15.626  82.505  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      47.601  16.042  83.826  0.00  0.00    +0.000 A 
+ATOM     11  O   UNL     1      48.020  17.310  84.149  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  17
+ATOM     12  C   UNL     1      49.455  19.279  86.694  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      49.963  20.555  86.974  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      49.461  21.651  86.285  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      48.465  21.476  85.331  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      47.954  20.216  85.052  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      48.448  19.087  85.727  0.00  0.00    +0.000 A 
+BRANCH  15  18
+ATOM     18  O   UNL     1      47.970  22.555  84.654  0.00  0.00    +0.000 OA
+ATOM     19  H   UNL     1      47.065  22.672  85.003  0.00  0.00    +0.000 HD
+ENDBRANCH  15  18
+BRANCH  14  20
+ATOM     20  O   UNL     1      49.908  22.921  86.512  0.00  0.00    +0.000 OA
+ATOM     21  H   UNL     1      49.710  23.152  87.435  0.00  0.00    +0.000 HD
+ENDBRANCH  14  20
+ENDBRANCH   1  17
+BRANCH   8  22
+ATOM     22  O   UNL     1      47.580  13.971  80.836  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      46.735  14.037  80.359  0.00  0.00    +0.000 HD
+ENDBRANCH   8  22
+BRANCH   6  24
+ATOM     24  O   UNL     1      46.080  12.988  85.236  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      45.263  13.390  85.612  0.00  0.00    +0.000 HD
+ENDBRANCH   6  24
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.3      3.452      7.778
+REMARK  Name = results/docking/ligands/luteolin.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  O_21
+REMARK    2  A    between atoms: C_4  and  O_20
+REMARK    3  A    between atoms: C_6  and  C_7
+REMARK    4  A    between atoms: C_12  and  O_19
+REMARK    5  A    between atoms: C_14  and  O_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      50.880   5.141  78.839  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      51.788   4.360  78.232  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      52.791   4.974  77.355  0.00  0.00    +0.000 A 
+ATOM      4  O   UNL     1      53.644   4.303  76.782  0.00  0.00    +0.000 OA
+ATOM      5  C   UNL     1      52.745   6.431  77.203  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      53.683   7.116  76.423  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      53.616   8.501  76.302  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      52.603   9.191  76.964  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      51.662   8.518  77.740  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      51.738   7.131  77.865  0.00  0.00    +0.000 A 
+ATOM     11  O   UNL     1      50.800   6.516  78.659  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  17
+ATOM     12  C   UNL     1      48.535   4.408  79.350  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      47.558   3.907  80.221  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      47.915   3.578  81.522  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      49.227   3.748  81.948  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      50.198   4.249  81.091  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      49.869   4.583  79.767  0.00  0.00    +0.000 A 
+BRANCH  15  18
+ATOM     18  O   UNL     1      49.577   3.426  83.228  0.00  0.00    +0.000 OA
+ATOM     19  H   UNL     1      50.549   3.536  83.254  0.00  0.00    +0.000 HD
+ENDBRANCH  15  18
+BRANCH  14  20
+ATOM     20  O   UNL     1      47.013   3.090  82.423  0.00  0.00    +0.000 OA
+ATOM     21  H   UNL     1      47.032   2.119  82.377  0.00  0.00    +0.000 HD
+ENDBRANCH  14  20
+ENDBRANCH   1  17
+BRANCH   8  22
+ATOM     22  O   UNL     1      52.501  10.548  76.877  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      52.186  10.894  77.729  0.00  0.00    +0.000 HD
+ENDBRANCH   8  22
+BRANCH   6  24
+ATOM     24  O   UNL     1      54.699   6.487  75.754  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      55.553   6.852  76.080  0.00  0.00    +0.000 HD
+ENDBRANCH   6  24
+TORSDOF 5
+ENDMDL

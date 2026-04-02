@@ -1,0 +1,26 @@
+target,compound,binding_energy
+PTGS2,quercetin,-4.8
+PTGS2,Quercetin,-4.1
+PTGS2,luteolin,-4.1
+PTGS2,4'-methyl-N-methylcoclaurine,-3.4
+PTGS2,Succinic acid,-3.6
+IL6,quercetin,-5.2
+IL6,Quercetin,-5.4
+IL6,luteolin,-5.2
+IL6,4'-methyl-N-methylcoclaurine,-5.3
+IL6,Succinic acid,-3.8
+ESR1,quercetin,-6.9
+ESR1,Quercetin,-6.9
+ESR1,luteolin,-7.0
+ESR1,4'-methyl-N-methylcoclaurine,-6.4
+ESR1,Succinic acid,-3.4
+EGFR,quercetin,-7.3
+EGFR,Quercetin,-7.3
+EGFR,luteolin,-7.3
+EGFR,4'-methyl-N-methylcoclaurine,-7.7
+EGFR,Succinic acid,-4.0
+TP53,quercetin,-6.7
+TP53,Quercetin,-6.7
+TP53,luteolin,-6.5
+TP53,4'-methyl-N-methylcoclaurine,-5.9
+TP53,Succinic acid,-4.5

@@ -1,0 +1,134 @@
+molecule_ID,MOL_ID,molecule_name,target_name,target_ID,drugbank_ID,validated,SVM_score,RF_score
+1522,MOL001522,(S)-Coclaurine,Prostaglandin G/H synthase 1,6,20,,0.877146,0.742
+1522,MOL001522,(S)-Coclaurine,Muscarinic acetylcholine receptor M1,38,103,,0.921871,0.716
+1522,MOL001522,(S)-Coclaurine,Sodium channel protein type 5 subunit alpha,70,220,,0.850357,0.748
+1522,MOL001522,(S)-Coclaurine,Prostaglandin G/H synthase 2,94,290,,0.913244,0.812
+1522,MOL001522,(S)-Coclaurine,Retinoic acid receptor RXR-alpha,158,459,,0.931726,0.742
+1522,MOL001522,(S)-Coclaurine,"CGMP-inhibited 3',5'-cyclic phosphodiesterase A",172,485,,0.889969,0.7
+1522,MOL001522,(S)-Coclaurine,Alpha-1A adrenergic receptor,191,556,,0.892882,0.708
+1522,MOL001522,(S)-Coclaurine,Alpha-1B adrenergic receptor,216,632,,0.848494,0.744
+1522,MOL001522,(S)-Coclaurine,Sodium-dependent dopamine transporter,239,713,,0.8619,0.712
+1522,MOL001522,(S)-Coclaurine,Beta-2 adrenergic receptor,261,766,,0.923393,0.732
+1522,MOL001522,(S)-Coclaurine,Sodium-dependent serotonin transporter,290,824,,0.901114,0.714
+1522,MOL001522,(S)-Coclaurine,Heat shock protein HSP 90,444,1939,,0.946405,0.704
+1522,MOL001522,(S)-Coclaurine,Amine oxidase [flavin-containing] B,565,3939,,0.836801,0.704
+1522,MOL001522,(S)-Coclaurine,Calmodulin,3907,465,,0.805557,0.742
+1522,MOL001522,(S)-Coclaurine,Dopamine D1 receptor,7,23,,0.876622,0.704
+1522,MOL001522,(S)-Coclaurine,Muscarinic acetylcholine receptor M3,16,51,,0.906723,0.712
+1522,MOL001522,(S)-Coclaurine,Alpha-2A adrenergic receptor,105,318,,0.835484,0.706
+1522,MOL001522,(S)-Coclaurine,Carbonic anhydrase II,117,357,,0.839267,0.81
+1522,MOL001522,(S)-Coclaurine,Alpha-2C adrenergic receptor,126,378,,0.833122,0.73
+1522,MOL001522,(S)-Coclaurine,Alpha-1D adrenergic receptor,272,789,,0.841398,0.738
+1522,MOL001522,(S)-Coclaurine,Mu-type opioid receptor,299,847,,0.887279,0.7
+1522,MOL001522,(S)-Coclaurine,mRNA of PKA Catalytic Subunit C-alpha,699,6263,,0.865932,0.722
+1522,MOL001522,(S)-Coclaurine,Nuclear receptor coactivator 2,3276,6241,,0.851565,0.824
+1523,MOL001523,"cyclic adenosine 3',5'-monophosphate(cAMP)",Prostaglandin G/H synthase 2,94,290,,0.914578,0.706
+1523,MOL001523,"cyclic adenosine 3',5'-monophosphate(cAMP)",Carbonic anhydrase II,117,357,,0.881055,0.718
+1525,MOL001525,Daucosterol,Progesterone receptor,209,614,,0.908982,0.728
+1525,MOL001525,Daucosterol,Nuclear receptor coactivator 2,3276,6241,,0.800352,0.71
+1529,MOL001529,jujuboside B_qt,Glucocorticoid receptor,308,871,,0.900037,0.718
+1530,MOL001530,n-methylasimilobine,Prostaglandin G/H synthase 1,6,20,,0.84981,0.73
+1530,MOL001530,n-methylasimilobine,Muscarinic acetylcholine receptor M3,16,51,,0.93396,0.744
+1530,MOL001530,n-methylasimilobine,Muscarinic acetylcholine receptor M1,38,103,,0.96096,0.734
+1530,MOL001530,n-methylasimilobine,Sodium channel protein type 5 subunit alpha,70,220,,0.92514,0.742
+1530,MOL001530,n-methylasimilobine,Muscarinic acetylcholine receptor M5,87,274,,0.92317,0.734
+1530,MOL001530,n-methylasimilobine,Prostaglandin G/H synthase 2,94,290,,0.82427,0.798
+1530,MOL001530,n-methylasimilobine,5-hydroxytryptamine receptor 3A,113,341,,0.93853,0.71
+1530,MOL001530,n-methylasimilobine,Muscarinic acetylcholine receptor M4,154,450,,0.91301,0.724
+1530,MOL001530,n-methylasimilobine,Retinoic acid receptor RXR-alpha,158,459,,0.86299,0.724
+1530,MOL001530,n-methylasimilobine,Delta-type opioid receptor,163,467,,0.93879,0.74
+1530,MOL001530,n-methylasimilobine,5-hydroxytryptamine 2A receptor,175,502,,0.89651,0.714
+1530,MOL001530,n-methylasimilobine,Alpha-1A adrenergic receptor,191,556,,0.87911,0.702
+1530,MOL001530,n-methylasimilobine,5-hydroxytryptamine 2C receptor,203,590,,0.90341,0.702
+1530,MOL001530,n-methylasimilobine,Alpha-1B adrenergic receptor,216,632,,0.88781,0.732
+1530,MOL001530,n-methylasimilobine,Sodium-dependent dopamine transporter,239,713,,0.89202,0.72
+1530,MOL001530,n-methylasimilobine,Beta-2 adrenergic receptor,261,766,,0.91113,0.744
+1530,MOL001530,n-methylasimilobine,Alpha-1D adrenergic receptor,272,789,,0.84868,0.71
+1530,MOL001530,n-methylasimilobine,Sodium-dependent serotonin transporter,290,824,,0.91334,0.724
+1530,MOL001530,n-methylasimilobine,Mu-type opioid receptor,299,847,,0.92512,0.716
+1530,MOL001530,n-methylasimilobine,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,,0.81815,0.732
+1530,MOL001530,n-methylasimilobine,Heat shock protein HSP 90,444,1939,,0.90341,0.708
+1530,MOL001530,n-methylasimilobine,"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,,0.85369,0.712
+1530,MOL001530,n-methylasimilobine,Dopamine D1 receptor,7,23,,0.896881,0.706
+1530,MOL001530,n-methylasimilobine,Acetylcholinesterase,165,474,,0.801533,0.724
+1531,MOL001531,dl-Nuciferine,Prostaglandin G/H synthase 1,6,20,,0.878649,0.736
+1531,MOL001531,dl-Nuciferine,Dopamine D1 receptor,7,23,,0.928697,0.706
+1531,MOL001531,dl-Nuciferine,Muscarinic acetylcholine receptor M3,16,51,,0.962828,0.77
+1531,MOL001531,dl-Nuciferine,Muscarinic acetylcholine receptor M1,38,103,,0.976006,0.746
+1531,MOL001531,dl-Nuciferine,Androgen receptor,48,146,,0.890877,0.774
+1531,MOL001531,dl-Nuciferine,Sodium channel protein type 5 subunit alpha,70,220,,0.948634,0.748
+1531,MOL001531,dl-Nuciferine,Muscarinic acetylcholine receptor M5,87,274,,0.950754,0.748
+1531,MOL001531,dl-Nuciferine,Prostaglandin G/H synthase 2,94,290,,0.86008,0.804
+1531,MOL001531,dl-Nuciferine,Alpha-2A adrenergic receptor,105,318,,0.86896,0.702
+1531,MOL001531,dl-Nuciferine,5-hydroxytryptamine receptor 3A,113,341,,0.954556,0.728
+1531,MOL001531,dl-Nuciferine,Alpha-2C adrenergic receptor,126,378,,0.853427,0.724
+1531,MOL001531,dl-Nuciferine,Muscarinic acetylcholine receptor M4,154,450,,0.94853,0.748
+1531,MOL001531,dl-Nuciferine,Retinoic acid receptor RXR-alpha,158,459,,0.884326,0.722
+1531,MOL001531,dl-Nuciferine,Delta-type opioid receptor,163,467,,0.962703,0.748
+1531,MOL001531,dl-Nuciferine,Acetylcholinesterase,165,474,,0.855129,0.724
+1531,MOL001531,dl-Nuciferine,5-hydroxytryptamine 2A receptor,175,502,,0.938432,0.724
+1531,MOL001531,dl-Nuciferine,Alpha-1A adrenergic receptor,191,556,,0.93593,0.718
+1531,MOL001531,dl-Nuciferine,5-hydroxytryptamine 2C receptor,203,590,,0.938057,0.718
+1531,MOL001531,dl-Nuciferine,Muscarinic acetylcholine receptor M2,210,617,,0.96646,0.704
+1531,MOL001531,dl-Nuciferine,Alpha-2B adrenergic receptor,214,629,,0.906537,0.704
+1531,MOL001531,dl-Nuciferine,Alpha-1B adrenergic receptor,216,632,,0.931609,0.75
+1531,MOL001531,dl-Nuciferine,Sodium-dependent dopamine transporter,239,713,,0.940319,0.72
+1531,MOL001531,dl-Nuciferine,Beta-2 adrenergic receptor,261,766,,0.934607,0.754
+1531,MOL001531,dl-Nuciferine,Alpha-1D adrenergic receptor,272,789,,0.895337,0.748
+1531,MOL001531,dl-Nuciferine,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.940022,0.704
+1531,MOL001531,dl-Nuciferine,Sodium-dependent serotonin transporter,290,824,,0.948232,0.732
+1531,MOL001531,dl-Nuciferine,D(2) dopamine receptor,292,831,,0.934764,0.708
+1531,MOL001531,dl-Nuciferine,Mu-type opioid receptor,299,847,,0.954978,0.73
+1531,MOL001531,dl-Nuciferine,Gamma-aminobutyric acid receptor subunit alpha-1,309,872,,0.832718,0.728
+1531,MOL001531,dl-Nuciferine,"Neuronal acetylcholine receptor protein, alpha-7 chain",581,4095,,0.879175,0.714
+1532,MOL001532,phytosterol,Progesterone receptor,209,614,,0.901155,0.724
+1533,MOL001533,sanjoinine A,Coagulation factor Xa,79,239,,0.925709,0.708
+1534,MOL001534,sanjoinine B,Coagulation factor Xa,79,239,,0.926046,0.722
+1534,MOL001534,sanjoinine B,Prostaglandin G/H synthase 2,94,290,,0.806517,0.7
+1539,MOL001539,sanjoinenine,Coagulation factor Xa,79,239,,0.925568,0.728
+1539,MOL001539,sanjoinenine,Prostaglandin G/H synthase 2,94,290,,0.84265,0.708
+1539,MOL001539,sanjoinenine,Heat shock protein HSP 90,444,1939,,0.803948,0.708
+1540,MOL001540,Spinosin,DNA topoisomerase II,287,817,,0.862792,0.71
+1541,MOL001541,"4H-Benzopyran-4-one, 6-beta-D-glucopyranosyl-5-hydroxy-2-(4-hydroxyphenyl)-7-methoxy-",Androgen receptor,48,146,,0.84232,0.714
+1541,MOL001541,"4H-Benzopyran-4-one, 6-beta-D-glucopyranosyl-5-hydroxy-2-(4-hydroxyphenyl)-7-methoxy-",DNA topoisomerase II,287,817,,0.811759,0.708
+1541,MOL001541,"4H-Benzopyran-4-one, 6-beta-D-glucopyranosyl-5-hydroxy-2-(4-hydroxyphenyl)-7-methoxy-",Coagulation factor VII,123,369,,0.912295,0.7
+1541,MOL001541,"4H-Benzopyran-4-one, 6-beta-D-glucopyranosyl-5-hydroxy-2-(4-hydroxyphenyl)-7-methoxy-",Glycogen synthase kinase-3 beta,422,1721,,0.923098,0.706
+1541,MOL001541,"4H-Benzopyran-4-one, 6-beta-D-glucopyranosyl-5-hydroxy-2-(4-hydroxyphenyl)-7-methoxy-",Proto-oncogene serine/threonine-protein kinase Pim-1,2966,2347,,0.879157,0.722
+1542,MOL001542,swertisin,Androgen receptor,48,146,,0.863805,0.718
+1542,MOL001542,swertisin,DNA topoisomerase II,287,817,,0.832964,0.708
+1542,MOL001542,swertisin,Proto-oncogene serine/threonine-protein kinase Pim-1,2966,2347,,0.882788,0.71
+1543,MOL001543,Vicenin-2,DNA topoisomerase II,287,817,,0.8816,0.702
+1545,MOL001545,zivulgarin_qt,Androgen receptor,48,146,,0.846934,0.72
+1545,MOL001545,zivulgarin_qt,Coagulation factor VII,123,369,,0.906013,0.7
+1545,MOL001545,zivulgarin_qt,Glycogen synthase kinase-3 beta,422,1721,,0.918412,0.71
+1545,MOL001545,zivulgarin_qt,Proto-oncogene serine/threonine-protein kinase Pim-1,2966,2347,,0.870145,0.722
+1546,MOL001546,zizyphusine,Prostaglandin G/H synthase 1,6,20,,0.912063,0.716
+1546,MOL001546,zizyphusine,Muscarinic acetylcholine receptor M3,16,51,,0.939724,0.702
+1546,MOL001546,zizyphusine,Muscarinic acetylcholine receptor M1,38,103,,0.947446,0.71
+1546,MOL001546,zizyphusine,Androgen receptor,48,146,,0.950004,0.782
+1546,MOL001546,zizyphusine,Sodium channel protein type 5 subunit alpha,70,220,,0.938201,0.71
+1546,MOL001546,zizyphusine,Prostaglandin G/H synthase 2,94,290,,0.912117,0.788
+1546,MOL001546,zizyphusine,Retinoic acid receptor RXR-alpha,158,459,,0.942096,0.71
+1546,MOL001546,zizyphusine,Acetylcholinesterase,165,474,,0.903595,0.72
+1546,MOL001546,zizyphusine,DNA topoisomerase II,287,817,,0.875577,0.722
+1546,MOL001546,zizyphusine,Heat shock protein HSP 90,444,1939,,0.971007,0.722
+1546,MOL001546,zizyphusine,Nuclear receptor coactivator 1,3279,6228,,0.866323,0.712
+1546,MOL001546,zizyphusine,Calcium-activated potassium channel subunit alpha 1,3727,610,,0.897417,0.708
+1546,MOL001546,zizyphusine,Calmodulin,3907,465,,0.808733,0.726
+211,MOL000211,Mairin,Progesterone receptor,209,614,,0.86523,0.702
+360,MOL000360,FER,Prostaglandin G/H synthase 1,6,20,,0.924937,0.788
+360,MOL000360,FER,Prostaglandin G/H synthase 2,94,290,,0.950834,0.82
+360,MOL000360,FER,"Nitric-oxide synthase, endothelial",95,291,,0.882966,0.8
+360,MOL000360,FER,Alpha-2A adrenergic receptor,105,318,,0.831789,0.72
+360,MOL000360,FER,Sodium-dependent noradrenaline transporter,186,540,,0.83997,0.7
+360,MOL000360,FER,Alpha-1A adrenergic receptor,191,556,,0.809894,0.732
+360,MOL000360,FER,Sodium-dependent dopamine transporter,239,713,,0.85173,0.72
+360,MOL000360,FER,Beta-2 adrenergic receptor,261,766,,0.870841,0.73
+360,MOL000360,FER,Leukotriene A-4 hydrolase,521,3060,,0.919633,0.706
+360,MOL000360,FER,Amine oxidase [flavin-containing] B,565,3939,,0.958582,0.756
+360,MOL000360,FER,Amine oxidase [flavin-containing] A,566,3941,,0.962173,0.706
+360,MOL000360,FER,Chymotrypsinogen B,1696,6011,,0.834854,0.71
+360,MOL000360,FER,mRNA of PKA Catalytic Subunit C-alpha,699,6263,,0.8169,0.708
+360,MOL000360,FER,Alpha-2B adrenergic receptor,214,629,,0.844928,0.702
+360,MOL000360,FER,Urokinase-type plasminogen activator,346,1074,,0.894296,0.702
+360,MOL000360,FER,Heat shock protein HSP 90,444,1939,,0.837052,0.704

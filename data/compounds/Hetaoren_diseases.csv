@@ -1,0 +1,160 @@
+target_name,target_ID,drugbank_ID,disease_name,disease_ID
+Fatty acid synthase,374,1295,Endometrial carcinoma,271
+Fatty acid synthase,374,1295,"Leukemia, Unspecified",460
+Fatty acid synthase,374,1295,Malaria,489
+Fatty acid synthase,374,1295,Mesothelioma,509
+Fatty acid synthase,374,1295,Metastatic osteosarcoma in the lung,514
+Fatty acid synthase,374,1295,Obesity,572
+Fatty acid synthase,374,1295,Prostate cancer,659
+Fatty acid synthase,374,1295,Tumors,797
+Estrogen receptor,46,136,Brain injury,113
+Estrogen receptor,46,136,Breast cancer,117
+Estrogen receptor,46,136,"Cardiovascular disease, unspecified",144
+Estrogen receptor,46,136,Coronary atherosclerosis,206
+Estrogen receptor,46,136,Endocrine independent cancer,270
+Estrogen receptor,46,136,Neurodegenerative diseases,550
+Estrogen receptor,46,136,"Osteoporosis, unspecified",595
+Estrogen receptor,46,136,Postmenopausal symptoms,647
+Estrogen receptor,46,136,Osteoporosis,592
+Estrogen receptor,46,136,Myocardial Infarction,533
+Estrogen receptor,46,136,Migraine,517
+Estrogen receptor,46,136,Cardiovascular disease,143
+Androgen receptor,48,146,Prostate cancer,659
+Androgen receptor,48,146,Spinal and bulbar muscular atrophy,747
+Androgen receptor,48,146,XY disorders of sex development (Other),1006
+Androgen receptor,48,146,XY disorders of sex development (Disorders in androgen synthesis or action),1005
+Androgen receptor,48,146,Spinal and bulbar muscular atrophy of Kennedy,1004
+Androgen receptor,48,146,"Hypospadias 1, X-linked",1003
+Androgen receptor,48,146,Androgen insensitivity,1002
+Vascular endothelial growth factor A,740,183,Colorectal Neoplasms,201
+Vascular endothelial growth factor A,740,183,Macular Degeneration,485
+Heat shock protein HSP 90,444,1939,Breast cancer,117
+Heat shock protein HSP 90,444,1939,Chronic Myelogenous Leukemia (CML),178
+Heat shock protein HSP 90,444,1939,Gastrointestinal Stromal Tumors (GIST),321
+Heat shock protein HSP 90,444,1939,Hematological Malignancies,357
+Heat shock protein HSP 90,444,1939,HER2-positive Metastatic Breast Cancer,367
+Heat shock protein HSP 90,444,1939,Melanoma,505
+Heat shock protein HSP 90,444,1939,Multiple Myeloma,527
+Heat shock protein HSP 90,444,1939,Non-small Cell Lung Cancer,569
+Heat shock protein HSP 90,444,1939,Ovarian cancer,597
+Heat shock protein HSP 90,444,1939,Prostate cancer,659
+Heat shock protein HSP 90,444,1939,Refractory Hematological Malignancies,683
+Heat shock protein HSP 90,444,1939,Solid tumors,744
+Catalase,735,2230,Heart Failure,353
+Catalase,735,2230,Precursor Cell Lymphoblastic Leukemia-Lymphoma,651
+Interleukin-5,481,2232,Allergic inflammation,45
+Interleukin-5,481,2232,Asthma,77
+Interleukin-5,481,2232,Asthmatic bronchial mucosal inflammation,78
+Cell division protein kinase 2,482,2240,Acute lymphoblastic leukemia (ALL),12
+Cell division protein kinase 2,482,2240,Acute myeloid leukemia (AML),15
+Cell division protein kinase 2,482,2240,Advanced solid tumors,32
+Cell division protein kinase 2,482,2240,B-cell malignancies,96
+Cell division protein kinase 2,482,2240,"Cancer, unspecific",130
+Cell division protein kinase 2,482,2240,"Cardiovascular disease, unspecified",144
+Cell division protein kinase 2,482,2240,Chronic lymphocytic leukemia (CLL),177
+Cell division protein kinase 2,482,2240,Hepatocellular Carcinoma (HCC),365
+Cell division protein kinase 2,482,2240,Nasopharyngeal Cancer (NPC),537
+Cell division protein kinase 2,482,2240,Non-Hodgkin's Lymphoma,565
+Cell division protein kinase 2,482,2240,Non-small Cell Lung Cancer,569
+Cell division protein kinase 2,482,2240,Solid tumors,744
+Cell division protein kinase 2,482,2240,"Viral infection, unspecified",823
+Coagulation factor Xa,79,239,Atrial fibrillation and flutter,83
+Coagulation factor Xa,79,239,"Cardiovascular disease, unspecified",144
+Coagulation factor Xa,79,239,Coagulative disorders,192
+Coagulation factor Xa,79,239,Thromboembolic disorders,770
+Coagulation factor Xa,79,239,Thromboembolism,771
+Coagulation factor Xa,79,239,Thrombosis,772
+Coagulation factor Xa,79,239,Thrombotic disease,773
+Glucose-6-phosphate 1-dehydrogenase,1604,2630,Anemia due to disorders of glutathione metabolism,1014
+Glucose-6-phosphate 1-dehydrogenase,1604,2630,Other phagocyte defects,1013
+Prostaglandin G/H synthase 2,94,290,Abdominal aortic aneurysm,1
+Prostaglandin G/H synthase 2,94,290,Adenomatous polyposis,24
+Prostaglandin G/H synthase 2,94,290,Alzheimer's Disease,51
+Prostaglandin G/H synthase 2,94,290,Analgesics,55
+Prostaglandin G/H synthase 2,94,290,Arthritis,75
+Prostaglandin G/H synthase 2,94,290,Bladder cancer,103
+Prostaglandin G/H synthase 2,94,290,Breast cancer,117
+Prostaglandin G/H synthase 2,94,290,"Cancer, unspecific",130
+Prostaglandin G/H synthase 2,94,290,"Carcinoma in situ, unspecified",134
+Prostaglandin G/H synthase 2,94,290,Carpal tunnel syndrome,147
+Prostaglandin G/H synthase 2,94,290,Colorectal cancer,200
+Prostaglandin G/H synthase 2,94,290,"Dysmenorrhea, unspecified",264
+Prostaglandin G/H synthase 2,94,290,Endometriosis,273
+Prostaglandin G/H synthase 2,94,290,Genitourinary tumors,325
+Prostaglandin G/H synthase 2,94,290,Gestational hypertension,327
+Prostaglandin G/H synthase 2,94,290,Inflammation,416
+Prostaglandin G/H synthase 2,94,290,Inflammatory diseases,418
+Prostaglandin G/H synthase 2,94,290,Lung Cancer,471
+Prostaglandin G/H synthase 2,94,290,Malignant mesothelioma,496
+Prostaglandin G/H synthase 2,94,290,Meningioma,508
+Prostaglandin G/H synthase 2,94,290,Myocardial Infarction,533
+Prostaglandin G/H synthase 2,94,290,Oropharyngeal squamous cell carcinoma,585
+Prostaglandin G/H synthase 2,94,290,Osteoarthritis,586
+Prostaglandin G/H synthase 2,94,290,"Pain, unspecified",611
+Prostaglandin G/H synthase 2,94,290,Pathological angiogenesis,622
+Prostaglandin G/H synthase 2,94,290,Peutz-Jeghers syndrome,633
+Prostaglandin G/H synthase 2,94,290,Prostate cancer,659
+Prostaglandin G/H synthase 2,94,290,Pyresis,676
+Prostaglandin G/H synthase 2,94,290,Renal Cell Carcinoma,689
+Prostaglandin G/H synthase 2,94,290,"Rheumatoid arthritis, unspecified",703
+Prostaglandin G/H synthase 2,94,290,Stroke,754
+Prostaglandin G/H synthase 2,94,290,Vascular lesion regression,814
+Amine oxidase [flavin-containing] B,565,3939,Major Depressive Disorder,488
+Amine oxidase [flavin-containing] B,565,3939,Neurological diseases,558
+Amine oxidase [flavin-containing] B,565,3939,Parkinson's disease,621
+Glutathione S-transferase A1,766,4031,Anemia,58
+Glutathione S-transferase A1,766,4031,Ovarian Neoplasms,598
+Superoxide dismutase [Cu-Zn],597,4152,"Cancer, unspecific",130
+Superoxide dismutase [Cu-Zn],597,4152,Ischemic injury of the liver,444
+Cystathionine gamma-synthase,639,5492,Microbial infections,516
+Cellular tumor antigen p53,646,5788,Bladder cancer,103
+Cellular tumor antigen p53,646,5788,"Cancer, unspecific",130
+Cellular tumor antigen p53,646,5788,Hepatocellular carcinoma,364
+Cellular tumor antigen p53,646,5788,Kidney Cancer,447
+Cellular tumor antigen p53,646,5788,Prostate cancer,659
+Progesterone receptor,209,614,Breast cancer,117
+Muscarinic acetylcholine receptor M2,210,617,Alzheimer's Disease,51
+Muscarinic acetylcholine receptor M2,210,617,Analgesics,55
+Muscarinic acetylcholine receptor M2,210,617,Autoimmune cardiomyopathy,87
+Muscarinic acetylcholine receptor M2,210,617,Bronchoconstriction (cold air-induced),124
+Muscarinic acetylcholine receptor M2,210,617,"Chronic obstructive pulmonary disease, unspecified",183
+Muscarinic acetylcholine receptor M2,210,617,Hypothermia,409
+Muscarinic acetylcholine receptor M2,210,617,Neurogenic bladder,552
+Muscarinic acetylcholine receptor M2,210,617,"Pain, unspecified",611
+Muscarinic acetylcholine receptor M2,210,617,"Tremor, unspecified",789
+72 kDa type IV collagenase,238,707,Brain Cancer,111
+72 kDa type IV collagenase,238,707,Breast cancer,117
+72 kDa type IV collagenase,238,707,"Cancer, unspecific",130
+72 kDa type IV collagenase,238,707,Hepatocellular carcinoma,364
+72 kDa type IV collagenase,238,707,Hormone-refractory Prostate cancer,380
+72 kDa type IV collagenase,238,707,Kaposi's Sarcoma,446
+72 kDa type IV collagenase,238,707,Lung Cancer,471
+72 kDa type IV collagenase,238,707,Non-small Cell Lung Cancer,569
+72 kDa type IV collagenase,238,707,Osteoarthritis,586
+72 kDa type IV collagenase,238,707,Pancreatic Cancer,612
+72 kDa type IV collagenase,238,707,Prostate cancer,659
+72 kDa type IV collagenase,238,707,Renal Cell Carcinoma,689
+72 kDa type IV collagenase,238,707,Smooth muscle hyperplasia,741
+"Glutathione reductase, mitochondrial",240,714,Malaria,489
+"Glutathione reductase, mitochondrial",240,714,Parasitic diseases,618
+DNA topoisomerase II,287,817,Acute promyelocytic leukemia,19
+DNA topoisomerase II,287,817,Bacterial Infections,93
+DNA topoisomerase II,287,817,"Cancer, unspecific",130
+DNA topoisomerase II,287,817,Fungal diseases,304
+DNA topoisomerase II,287,817,Herpes virus infection,372
+DNA topoisomerase II,287,817,Leishmania Infections,454
+DNA topoisomerase II,287,817,Malaria,489
+DNA topoisomerase II,287,817,Trichomoniasis,790
+Glutathione S-transferase P,733,904,Breast Neoplasms,121
+Glutathione S-transferase P,733,904,"Carcinoma, Non-Small-Cell Lung",135
+Glutathione S-transferase P,733,904,Colorectal Neoplasms,201
+Glutathione S-transferase P,733,904,Drug Toxicity,259
+Glutathione S-transferase P,733,904,Gastrointestinal Neoplasms,319
+Glutathione S-transferase P,733,904,Head and Neck Neoplasms,347
+Glutathione S-transferase P,733,904,Neoplasms,542
+Glutathione S-transferase P,733,904,Neurotoxicity Syndromes,563
+Glutathione S-transferase P,733,904,Neutropenia,564
+Glutathione S-transferase P,733,904,Ovarian Neoplasms,598
+Glutathione S-transferase P,733,904,Peripheral Nervous System Diseases,629
+Glutathione S-transferase P,733,904,Precursor Cell Lymphoblastic Leukemia-Lymphoma,651
+Glutathione S-transferase P,733,904,Rectal Neoplasms,680

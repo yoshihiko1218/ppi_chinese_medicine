@@ -1,0 +1,108 @@
+MODEL 1
+REMARK VINA RESULT:      -3.8      0.000      0.000
+REMARK  Name = results/docking/ligands/Succinic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.760 -14.584   1.531  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      11.931 -15.910   0.841  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1      11.732 -16.996   1.361  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1      12.333 -15.775  -0.443  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1      13.103 -15.182  -0.558  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1      10.288 -14.262   1.760  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1       9.888 -14.595   3.172  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1       8.885 -15.216   3.484  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      10.768 -14.128   4.086  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1      11.518 -14.728   4.260  0.00  0.00    +0.000 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -3.8      0.213      3.711
+REMARK  Name = results/docking/ligands/Succinic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.250 -14.353   1.856  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       9.964 -14.558   3.318  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1       8.987 -15.138   3.762  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1      10.921 -14.023   4.110  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1      11.761 -13.833   3.646  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1      11.738 -14.503   1.555  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1      12.019 -15.847   0.940  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1      11.714 -16.918   1.438  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      12.658 -15.753  -0.247  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1      12.420 -14.961  -0.767  0.00  0.00    +0.000 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -3.7      2.010      2.322
+REMARK  Name = results/docking/ligands/Succinic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.454 -14.089   1.494  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      10.752 -13.555   0.276  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1      11.312 -13.091  -0.703  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1       9.406 -13.646   0.376  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1       9.002 -14.276  -0.254  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1      10.595 -15.116   2.225  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1      10.173 -14.589   3.570  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1       9.107 -14.837   4.112  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      11.108 -13.795   4.135  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1      11.625 -14.228   4.841  0.00  0.00    +0.000 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL

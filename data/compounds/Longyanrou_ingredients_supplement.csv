@@ -1,0 +1,23 @@
+MOL_ID,molecule_name,ob,dl,herb_cn,herb_pinyin
+LYR001,Gallic acid,31.69,0.04,龙眼肉,Longyanrou
+LYR002,Ellagic acid,43.06,0.43,龙眼肉,Longyanrou
+LYR003,Quercetin,46.43,0.28,龙眼肉,Longyanrou
+LYR004,Kaempferol,41.88,0.24,龙眼肉,Longyanrou
+LYR005,Adenine,34.72,0.04,龙眼肉,Longyanrou
+LYR006,Adenosine,32.52,0.11,龙眼肉,Longyanrou
+LYR007,beta-Sitosterol,36.91,0.75,龙眼肉,Longyanrou
+LYR008,Uridine,32.3,0.05,龙眼肉,Longyanrou
+LYR009,Ethyl gallate,52.38,0.06,龙眼肉,Longyanrou
+LYR010,Corilagin,35.82,0.68,龙眼肉,Longyanrou
+TM001,Gastrodin,37.69,0.06,天麻,Tianma
+TM002,4-Hydroxybenzyl alcohol,43.09,0.02,天麻,Tianma
+TM003,Vanillin,52.0,0.03,天麻,Tianma
+TM004,4-Hydroxybenzaldehyde,57.78,0.02,天麻,Tianma
+TM005,Vanillyl alcohol,42.06,0.04,天麻,Tianma
+TM006,beta-Sitosterol,36.91,0.75,天麻,Tianma
+TM007,Parishin,31.27,0.52,天麻,Tianma
+TM008,Parishin B,33.15,0.48,天麻,Tianma
+TM009,Parishin C,30.89,0.45,天麻,Tianma
+TM010,Palmitic acid,19.3,0.1,天麻,Tianma
+TM011,Daucosterol,36.91,0.75,天麻,Tianma
+TM012,Succinic acid,36.21,0.01,天麻,Tianma

@@ -1,0 +1,43 @@
+molecule_ID,MOL_ID,molecule_name,target_name,target_ID,drugbank_ID,validated,SVM_score,RF_score
+1002,MOL001002,ellagic acid,Cell division protein kinase 2,482,2240,,0.84108,0.716
+1002,MOL001002,ellagic acid,Estrogen receptor,46,136,,0.896638,0.716
+1002,MOL001002,ellagic acid,Androgen receptor,48,146,,0.869762,0.764
+1002,MOL001002,ellagic acid,Progesterone receptor,209,614,,0.863788,0.716
+1002,MOL001002,ellagic acid,Heat shock protein HSP 90,444,1939,,0.917517,0.708
+1002,MOL001002,ellagic acid,Transcription factor p65,4565,h001,validated,,
+1002,MOL001002,ellagic acid,Vascular endothelial growth factor A,740,183,validated,,
+1002,MOL001002,ellagic acid,Cyclin-dependent kinase inhibitor 1,4141,h001,validated,,
+1002,MOL001002,ellagic acid,72 kDa type IV collagenase,238,707,validated,,
+1002,MOL001002,ellagic acid,Matrix metalloproteinase-9,4334,h001,validated,,
+1002,MOL001002,ellagic acid,NF-kappa-B inhibitor alpha,4394,h001,validated,,
+1002,MOL001002,ellagic acid,Interleukin-8,4303,h001,validated,,
+1002,MOL001002,ellagic acid,Protein kinase C beta type,4470,h001,validated,,
+1002,MOL001002,ellagic acid,Glutathione S-transferase P,733,904,validated,,
+1002,MOL001002,ellagic acid,Insulin-like growth factor II,4279,h001,validated,,
+1002,MOL001002,ellagic acid,Glutathione S-transferase Mu 1,2952,896,validated,,
+1002,MOL001002,ellagic acid,Glutathione S-transferase Mu 2,3688,2165,validated,,
+1002,MOL001002,ellagic acid,Glutathione S-transferase A1,766,4031,validated,,
+1002,MOL001002,ellagic acid,Glutathione S-transferase A2,3674,3932,validated,,
+1002,MOL001002,ellagic acid,Chitin synthase 2,4117,h001,validated,,
+9096,MOL009096,Methyl 9-cyclopropylnonanoate,Prostaglandin G/H synthase 2,94,290,,0.898702,0.74
+9096,MOL009096,Methyl 9-cyclopropylnonanoate,Muscarinic acetylcholine receptor M2,210,617,,0.858272,0.708
+9096,MOL009096,Methyl 9-cyclopropylnonanoate,Amine oxidase [flavin-containing] B,565,3939,,0.81018,0.714
+9096,MOL009096,Methyl 9-cyclopropylnonanoate,Nuclear receptor coactivator 2,3276,6241,,0.909082,0.72
+9100,MOL009100,"2,2',3,3',4,4'-Tetramethoxy-6,6'-biphenyldicarboxylic acid, dimethyl ester",Prostaglandin G/H synthase 2,94,290,,0.810164,0.738
+9100,MOL009100,"2,2',3,3',4,4'-Tetramethoxy-6,6'-biphenyldicarboxylic acid, dimethyl ester",Calcium-activated potassium channel subunit alpha 1,3727,610,,0.8487,0.724
+12794,MOL012794,Juglanin,Androgen receptor,48,146,,0.811756,0.726
+12794,MOL012794,Juglanin,Coagulation factor Xa,79,239,,0.852932,0.704
+12794,MOL012794,Juglanin,Prostaglandin G/H synthase 2,94,290,,0.923311,0.722
+12794,MOL012794,Juglanin,DNA topoisomerase II,287,817,,0.821103,0.724
+12794,MOL012794,Juglanin,Trypsin-1,2928,3176,,0.866874,0.708
+9115,MOL009115,juglone,Cellular tumor antigen p53,646,5788,validated,,
+9115,MOL009115,juglone,Fatty acid synthase,374,1295,validated,,
+9115,MOL009115,juglone,Superoxide dismutase [Cu-Zn],597,4152,validated,,
+9115,MOL009115,juglone,Catalase,735,2230,validated,,
+9115,MOL009115,juglone,Glucose-6-phosphate 1-dehydrogenase,1604,2630,validated,,
+9115,MOL009115,juglone,Granulocyte-macrophage colony-stimulating factor,4236,h001,validated,,
+9115,MOL009115,juglone,Dual oxidase 2,4174,h001,validated,,
+9115,MOL009115,juglone,Cystathionine gamma-synthase,639,5492,validated,,
+9115,MOL009115,juglone,Interleukin-5,481,2232,validated,,
+9115,MOL009115,juglone,"Glutathione reductase, mitochondrial",240,714,validated,,
+9115,MOL009115,juglone,"Malonyl-CoA-acyl carrier protein transacylase, mitochondrial",4332,h001,validated,,

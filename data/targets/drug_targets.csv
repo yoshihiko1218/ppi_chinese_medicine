@@ -1,0 +1,981 @@
+molecule_ID,MOL_ID,molecule_name,target_name,target_ID,drugbank_ID,validated,SVM_score,RF_score,herb_cn,herb_pinyin,gene_symbol,uniprot_id
+1522,MOL001522,(S)-Coclaurine,Prostaglandin G/H synthase 1,6,20,,0.877146,0.742,酸枣仁,Suanzaoren,PTGS1,A0A087X296
+1522,MOL001522,(S)-Coclaurine,Muscarinic acetylcholine receptor M1,38,103,,0.921871,0.716,酸枣仁,Suanzaoren,CHRM1,P11229
+1522,MOL001522,(S)-Coclaurine,Sodium channel protein type 5 subunit alpha,70,220,,0.850357,0.748,酸枣仁,Suanzaoren,SCN5A,Q14524
+1522,MOL001522,(S)-Coclaurine,Prostaglandin G/H synthase 2,94,290,,0.913244,0.812,酸枣仁,Suanzaoren,PTGS2,A0A7P0T828
+1522,MOL001522,(S)-Coclaurine,Retinoic acid receptor RXR-alpha,158,459,,0.931726,0.742,酸枣仁,Suanzaoren,RXRA,P19793
+1522,MOL001522,(S)-Coclaurine,Alpha-1A adrenergic receptor,191,556,,0.892882,0.708,酸枣仁,Suanzaoren,ADRA1A,B0ZBD3
+1522,MOL001522,(S)-Coclaurine,Alpha-1B adrenergic receptor,216,632,,0.848494,0.744,酸枣仁,Suanzaoren,ADRA1B,P35368
+1522,MOL001522,(S)-Coclaurine,Sodium-dependent dopamine transporter,239,713,,0.8619,0.712,酸枣仁,Suanzaoren,DAT1,Q6LC27
+1522,MOL001522,(S)-Coclaurine,Beta-2 adrenergic receptor,261,766,,0.923393,0.732,酸枣仁,Suanzaoren,ADRB2,Q9BYZ0
+1522,MOL001522,(S)-Coclaurine,Sodium-dependent serotonin transporter,290,824,,0.901114,0.714,酸枣仁,Suanzaoren,SLC6A4,P31645
+1522,MOL001522,(S)-Coclaurine,Heat shock protein HSP 90,444,1939,,0.946405,0.704,酸枣仁,Suanzaoren,HSP90AB4P,Q58FF6
+1522,MOL001522,(S)-Coclaurine,Amine oxidase [flavin-containing] B,565,3939,,0.836801,0.704,酸枣仁,Suanzaoren,MAOB,P27338
+1522,MOL001522,(S)-Coclaurine,Dopamine D1 receptor,7,23,,0.876622,0.704,酸枣仁,Suanzaoren,DRD1,P21728
+1522,MOL001522,(S)-Coclaurine,Muscarinic acetylcholine receptor M3,16,51,,0.906723,0.712,酸枣仁,Suanzaoren,CHRM3,P20309
+1522,MOL001522,(S)-Coclaurine,Alpha-2A adrenergic receptor,105,318,,0.835484,0.706,酸枣仁,Suanzaoren,ADRA2A,P08913
+1522,MOL001522,(S)-Coclaurine,Carbonic anhydrase II,117,357,,0.839267,0.81,酸枣仁,Suanzaoren,carbonic anhydrase II/ CA II,Q6LD99
+1522,MOL001522,(S)-Coclaurine,Alpha-2C adrenergic receptor,126,378,,0.833122,0.73,酸枣仁,Suanzaoren,ADRA2C,Q4W594
+1522,MOL001522,(S)-Coclaurine,Alpha-1D adrenergic receptor,272,789,,0.841398,0.738,酸枣仁,Suanzaoren,ADRA1D,B0ZBE0
+1522,MOL001522,(S)-Coclaurine,Mu-type opioid receptor,299,847,,0.887279,0.7,酸枣仁,Suanzaoren,OPRM1,L0E130
+1522,MOL001522,(S)-Coclaurine,Nuclear receptor coactivator 2,3276,6241,,0.851565,0.824,酸枣仁,Suanzaoren,NCOA2,H0YBB6
+1525,MOL001525,Daucosterol,Progesterone receptor,209,614,,0.908982,0.728,酸枣仁,Suanzaoren,PGR,A0A4P8D7F0
+1525,MOL001525,Daucosterol,Nuclear receptor coactivator 2,3276,6241,,0.800352,0.71,酸枣仁,Suanzaoren,NCOA2,H0YBB6
+1532,MOL001532,phytosterol,Progesterone receptor,209,614,,0.901155,0.724,酸枣仁,Suanzaoren,PGR,A0A4P8D7F0
+1539,MOL001539,sanjoinenine,Prostaglandin G/H synthase 2,94,290,,0.84265,0.708,酸枣仁,Suanzaoren,PTGS2,A0A7P0T828
+1539,MOL001539,sanjoinenine,Heat shock protein HSP 90,444,1939,,0.803948,0.708,酸枣仁,Suanzaoren,HSP90AB4P,Q58FF6
+1542,MOL001542,swertisin,Androgen receptor,48,146,,0.863805,0.718,酸枣仁,Suanzaoren,AR,A0A6H0MAE6
+1542,MOL001542,swertisin,DNA topoisomerase II,287,817,,0.832964,0.708,酸枣仁,Suanzaoren,TOP2A,J3KTB7
+1546,MOL001546,zizyphusine,Prostaglandin G/H synthase 1,6,20,,0.912063,0.716,酸枣仁,Suanzaoren,PTGS1,A0A087X296
+1546,MOL001546,zizyphusine,Muscarinic acetylcholine receptor M3,16,51,,0.939724,0.702,酸枣仁,Suanzaoren,CHRM3,P20309
+1546,MOL001546,zizyphusine,Muscarinic acetylcholine receptor M1,38,103,,0.947446,0.71,酸枣仁,Suanzaoren,CHRM1,P11229
+1546,MOL001546,zizyphusine,Androgen receptor,48,146,,0.950004,0.782,酸枣仁,Suanzaoren,AR,A0A6H0MAE6
+1546,MOL001546,zizyphusine,Sodium channel protein type 5 subunit alpha,70,220,,0.938201,0.71,酸枣仁,Suanzaoren,SCN5A,Q14524
+1546,MOL001546,zizyphusine,Prostaglandin G/H synthase 2,94,290,,0.912117,0.788,酸枣仁,Suanzaoren,PTGS2,A0A7P0T828
+1546,MOL001546,zizyphusine,Retinoic acid receptor RXR-alpha,158,459,,0.942096,0.71,酸枣仁,Suanzaoren,RXRA,P19793
+1546,MOL001546,zizyphusine,Acetylcholinesterase,165,474,,0.903595,0.72,酸枣仁,Suanzaoren,ACHE,C9JD78
+1546,MOL001546,zizyphusine,DNA topoisomerase II,287,817,,0.875577,0.722,酸枣仁,Suanzaoren,TOP2A,J3KTB7
+1546,MOL001546,zizyphusine,Heat shock protein HSP 90,444,1939,,0.971007,0.722,酸枣仁,Suanzaoren,HSP90AB4P,Q58FF6
+1546,MOL001546,zizyphusine,Nuclear receptor coactivator 1,3279,6228,,0.866323,0.712,酸枣仁,Suanzaoren,NCOA1,B5MCN7
+1546,MOL001546,zizyphusine,Calcium-activated potassium channel subunit alpha 1,3727,610,,0.897417,0.708,酸枣仁,Suanzaoren,KCNMA1,A0A1W2PRA7
+211,MOL000211,Mairin,Progesterone receptor,209,614,,0.86523,0.702,酸枣仁,Suanzaoren,PGR,A0A4P8D7F0
+1002,MOL001002,ellagic acid,Cell division protein kinase 2,482,2240,,0.84108,0.716,核桃仁,Hetaoren,CDK2,E7ESI2
+1002,MOL001002,ellagic acid,Estrogen receptor,46,136,,0.896638,0.716,核桃仁,Hetaoren,ESR1,Q9H2M2
+1002,MOL001002,ellagic acid,Androgen receptor,48,146,,0.869762,0.764,核桃仁,Hetaoren,AR,A0A6H0MAE6
+1002,MOL001002,ellagic acid,Progesterone receptor,209,614,,0.863788,0.716,核桃仁,Hetaoren,PGR,A0A4P8D7F0
+1002,MOL001002,ellagic acid,Heat shock protein HSP 90,444,1939,,0.917517,0.708,核桃仁,Hetaoren,HSP90AB4P,Q58FF6
+1002,MOL001002,ellagic acid,Vascular endothelial growth factor A,740,183,validated,,,核桃仁,Hetaoren,VEGFA,P15692
+1002,MOL001002,ellagic acid,72 kDa type IV collagenase,238,707,validated,,,核桃仁,Hetaoren,MMP2,P08253
+1002,MOL001002,ellagic acid,NF-kappa-B inhibitor alpha,4394,h001,validated,,,核桃仁,Hetaoren,NFKBIA,A0A8V8TLE7
+1002,MOL001002,ellagic acid,Interleukin-8,4303,h001,validated,,,核桃仁,Hetaoren,IL8,A0A7U3S0Q4
+1002,MOL001002,ellagic acid,Protein kinase C beta type,4470,h001,validated,,,核桃仁,Hetaoren,PRKCB,P05771
+1002,MOL001002,ellagic acid,Glutathione S-transferase P,733,904,validated,,,核桃仁,Hetaoren,GSTP1,B2C310
+1002,MOL001002,ellagic acid,Insulin-like growth factor II,4279,h001,validated,,,核桃仁,Hetaoren,IGF2R,Q13661
+1002,MOL001002,ellagic acid,Glutathione S-transferase Mu 1,2952,896,validated,,,核桃仁,Hetaoren,GSTM1,H3BQT3
+1002,MOL001002,ellagic acid,Glutathione S-transferase Mu 2,3688,2165,validated,,,核桃仁,Hetaoren,GSTM2,E9PGV1
+1002,MOL001002,ellagic acid,Glutathione S-transferase A1,766,4031,validated,,,核桃仁,Hetaoren,GSTA1,P08263
+1002,MOL001002,ellagic acid,Glutathione S-transferase A2,3674,3932,validated,,,核桃仁,Hetaoren,GSTA2,P09210
+1792,MOL001792,DFV,Prostaglandin G/H synthase 1,6,20,,0.892476,0.752,黄精,Huangjing,PTGS1,A0A087X296
+1792,MOL001792,DFV,Estrogen receptor,46,136,,0.942467,0.804,黄精,Huangjing,ESR1,Q9H2M2
+1792,MOL001792,DFV,Prostaglandin G/H synthase 2,94,290,,0.930541,0.84,黄精,Huangjing,PTGS2,A0A7P0T828
+1792,MOL001792,DFV,Retinoic acid receptor RXR-alpha,158,459,,0.882757,0.704,黄精,Huangjing,RXRA,P19793
+1792,MOL001792,DFV,Beta-2 adrenergic receptor,261,766,,0.83234,0.702,黄精,Huangjing,ADRB2,Q9BYZ0
+1792,MOL001792,DFV,Heat shock protein HSP 90,444,1939,,0.942839,0.722,黄精,Huangjing,HSP90AB4P,Q58FF6
+1792,MOL001792,DFV,Beta-lactamase,499,2478,,0.81673,0.704,黄精,Huangjing,LACTBL1,A8MY62
+1792,MOL001792,DFV,Amine oxidase [flavin-containing] B,565,3939,,0.86669,0.702,黄精,Huangjing,MAOB,P27338
+1792,MOL001792,DFV,Sodium-dependent serotonin transporter,290,824,,0.834445,0.7,黄精,Huangjing,SLC6A4,P31645
+1792,MOL001792,DFV,cAMP-dependent protein kinase inhibitor alpha,3586,6264,,0.812898,0.758,黄精,Huangjing,PKIA,P61925
+2714,MOL002714,baicalein,Prostaglandin G/H synthase 1,6,20,,0.914003,0.762,黄精,Huangjing,PTGS1,A0A087X296
+2714,MOL002714,baicalein,Androgen receptor,48,146,,0.852203,0.768,黄精,Huangjing,AR,A0A6H0MAE6
+2714,MOL002714,baicalein,Prostaglandin G/H synthase 2,94,290,validated,0.942547,0.832,黄精,Huangjing,PTGS2,A0A7P0T828
+2714,MOL002714,baicalein,Heat shock protein HSP 90,444,1939,,0.96223,0.738,黄精,Huangjing,HSP90AB4P,Q58FF6
+2714,MOL002714,baicalein,Dipeptidyl peptidase IV,332,952,,0.820015,0.708,黄精,Huangjing,dpp4,A0A7S5DJN1
+2714,MOL002714,baicalein,Trypsin-1,2928,3176,,0.897669,0.782,黄精,Huangjing,PRSS1,Q7Z445
+2714,MOL002714,baicalein,Nuclear receptor coactivator 2,3276,6241,,0.832082,0.828,黄精,Huangjing,NCOA2,H0YBB6
+2714,MOL002714,baicalein,Nuclear receptor coactivator 1,3279,6228,,0.813081,0.716,黄精,Huangjing,NCOA1,B5MCN7
+2714,MOL002714,baicalein,RAC-alpha serine/threonine-protein kinase,4490,h001,validated,,,黄精,Huangjing,AKT1,B0LPE5
+2714,MOL002714,baicalein,Vascular endothelial growth factor A,740,183,validated,,,黄精,Huangjing,VEGFA,P15692
+2714,MOL002714,baicalein,Apoptosis regulator Bcl-2,86,273,validated,,,黄精,Huangjing,BCL2,A0A1L4AQQ8
+2714,MOL002714,baicalein,Proto-oncogene c-Fos,4478,h001,validated,,,黄精,Huangjing,FOS,P01100
+2714,MOL002714,baicalein,Apoptosis regulator BAX,4033,h001,validated,,,黄精,Huangjing,Bax,A0A0C4MVT1
+2714,MOL002714,baicalein,Caspase-3,4087,h001,validated,,,黄精,Huangjing,CASP3,A0A8V8TPU5
+2714,MOL002714,baicalein,Cellular tumor antigen p53,646,5788,validated,,,黄精,Huangjing,TP53,A0A0U1RQC9
+2714,MOL002714,baicalein,Hypoxia-inducible factor 1-alpha,4263,h001,validated,,,黄精,Huangjing,HIF1A,D0VY79
+2714,MOL002714,baicalein,Fos-related antigen 1,4211,h001,validated,,,黄精,Huangjing,FOSL1,P15407
+2714,MOL002714,baicalein,Fos-related antigen 2,4212,h001,validated,,,黄精,Huangjing,FOSL2,P15408
+2714,MOL002714,baicalein,G2/mitotic-specific cyclin-B1,4219,h001,validated,,,黄精,Huangjing,CCNB1,P14635
+2714,MOL002714,baicalein,Myeloperoxidase,428,1757,validated,,,黄精,Huangjing,MPO,P05164
+2714,MOL002714,baicalein,Insulin-like growth factor II,4279,h001,validated,,,黄精,Huangjing,IGF2R,Q13661
+2714,MOL002714,baicalein,"Arachidonate 12-lipoxygenase, 12S-type",4629,h001,validated,,,黄精,Huangjing,ALOX12,K7ENN9
+2714,MOL002714,baicalein,Egl nine homolog 1,3433,3960,validated,,,黄精,Huangjing,EGLN1,Q9GZT9
+2714,MOL002714,baicalein,NADPH oxidase 5,4381,h001,validated,,,黄精,Huangjing,NOX5,Q96PH1
+2714,MOL002714,baicalein,"Fatty acid-binding protein, epidermal",4200,h001,validated,,,黄精,Huangjing,FABP5,Q01469
+2959,MOL002959,3'-Methoxydaidzein,Prostaglandin G/H synthase 1,6,20,,0.835951,0.736,黄精,Huangjing,PTGS1,A0A087X296
+2959,MOL002959,3'-Methoxydaidzein,Estrogen receptor,46,136,,0.934877,0.798,黄精,Huangjing,ESR1,Q9H2M2
+2959,MOL002959,3'-Methoxydaidzein,Androgen receptor,48,146,,0.88227,0.75,黄精,Huangjing,AR,A0A6H0MAE6
+2959,MOL002959,3'-Methoxydaidzein,Peroxisome proliferator activated receptor gamma,78,238,,0.939248,0.728,黄精,Huangjing,ppar gamma2,Q9UEF6
+2959,MOL002959,3'-Methoxydaidzein,Prostaglandin G/H synthase 2,94,290,,0.9089,0.826,黄精,Huangjing,PTGS2,A0A7P0T828
+2959,MOL002959,3'-Methoxydaidzein,Retinoic acid receptor RXR-alpha,158,459,,0.903454,0.722,黄精,Huangjing,RXRA,P19793
+2959,MOL002959,3'-Methoxydaidzein,Estrogen receptor beta,307,869,,0.90284,0.738,黄精,Huangjing,ESR2,A0A679EN27
+2959,MOL002959,3'-Methoxydaidzein,Mitogen-activated protein kinase 14,402,1540,,0.923971,0.72,黄精,Huangjing,MAPK14,E7EX54
+2959,MOL002959,3'-Methoxydaidzein,Glycogen synthase kinase-3 beta,422,1721,,0.891465,0.706,黄精,Huangjing,GSK3B,A0A7I2V2N4
+2959,MOL002959,3'-Methoxydaidzein,Heat shock protein HSP 90,444,1939,,0.964881,0.716,黄精,Huangjing,HSP90AB4P,Q58FF6
+2959,MOL002959,3'-Methoxydaidzein,Cell division protein kinase 2,482,2240,,0.951601,0.74,黄精,Huangjing,CDK2,E7ESI2
+2959,MOL002959,3'-Methoxydaidzein,Serine/threonine-protein kinase Chk1,647,5790,,0.884114,0.716,黄精,Huangjing,CHEK1,E9PKQ3
+2959,MOL002959,3'-Methoxydaidzein,Trypsin-1,2928,3176,,0.89826,0.752,黄精,Huangjing,PRSS1,Q7Z445
+2959,MOL002959,3'-Methoxydaidzein,Cyclin-A2,3025,6235,,0.94398,0.728,黄精,Huangjing,CCNA2,P20248
+2959,MOL002959,3'-Methoxydaidzein,Nuclear receptor coactivator 1,3279,6228,,0.820062,0.718,黄精,Huangjing,NCOA1,B5MCN7
+358,MOL000358,beta-sitosterol,Progesterone receptor,209,614,,0.90711,0.728,黄精,Huangjing,PGR,A0A4P8D7F0
+358,MOL000358,beta-sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,黄精,Huangjing,NCOA2,H0YBB6
+358,MOL000358,beta-sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,黄精,Huangjing,PTGS1,A0A087X296
+358,MOL000358,beta-sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,黄精,Huangjing,PTGS2,A0A7P0T828
+358,MOL000358,beta-sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,黄精,Huangjing,HSP90AB4P,Q58FF6
+358,MOL000358,beta-sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,黄精,Huangjing,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,黄精,Huangjing,DRD1,P21728
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,黄精,Huangjing,CHRM3,P20309
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,黄精,Huangjing,CHRM1,P11229
+358,MOL000358,beta-sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,黄精,Huangjing,SCN5A,Q14524
+358,MOL000358,beta-sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,黄精,Huangjing,ADRA1A,B0ZBD3
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,黄精,Huangjing,CHRM2,P08172
+358,MOL000358,beta-sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,黄精,Huangjing,ADRA1B,P35368
+358,MOL000358,beta-sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,黄精,Huangjing,ADRB2,Q9BYZ0
+358,MOL000358,beta-sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,黄精,Huangjing,CHRNA2,Q15822
+358,MOL000358,beta-sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,黄精,Huangjing,SLC6A4,P31645
+358,MOL000358,beta-sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,黄精,Huangjing,OPRM1,L0E130
+358,MOL000358,beta-sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,黄精,Huangjing,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,黄精,Huangjing,Bax,A0A0C4MVT1
+358,MOL000358,beta-sitosterol,Caspase-9,4090,h001,validated,,,黄精,Huangjing,CASP9,F8VWA5
+358,MOL000358,beta-sitosterol,Transcription factor AP-1,414,1629,validated,,,黄精,Huangjing,JUNB,P17275
+358,MOL000358,beta-sitosterol,Caspase-3,4087,h001,validated,,,黄精,Huangjing,CASP3,A0A8V8TPU5
+358,MOL000358,beta-sitosterol,Caspase-8,4089,h001,validated,,,黄精,Huangjing,CASP8,A0A8Q3SID9
+358,MOL000358,beta-sitosterol,Protein kinase C alpha type,4469,h001,validated,,,黄精,Huangjing,PRKCA,P17252
+358,MOL000358,beta-sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,黄精,Huangjing,TGFB1,A0A078BCH8
+358,MOL000358,beta-sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,黄精,Huangjing,PON1,P27169
+358,MOL000358,beta-sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,黄精,Huangjing,MAP2,E7EV03
+359,MOL000359,sitosterol,Progesterone receptor,209,614,,0.900536,0.726,黄精,Huangjing,PGR,A0A4P8D7F0
+359,MOL000359,sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.805051,0.702,黄精,Huangjing,NCOA2,H0YBB6
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Prostaglandin G/H synthase 1,6,20,,0.90356,0.784,黄精,Huangjing,PTGS1,A0A087X296
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Estrogen receptor,46,136,,0.94926,0.81,黄精,Huangjing,ESR1,Q9H2M2
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Prostaglandin G/H synthase 2,94,290,,0.93814,0.852,黄精,Huangjing,PTGS2,A0A7P0T828
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Retinoic acid receptor RXR-alpha,158,459,,0.89175,0.72,黄精,Huangjing,RXRA,P19793
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Beta-2 adrenergic receptor,261,766,,0.85212,0.708,黄精,Huangjing,ADRB2,Q9BYZ0
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Heat shock protein HSP 90,444,1939,,0.95214,0.736,黄精,Huangjing,HSP90AB4P,Q58FF6
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Beta-lactamase,499,2478,,0.83972,0.718,黄精,Huangjing,LACTBL1,A8MY62
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Amine oxidase [flavin-containing] B,565,3939,,0.87979,0.702,黄精,Huangjing,MAOB,P27338
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,cAMP-dependent protein kinase inhibitor alpha,3586,6264,,0.81526,0.76,黄精,Huangjing,PKIA,P61925
+4941,MOL004941,(2R)-7-hydroxy-2-(4-hydroxyphenyl)chroman-4-one,Sodium-dependent serotonin transporter,290,824,,0.836032,0.706,黄精,Huangjing,SLC6A4,P31645
+546,MOL000546,diosgenin,Progesterone receptor,209,614,,0.873754,0.706,黄精,Huangjing,PGR,A0A4P8D7F0
+546,MOL000546,diosgenin,RAC-alpha serine/threonine-protein kinase,4490,h001,validated,,,黄精,Huangjing,AKT1,B0LPE5
+546,MOL000546,diosgenin,Vascular endothelial growth factor A,740,183,validated,,,黄精,Huangjing,VEGFA,P15692
+546,MOL000546,diosgenin,Cellular tumor antigen p53,646,5788,validated,,,黄精,Huangjing,TP53,A0A0U1RQC9
+546,MOL000546,diosgenin,Prostaglandin G/H synthase 2,94,290,validated,,,黄精,Huangjing,PTGS2,A0A7P0T828
+546,MOL000546,diosgenin,Fatty acid synthase,374,1295,validated,,,黄精,Huangjing,FASN,A0A1B0GVK4
+546,MOL000546,diosgenin,Hypoxia-inducible factor 1-alpha,4263,h001,validated,,,黄精,Huangjing,HIF1A,D0VY79
+546,MOL000546,diosgenin,Nuclear receptor subfamily 1 group I member 2,4403,h001,validated,,,黄精,Huangjing,NR1i2,F1D8P9
+546,MOL000546,diosgenin,Cytosolic phospholipase A2,246,723,validated,,,黄精,Huangjing,PLA2G4A,W0FXB0
+546,MOL000546,diosgenin,Canalicular multispecific organic anion transporter 1,4079,h001,validated,,,黄精,Huangjing,ABCC2,Q92887
+546,MOL000546,diosgenin,Serine/threonine-protein kinase mTOR,595,4148,validated,,,黄精,Huangjing,MTOR,A0A8V8TRG9
+6331,MOL006331,"4',5-Dihydroxyflavone",Prostaglandin G/H synthase 1,6,20,,0.909834,0.776,黄精,Huangjing,PTGS1,A0A087X296
+6331,MOL006331,"4',5-Dihydroxyflavone",Androgen receptor,48,146,,0.834557,0.748,黄精,Huangjing,AR,A0A6H0MAE6
+6331,MOL006331,"4',5-Dihydroxyflavone",Prostaglandin G/H synthase 2,94,290,,0.935011,0.83,黄精,Huangjing,PTGS2,A0A7P0T828
+6331,MOL006331,"4',5-Dihydroxyflavone",Dipeptidyl peptidase IV,332,952,,0.83679,0.73,黄精,Huangjing,dpp4,A0A7S5DJN1
+6331,MOL006331,"4',5-Dihydroxyflavone",Heat shock protein HSP 90,444,1939,,0.937455,0.74,黄精,Huangjing,HSP90AB4P,Q58FF6
+6331,MOL006331,"4',5-Dihydroxyflavone",Amine oxidase [flavin-containing] B,565,3939,,0.871047,0.706,黄精,Huangjing,MAOB,P27338
+9763,MOL009763,(+)-Syringaresinol-O-beta-D-glucoside,DNA topoisomerase II,287,817,,0.857327,0.71,黄精,Huangjing,TOP2A,J3KTB7
+358,MOL000358,beta-sitosterol,Progesterone receptor,209,614,,0.90711,0.728,当归,Danggui,PGR,A0A4P8D7F0
+358,MOL000358,beta-sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,当归,Danggui,NCOA2,H0YBB6
+358,MOL000358,beta-sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,当归,Danggui,PTGS1,A0A087X296
+358,MOL000358,beta-sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,当归,Danggui,PTGS2,A0A7P0T828
+358,MOL000358,beta-sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,当归,Danggui,HSP90AB4P,Q58FF6
+358,MOL000358,beta-sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,当归,Danggui,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,当归,Danggui,DRD1,P21728
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,当归,Danggui,CHRM3,P20309
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,当归,Danggui,CHRM1,P11229
+358,MOL000358,beta-sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,当归,Danggui,SCN5A,Q14524
+358,MOL000358,beta-sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,当归,Danggui,ADRA1A,B0ZBD3
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,当归,Danggui,CHRM2,P08172
+358,MOL000358,beta-sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,当归,Danggui,ADRA1B,P35368
+358,MOL000358,beta-sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,当归,Danggui,ADRB2,Q9BYZ0
+358,MOL000358,beta-sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,当归,Danggui,CHRNA2,Q15822
+358,MOL000358,beta-sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,当归,Danggui,SLC6A4,P31645
+358,MOL000358,beta-sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,当归,Danggui,OPRM1,L0E130
+358,MOL000358,beta-sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,当归,Danggui,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,当归,Danggui,Bax,A0A0C4MVT1
+358,MOL000358,beta-sitosterol,Caspase-9,4090,h001,validated,,,当归,Danggui,CASP9,F8VWA5
+358,MOL000358,beta-sitosterol,Transcription factor AP-1,414,1629,validated,,,当归,Danggui,JUNB,P17275
+358,MOL000358,beta-sitosterol,Caspase-3,4087,h001,validated,,,当归,Danggui,CASP3,A0A8V8TPU5
+358,MOL000358,beta-sitosterol,Caspase-8,4089,h001,validated,,,当归,Danggui,CASP8,A0A8Q3SID9
+358,MOL000358,beta-sitosterol,Protein kinase C alpha type,4469,h001,validated,,,当归,Danggui,PRKCA,P17252
+358,MOL000358,beta-sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,当归,Danggui,TGFB1,A0A078BCH8
+358,MOL000358,beta-sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,当归,Danggui,PON1,P27169
+358,MOL000358,beta-sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,当归,Danggui,MAP2,E7EV03
+449,MOL000449,Stigmasterol,Progesterone receptor,209,614,,0.91372,0.722,当归,Danggui,PGR,A0A4P8D7F0
+449,MOL000449,Stigmasterol,Nuclear receptor coactivator 2,3276,6241,,0.80043,0.724,当归,Danggui,NCOA2,H0YBB6
+449,MOL000449,Stigmasterol,Alcohol dehydrogenase 1C,727,517,,0.916712,0.718,当归,Danggui,ADH1C,A0A087WU81
+449,MOL000449,Stigmasterol,Ig gamma-1 chain C region,1201,4785,,0.865274,0.716,当归,Danggui,IGHG1,P01857
+449,MOL000449,Stigmasterol,Retinoic acid receptor RXR-alpha,158,459,,0.908315,0.702,当归,Danggui,RXRA,P19793
+449,MOL000449,Stigmasterol,Nuclear receptor coactivator 1,3279,6228,,0.903861,0.738,当归,Danggui,NCOA1,B5MCN7
+449,MOL000449,Stigmasterol,Prostaglandin G/H synthase 1,6,20,,0.926223,0.788,当归,Danggui,PTGS1,A0A087X296
+449,MOL000449,Stigmasterol,Prostaglandin G/H synthase 2,94,290,,0.952074,0.844,当归,Danggui,PTGS2,A0A7P0T828
+449,MOL000449,Stigmasterol,Alpha-2A adrenergic receptor,105,318,,0.80929,0.718,当归,Danggui,ADRA2A,P08913
+449,MOL000449,Stigmasterol,Sodium-dependent noradrenaline transporter,186,540,,0.829138,0.708,当归,Danggui,SLC6A2,P23975
+449,MOL000449,Stigmasterol,Sodium-dependent dopamine transporter,239,713,,0.836413,0.734,当归,Danggui,DAT1,Q6LC27
+449,MOL000449,Stigmasterol,Beta-2 adrenergic receptor,261,766,,0.849795,0.746,当归,Danggui,ADRB2,Q9BYZ0
+449,MOL000449,Stigmasterol,Leukotriene A-4 hydrolase,521,3060,,0.916724,0.734,当归,Danggui,LTA4H,P09960
+449,MOL000449,Stigmasterol,Amine oxidase [flavin-containing] B,565,3939,,0.958232,0.77,当归,Danggui,MAOB,P27338
+449,MOL000449,Stigmasterol,Amine oxidase [flavin-containing] A,566,3941,,0.96149,0.72,当归,Danggui,MAOA,A0A1W5KJW8
+449,MOL000449,Stigmasterol,Chymotrypsinogen B,1696,6011,,0.825543,0.724,当归,Danggui,CTRB1,P17538
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M3,16,51,,0.909264,0.752,当归,Danggui,CHRM3,P20309
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M1,38,103,,0.917348,0.76,当归,Danggui,CHRM1,P11229
+449,MOL000449,Stigmasterol,Beta-1 adrenergic receptor,63,193,,0.833128,0.72,当归,Danggui,ADRB1,P08588
+449,MOL000449,Stigmasterol,Sodium channel protein type 5 subunit alpha,70,220,,0.827658,0.7,当归,Danggui,SCN5A,Q14524
+449,MOL000449,Stigmasterol,Alpha-1A adrenergic receptor,191,556,,0.838547,0.738,当归,Danggui,ADRA1A,B0ZBD3
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M2,210,617,,0.914792,0.728,当归,Danggui,CHRM2,P08172
+449,MOL000449,Stigmasterol,Alpha-1B adrenergic receptor,216,632,,0.87389,0.752,当归,Danggui,ADRA1B,P35368
+273,MOL000273,"(2R)-2-[(3S,5R,10S,13R,14R,16R,17R)-3,16-dihydroxy-4,4,10,13,14-pentamethyl-2,3,5,6,12,15,16,17-octahydro-1H-cyclopenta[a]phenanthren-17-yl]-6-methylhept-5-enoic acid",Nuclear receptor coactivator 2,3276,6241,,0.82078,0.7,茯苓,Fuling,NCOA2,H0YBB6
+282,MOL000282,"ergosta-7,22E-dien-3beta-ol",Progesterone receptor,209,614,,0.91728,0.736,茯苓,Fuling,PGR,A0A4P8D7F0
+283,MOL000283,Ergosterol peroxide,Progesterone receptor,209,614,,0.82436,0.72,茯苓,Fuling,PGR,A0A4P8D7F0
+296,MOL000296,hederagenin,Progesterone receptor,209,614,,0.925242,0.72,茯苓,Fuling,PGR,A0A4P8D7F0
+296,MOL000296,hederagenin,Nuclear receptor coactivator 2,3276,6241,,0.820883,0.71,茯苓,Fuling,NCOA2,H0YBB6
+296,MOL000296,hederagenin,Muscarinic acetylcholine receptor M3,16,51,,0.92733,0.738,茯苓,Fuling,CHRM3,P20309
+296,MOL000296,hederagenin,Muscarinic acetylcholine receptor M1,38,103,,0.929204,0.734,茯苓,Fuling,CHRM1,P11229
+296,MOL000296,hederagenin,Muscarinic acetylcholine receptor M2,210,617,,0.943165,0.738,茯苓,Fuling,CHRM2,P08172
+296,MOL000296,hederagenin,Alpha-1B adrenergic receptor,216,632,,0.825742,0.708,茯苓,Fuling,ADRA1B,P35368
+296,MOL000296,hederagenin,Gamma-aminobutyric-acid receptor subunit alpha-6,3284,841,,0.926013,0.726,茯苓,Fuling,GABRA6,Q16445
+296,MOL000296,hederagenin,Ig gamma-1 chain C region,1201,4785,,0.949295,0.724,茯苓,Fuling,IGHG1,P01857
+296,MOL000296,hederagenin,Alcohol dehydrogenase 1C,727,517,,0.917391,0.736,茯苓,Fuling,ADH1C,A0A087WU81
+296,MOL000296,hederagenin,Lysozyme,1172,2300,,0.827519,0.714,茯苓,Fuling,LYZD2,A0A080YUZ9
+296,MOL000296,hederagenin,Prostaglandin G/H synthase 1,6,20,,0.870005,0.728,茯苓,Fuling,PTGS1,A0A087X296
+296,MOL000296,hederagenin,Sodium channel protein type 5 subunit alpha,70,220,,0.882886,0.714,茯苓,Fuling,SCN5A,Q14524
+296,MOL000296,hederagenin,Prostaglandin G/H synthase 2,94,290,,0.859971,0.764,茯苓,Fuling,PTGS2,A0A7P0T828
+296,MOL000296,hederagenin,Retinoic acid receptor RXR-alpha,158,459,,0.87522,0.724,茯苓,Fuling,RXRA,P19793
+296,MOL000296,hederagenin,Sodium-dependent noradrenaline transporter,186,540,,0.888942,0.72,茯苓,Fuling,SLC6A2,P23975
+6,MOL000006,luteolin,Prostaglandin G/H synthase 1,6,20,,0.837102,0.712,莲子,Lianzi,PTGS1,A0A087X296
+6,MOL000006,luteolin,Androgen receptor,48,146,validated,0.855963,0.752,莲子,Lianzi,AR,A0A6H0MAE6
+6,MOL000006,luteolin,Prostaglandin G/H synthase 2,94,290,validated,0.922133,0.8,莲子,Lianzi,PTGS2,A0A7P0T828
+6,MOL000006,luteolin,Heat shock protein HSP 90,444,1939,,0.969594,0.724,莲子,Lianzi,HSP90AB4P,Q58FF6
+6,MOL000006,luteolin,Trypsin-1,2928,3176,,0.885381,0.774,莲子,Lianzi,PRSS1,Q7Z445
+6,MOL000006,luteolin,Nuclear receptor coactivator 2,3276,6241,,0.839869,0.816,莲子,Lianzi,NCOA2,H0YBB6
+6,MOL000006,luteolin,Dipeptidyl peptidase IV,332,952,,0.83499,0.708,莲子,Lianzi,dpp4,A0A7S5DJN1
+6,MOL000006,luteolin,Epidermal growth factor receptor,298,844,validated,,,莲子,Lianzi,EGFR,A0A068JCC9
+6,MOL000006,luteolin,RAC-alpha serine/threonine-protein kinase,4490,h001,validated,,,莲子,Lianzi,AKT1,B0LPE5
+6,MOL000006,luteolin,Vascular endothelial growth factor A,740,183,validated,,,莲子,Lianzi,VEGFA,P15692
+6,MOL000006,luteolin,Bcl-2-like protein 1,4054,h001,validated,,,莲子,Lianzi,BCL2L1,Q5QP59
+6,MOL000006,luteolin,Caspase-9,4090,h001,validated,,,莲子,Lianzi,CASP9,F8VWA5
+6,MOL000006,luteolin,72 kDa type IV collagenase,238,707,validated,,,莲子,Lianzi,MMP2,P08253
+6,MOL000006,luteolin,Mitogen-activated protein kinase 1,354,1176,validated,,,莲子,Lianzi,MAPK1IP1L,Q8NDC0
+6,MOL000006,luteolin,Interleukin-10,4292,h001,validated,,,莲子,Lianzi,IL10,B3VI66
+6,MOL000006,luteolin,Retinoblastoma-associated protein,2915,3846,validated,,,莲子,Lianzi,RB1,A0A3B3IS71
+6,MOL000006,luteolin,Cell division protein kinase 4,573,3959,validated,,,莲子,Lianzi,CDK4,F8VXD2
+6,MOL000006,luteolin,Tumor necrosis factor,265,777,validated,,,莲子,Lianzi,TNF-alpha,A0A510GFL8
+6,MOL000006,luteolin,Transcription factor AP-1,414,1629,validated,,,莲子,Lianzi,JUNB,P17275
+6,MOL000006,luteolin,Interleukin-6,351,1159,validated,,,莲子,Lianzi,IL6,A0A8Q3SJL1
+6,MOL000006,luteolin,Caspase-3,4087,h001,validated,,,莲子,Lianzi,CASP3,A0A8V8TPU5
+6,MOL000006,luteolin,Cellular tumor antigen p53,646,5788,validated,,,莲子,Lianzi,TP53,A0A0U1RQC9
+6,MOL000006,luteolin,NF-kappa-B inhibitor alpha,4394,h001,validated,,,莲子,Lianzi,NFKBIA,A0A8V8TLE7
+6,MOL000006,luteolin,Xanthine dehydrogenase/oxidase,568,3947,validated,,,莲子,Lianzi,XDH,A0AA96C912
+6,MOL000006,luteolin,E3 ubiquitin-protein ligase Mdm2,4179,h001,validated,,,莲子,Lianzi,MDM2,F5GWH7
+6,MOL000006,luteolin,Proliferating cell nuclear antigen,4450,h001,validated,,,莲子,Lianzi,PCNA,Q7Z6A1
+6,MOL000006,luteolin,Receptor tyrosine-protein kinase erbB-2,4496,h001,validated,,,莲子,Lianzi,ERBB2,E2I6F8
+6,MOL000006,luteolin,Peroxisome proliferator-activated receptor gamma,4422,h001,validated,,,莲子,Lianzi,ppar gamma2,Q9UEF6
+6,MOL000006,luteolin,Heme oxygenase 1,2132,3391,validated,,,莲子,Lianzi,HMOX1,B1AHA8
+6,MOL000006,luteolin,Caspase-7,3575,3320,validated,,,莲子,Lianzi,CASP7,A0A5F9ZHZ6
+6,MOL000006,luteolin,Intercellular adhesion molecule 1,4287,h001,validated,,,莲子,Lianzi,ICAM1,K7EKL8
+6,MOL000006,luteolin,Baculoviral IAP repeat-containing protein 5,4044,h001,validated,,,莲子,Lianzi,BIRC5,A3E0Z4
+6,MOL000006,luteolin,Interleukin-2,3978,1575,validated,,,莲子,Lianzi,IL2,Q6NZ91
+6,MOL000006,luteolin,G2/mitotic-specific cyclin-B1,4219,h001,validated,,,莲子,Lianzi,CCNB1,P14635
+6,MOL000006,luteolin,Interleukin-4,4301,h001,validated,,,莲子,Lianzi,IL-4,G8Z3H3
+6,MOL000006,luteolin,DNA topoisomerase 2-alpha,4172,h001,validated,,,莲子,Lianzi,TOP2A,P11388
+6,MOL000006,luteolin,Glutathione S-transferase P,733,904,validated,,,莲子,Lianzi,GSTP1,B2C310
+6,MOL000006,luteolin,"Solute carrier family 2, facilitated glucose transporter member 4",4535,h001,validated,,,莲子,Lianzi,SLC2A4,F5H081
+6,MOL000006,luteolin,Insulin receptor,11,36,validated,,,莲子,Lianzi,INSR,P06213
+6,MOL000006,luteolin,CD40 ligand,4107,h001,validated,,,莲子,Lianzi,CD40LG,A0A8Q3WKP2
+6,MOL000006,luteolin,Kinetochore protein Nuf2,4311,h001,validated,,,莲子,Lianzi,NUF2,B1AQT3
+6,MOL000006,luteolin,Adenylate cyclase type 2,4015,h001,validated,,,莲子,Lianzi,ADCY2,Q08462
+7206,MOL007206,Armepavine,Prostaglandin G/H synthase 1,6,20,,0.89634,0.73,莲子,Lianzi,PTGS1,A0A087X296
+7206,MOL007206,Armepavine,Muscarinic acetylcholine receptor M3,16,51,,0.96377,0.744,莲子,Lianzi,CHRM3,P20309
+7206,MOL007206,Armepavine,Muscarinic acetylcholine receptor M1,38,103,,0.97498,0.756,莲子,Lianzi,CHRM1,P11229
+7206,MOL007206,Armepavine,Beta-1 adrenergic receptor,63,193,,0.85202,0.718,莲子,Lianzi,ADRB1,P08588
+7206,MOL007206,Armepavine,Sodium channel protein type 5 subunit alpha,70,220,,0.95816,0.746,莲子,Lianzi,SCN5A,Q14524
+7206,MOL007206,Armepavine,Muscarinic acetylcholine receptor M5,87,274,,0.96292,0.734,莲子,Lianzi,CHRM5,P08912
+7206,MOL007206,Armepavine,Prostaglandin G/H synthase 2,94,290,,0.9066,0.806,莲子,Lianzi,PTGS2,A0A7P0T828
+7206,MOL007206,Armepavine,Alpha-2C adrenergic receptor,126,378,,0.87424,0.722,莲子,Lianzi,ADRA2C,Q4W594
+7206,MOL007206,Armepavine,Retinoic acid receptor RXR-alpha,158,459,,0.92094,0.74,莲子,Lianzi,RXRA,P19793
+7206,MOL007206,Armepavine,Delta-type opioid receptor,163,467,,0.97538,0.726,莲子,Lianzi,OPRD1,P41143
+7206,MOL007206,Armepavine,Sodium-dependent noradrenaline transporter,186,540,,0.96465,0.738,莲子,Lianzi,SLC6A2,P23975
+7206,MOL007206,Armepavine,Muscarinic acetylcholine receptor M2,210,617,,0.97391,0.7,莲子,Lianzi,CHRM2,P08172
+7206,MOL007206,Armepavine,Alpha-2B adrenergic receptor,214,629,,0.94061,0.704,莲子,Lianzi,ADRA2B,P18089
+7206,MOL007206,Armepavine,Alpha-1B adrenergic receptor,216,632,,0.94885,0.742,莲子,Lianzi,ADRA1B,P35368
+7206,MOL007206,Armepavine,D(3) dopamine receptor,218,638,,0.97079,0.702,莲子,Lianzi,DRD3,P35462
+7206,MOL007206,Armepavine,Sodium-dependent dopamine transporter,239,713,,0.96157,0.73,莲子,Lianzi,DAT1,Q6LC27
+7206,MOL007206,Armepavine,Beta-2 adrenergic receptor,261,766,,0.96326,0.722,莲子,Lianzi,ADRB2,Q9BYZ0
+7206,MOL007206,Armepavine,Alpha-1D adrenergic receptor,272,789,,0.88943,0.728,莲子,Lianzi,ADRA1D,B0ZBE0
+7206,MOL007206,Armepavine,Sodium-dependent serotonin transporter,290,824,,0.97264,0.724,莲子,Lianzi,SLC6A4,P31645
+7206,MOL007206,Armepavine,Heat shock protein HSP 90,444,1939,,0.94722,0.734,莲子,Lianzi,HSP90AB4P,Q58FF6
+7206,MOL007206,Armepavine,Potassium voltage-gated channel subfamily H member 2,37,101,,0.913747,0.7,莲子,Lianzi,KCNH2,A0AAQ5BGQ9
+7206,MOL007206,Armepavine,Mu-type opioid receptor,299,847,,0.958672,0.71,莲子,Lianzi,OPRM1,L0E130
+7213,MOL007213,Nuciferin,Prostaglandin G/H synthase 1,6,20,,0.873725,0.726,莲子,Lianzi,PTGS1,A0A087X296
+7213,MOL007213,Nuciferin,Muscarinic acetylcholine receptor M3,16,51,,0.946885,0.748,莲子,Lianzi,CHRM3,P20309
+7213,MOL007213,Nuciferin,Muscarinic acetylcholine receptor M1,38,103,,0.965549,0.734,莲子,Lianzi,CHRM1,P11229
+7213,MOL007213,Nuciferin,Androgen receptor,48,146,,0.855038,0.768,莲子,Lianzi,AR,A0A6H0MAE6
+7213,MOL007213,Nuciferin,Sodium channel protein type 5 subunit alpha,70,220,,0.936891,0.752,莲子,Lianzi,SCN5A,Q14524
+7213,MOL007213,Nuciferin,Muscarinic acetylcholine receptor M5,87,274,,0.938225,0.74,莲子,Lianzi,CHRM5,P08912
+7213,MOL007213,Nuciferin,Prostaglandin G/H synthase 2,94,290,,0.844604,0.804,莲子,Lianzi,PTGS2,A0A7P0T828
+7213,MOL007213,Nuciferin,5-hydroxytryptamine receptor 3A,113,341,,0.938158,0.724,莲子,Lianzi,HTR3A,A0A0B4J205
+7213,MOL007213,Nuciferin,Retinoic acid receptor RXR-alpha,158,459,,0.872523,0.74,莲子,Lianzi,RXRA,P19793
+7213,MOL007213,Nuciferin,Delta-type opioid receptor,163,467,,0.947029,0.74,莲子,Lianzi,OPRD1,P41143
+7213,MOL007213,Nuciferin,Acetylcholinesterase,165,474,,0.81987,0.722,莲子,Lianzi,ACHE,C9JD78
+7213,MOL007213,Nuciferin,Sodium-dependent noradrenaline transporter,186,540,,0.934518,0.7,莲子,Lianzi,SLC6A2,P23975
+7213,MOL007213,Nuciferin,Alpha-1A adrenergic receptor,191,556,,0.90422,0.704,莲子,Lianzi,ADRA1A,B0ZBD3
+7213,MOL007213,Nuciferin,Alpha-2B adrenergic receptor,214,629,,0.869894,0.704,莲子,Lianzi,ADRA2B,P18089
+7213,MOL007213,Nuciferin,Alpha-1B adrenergic receptor,216,632,,0.894556,0.734,莲子,Lianzi,ADRA1B,P35368
+7213,MOL007213,Nuciferin,Sodium-dependent dopamine transporter,239,713,,0.923115,0.714,莲子,Lianzi,DAT1,Q6LC27
+7213,MOL007213,Nuciferin,Beta-2 adrenergic receptor,261,766,,0.918206,0.736,莲子,Lianzi,ADRB2,Q9BYZ0
+7213,MOL007213,Nuciferin,Alpha-1D adrenergic receptor,272,789,,0.854,0.746,莲子,Lianzi,ADRA1D,B0ZBE0
+7213,MOL007213,Nuciferin,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.925285,0.702,莲子,Lianzi,CHRNA2,Q15822
+7213,MOL007213,Nuciferin,Sodium-dependent serotonin transporter,290,824,,0.935738,0.728,莲子,Lianzi,SLC6A4,P31645
+7213,MOL007213,Nuciferin,D(2) dopamine receptor,292,831,,0.911288,0.7,莲子,Lianzi,DRD2,B5BUP4
+7213,MOL007213,Nuciferin,Mu-type opioid receptor,299,847,,0.939838,0.722,莲子,Lianzi,OPRM1,L0E130
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Prostaglandin G/H synthase 1,6,20,,0.885061,0.742,莲子,Lianzi,PTGS1,A0A087X296
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Dopamine D1 receptor,7,23,,0.962599,0.716,莲子,Lianzi,DRD1,P21728
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Muscarinic acetylcholine receptor M3,16,51,,0.980512,0.766,莲子,Lianzi,CHRM3,P20309
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Muscarinic acetylcholine receptor M1,38,103,,0.982741,0.77,莲子,Lianzi,CHRM1,P11229
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Androgen receptor,48,146,,0.912831,0.786,莲子,Lianzi,AR,A0A6H0MAE6
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Beta-1 adrenergic receptor,63,193,,0.937961,0.742,莲子,Lianzi,ADRB1,P08588
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Sodium channel protein type 5 subunit alpha,70,220,,0.96187,0.744,莲子,Lianzi,SCN5A,Q14524
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Muscarinic acetylcholine receptor M5,87,274,,0.976624,0.76,莲子,Lianzi,CHRM5,P08912
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Prostaglandin G/H synthase 2,94,290,,0.894809,0.81,莲子,Lianzi,PTGS2,A0A7P0T828
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Alpha-2A adrenergic receptor,105,318,,0.931432,0.706,莲子,Lianzi,ADRA2A,P08913
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Alpha-2C adrenergic receptor,126,378,,0.935818,0.736,莲子,Lianzi,ADRA2C,Q4W594
+9156,MOL009156,4'-methyl-N-methylcoclaurine,D(4) dopamine receptor,145,432,,0.850712,0.702,莲子,Lianzi,DRD4,K9MAZ0
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Retinoic acid receptor RXR-alpha,158,459,,0.922507,0.748,莲子,Lianzi,RXRA,P19793
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Delta-type opioid receptor,163,467,,0.98432,0.748,莲子,Lianzi,OPRD1,P41143
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Sodium-dependent noradrenaline transporter,186,540,,0.966997,0.734,莲子,Lianzi,SLC6A2,P23975
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Alpha-1A adrenergic receptor,191,556,,0.982155,0.748,莲子,Lianzi,ADRA1A,B0ZBD3
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Muscarinic acetylcholine receptor M2,210,617,,0.98541,0.724,莲子,Lianzi,CHRM2,P08172
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Alpha-2B adrenergic receptor,214,629,,0.972746,0.712,莲子,Lianzi,ADRA2B,P18089
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Alpha-1B adrenergic receptor,216,632,,0.969688,0.776,莲子,Lianzi,ADRA1B,P35368
+9156,MOL009156,4'-methyl-N-methylcoclaurine,D(3) dopamine receptor,218,638,,0.978832,0.724,莲子,Lianzi,DRD3,P35462
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Sodium-dependent dopamine transporter,239,713,,0.970288,0.748,莲子,Lianzi,DAT1,Q6LC27
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Beta-2 adrenergic receptor,261,766,,0.976656,0.766,莲子,Lianzi,ADRB2,Q9BYZ0
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Alpha-1D adrenergic receptor,272,789,,0.938313,0.756,莲子,Lianzi,ADRA1D,B0ZBE0
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Sodium-dependent serotonin transporter,290,824,,0.979494,0.742,莲子,Lianzi,SLC6A4,P31645
+9156,MOL009156,4'-methyl-N-methylcoclaurine,D(2) dopamine receptor,292,831,,0.962819,0.726,莲子,Lianzi,DRD2,B5BUP4
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Mu-type opioid receptor,299,847,,0.972813,0.728,莲子,Lianzi,OPRM1,L0E130
+9156,MOL009156,4'-methyl-N-methylcoclaurine,Heat shock protein HSP 90,444,1939,,0.936956,0.706,莲子,Lianzi,HSP90AB4P,Q58FF6
+9157,MOL009157,NSC90384,Glucocorticoid receptor,308,871,,0.868549,0.718,莲子,Lianzi,NR3C1,H6V744
+9160,MOL009160,Loureirin A,Prostaglandin G/H synthase 1,6,20,,0.853846,0.734,莲子,Lianzi,PTGS1,A0A087X296
+9160,MOL009160,Loureirin A,Muscarinic acetylcholine receptor M3,16,51,,0.841265,0.712,莲子,Lianzi,CHRM3,P20309
+9160,MOL009160,Loureirin A,Muscarinic acetylcholine receptor M1,38,103,,0.879059,0.726,莲子,Lianzi,CHRM1,P11229
+9160,MOL009160,Loureirin A,Estrogen receptor,46,136,,0.933698,0.792,莲子,Lianzi,ESR1,Q9H2M2
+9160,MOL009160,Loureirin A,Sodium channel protein type 5 subunit alpha,70,220,,0.858711,0.744,莲子,Lianzi,SCN5A,Q14524
+9160,MOL009160,Loureirin A,Prostaglandin G/H synthase 2,94,290,,0.897151,0.836,莲子,Lianzi,PTGS2,A0A7P0T828
+9160,MOL009160,Loureirin A,Retinoic acid receptor RXR-alpha,158,459,,0.886591,0.722,莲子,Lianzi,RXRA,P19793
+9160,MOL009160,Loureirin A,Alpha-1A adrenergic receptor,191,556,,0.8754,0.716,莲子,Lianzi,ADRA1A,B0ZBD3
+9160,MOL009160,Loureirin A,Alpha-1B adrenergic receptor,216,632,,0.868738,0.746,莲子,Lianzi,ADRA1B,P35368
+9160,MOL009160,Loureirin A,Sodium-dependent dopamine transporter,239,713,,0.906089,0.722,莲子,Lianzi,DAT1,Q6LC27
+9160,MOL009160,Loureirin A,Beta-2 adrenergic receptor,261,766,,0.927084,0.734,莲子,Lianzi,ADRB2,Q9BYZ0
+9160,MOL009160,Loureirin A,Sodium-dependent serotonin transporter,290,824,,0.933778,0.722,莲子,Lianzi,SLC6A4,P31645
+9160,MOL009160,Loureirin A,Estrogen receptor beta,307,869,,0.84707,0.736,莲子,Lianzi,ESR2,A0A679EN27
+9160,MOL009160,Loureirin A,Cell division protein kinase 2,482,2240,,0.896542,0.734,莲子,Lianzi,CDK2,E7ESI2
+9160,MOL009160,Loureirin A,Leukotriene A-4 hydrolase,521,3060,,0.86483,0.742,莲子,Lianzi,LTA4H,P09960
+9160,MOL009160,Loureirin A,Amine oxidase [flavin-containing] B,565,3939,,0.85799,0.728,莲子,Lianzi,MAOB,P27338
+9160,MOL009160,Loureirin A,Cyclin-A2,3025,6235,,0.944205,0.706,莲子,Lianzi,CCNA2,P20248
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Prostaglandin G/H synthase 1,6,20,,0.880313,0.738,莲子,Lianzi,PTGS1,A0A087X296
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Muscarinic acetylcholine receptor M3,16,51,,0.980289,0.754,莲子,Lianzi,CHRM3,P20309
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Potassium voltage-gated channel subfamily H member 2,37,101,,0.941613,0.714,莲子,Lianzi,KCNH2,A0AAQ5BGQ9
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Muscarinic acetylcholine receptor M1,38,103,,0.983421,0.75,莲子,Lianzi,CHRM1,P11229
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Beta-1 adrenergic receptor,63,193,,0.913565,0.72,莲子,Lianzi,ADRB1,P08588
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Sodium channel protein type 5 subunit alpha,70,220,,0.976693,0.734,莲子,Lianzi,SCN5A,Q14524
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Muscarinic acetylcholine receptor M5,87,274,,0.978478,0.73,莲子,Lianzi,CHRM5,P08912
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Prostaglandin G/H synthase 2,94,290,,0.892048,0.798,莲子,Lianzi,PTGS2,A0A7P0T828
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Alpha-2C adrenergic receptor,126,378,,0.929554,0.722,莲子,Lianzi,ADRA2C,Q4W594
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Retinoic acid receptor RXR-alpha,158,459,,0.930141,0.728,莲子,Lianzi,RXRA,P19793
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Delta-type opioid receptor,163,467,,0.986914,0.738,莲子,Lianzi,OPRD1,P41143
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Sodium-dependent noradrenaline transporter,186,540,,0.977207,0.73,莲子,Lianzi,SLC6A2,P23975
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Muscarinic acetylcholine receptor M2,210,617,,0.985686,0.716,莲子,Lianzi,CHRM2,P08172
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Alpha-1B adrenergic receptor,216,632,,0.975007,0.746,莲子,Lianzi,ADRA1B,P35368
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",D(3) dopamine receptor,218,638,,0.984779,0.712,莲子,Lianzi,DRD3,P35462
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Sodium-dependent dopamine transporter,239,713,,0.979811,0.732,莲子,Lianzi,DAT1,Q6LC27
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Beta-2 adrenergic receptor,261,766,,0.980086,0.728,莲子,Lianzi,ADRB2,Q9BYZ0
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Alpha-1D adrenergic receptor,272,789,,0.939405,0.73,莲子,Lianzi,ADRA1D,B0ZBE0
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Sodium-dependent serotonin transporter,290,824,,0.98508,0.716,莲子,Lianzi,SLC6A4,P31645
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",D(2) dopamine receptor,292,831,,0.963865,0.704,莲子,Lianzi,DRD2,B5BUP4
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Mu-type opioid receptor,299,847,,0.976123,0.704,莲子,Lianzi,OPRM1,L0E130
+9167,MOL009167,"(1R)-6,7-dimethoxy-1-(4-methoxybenzyl)-2-methyl-3,4-dihydro-1H-isoquinoline",Heat shock protein HSP 90,444,1939,,0.944217,0.73,莲子,Lianzi,HSP90AB4P,Q58FF6
+9172,MOL009172,Pronuciferin,Prostaglandin G/H synthase 1,6,20,,0.907628,0.734,莲子,Lianzi,PTGS1,A0A087X296
+9172,MOL009172,Pronuciferin,Dopamine D1 receptor,7,23,,0.92881,0.72,莲子,Lianzi,DRD1,P21728
+9172,MOL009172,Pronuciferin,Muscarinic acetylcholine receptor M3,16,51,,0.962648,0.752,莲子,Lianzi,CHRM3,P20309
+9172,MOL009172,Pronuciferin,Muscarinic acetylcholine receptor M1,38,103,,0.973133,0.742,莲子,Lianzi,CHRM1,P11229
+9172,MOL009172,Pronuciferin,Sodium channel protein type 5 subunit alpha,70,220,,0.954079,0.74,莲子,Lianzi,SCN5A,Q14524
+9172,MOL009172,Pronuciferin,Muscarinic acetylcholine receptor M5,87,274,,0.950627,0.74,莲子,Lianzi,CHRM5,P08912
+9172,MOL009172,Pronuciferin,Prostaglandin G/H synthase 2,94,290,,0.869195,0.782,莲子,Lianzi,PTGS2,A0A7P0T828
+9172,MOL009172,Pronuciferin,5-hydroxytryptamine receptor 3A,113,341,,0.955498,0.712,莲子,Lianzi,HTR3A,A0A0B4J205
+9172,MOL009172,Pronuciferin,Retinoic acid receptor RXR-alpha,158,459,,0.873725,0.718,莲子,Lianzi,RXRA,P19793
+9172,MOL009172,Pronuciferin,Delta-type opioid receptor,163,467,,0.974982,0.766,莲子,Lianzi,OPRD1,P41143
+9172,MOL009172,Pronuciferin,Sodium-dependent noradrenaline transporter,186,540,,0.959674,0.71,莲子,Lianzi,SLC6A2,P23975
+9172,MOL009172,Pronuciferin,Alpha-1A adrenergic receptor,191,556,,0.936663,0.706,莲子,Lianzi,ADRA1A,B0ZBD3
+9172,MOL009172,Pronuciferin,Muscarinic acetylcholine receptor M2,210,617,,0.967359,0.724,莲子,Lianzi,CHRM2,P08172
+9172,MOL009172,Pronuciferin,Alpha-2B adrenergic receptor,214,629,,0.888888,0.704,莲子,Lianzi,ADRA2B,P18089
+9172,MOL009172,Pronuciferin,Alpha-1B adrenergic receptor,216,632,,0.906643,0.742,莲子,Lianzi,ADRA1B,P35368
+9172,MOL009172,Pronuciferin,Beta-2 adrenergic receptor,261,766,,0.939372,0.7,莲子,Lianzi,ADRB2,Q9BYZ0
+9172,MOL009172,Pronuciferin,Alpha-1D adrenergic receptor,272,789,,0.820259,0.726,莲子,Lianzi,ADRA1D,B0ZBE0
+9172,MOL009172,Pronuciferin,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.943833,0.712,莲子,Lianzi,CHRNA2,Q15822
+9172,MOL009172,Pronuciferin,Sodium-dependent serotonin transporter,290,824,,0.962778,0.712,莲子,Lianzi,SLC6A4,P31645
+9172,MOL009172,Pronuciferin,D(2) dopamine receptor,292,831,,0.948942,0.722,莲子,Lianzi,DRD2,B5BUP4
+9172,MOL009172,Pronuciferin,Mu-type opioid receptor,299,847,,0.971824,0.772,莲子,Lianzi,OPRM1,L0E130
+98,MOL000098,quercetin,Prostaglandin G/H synthase 1,6,20,validated,0.901555,0.716,莲子,Lianzi,PTGS1,A0A087X296
+98,MOL000098,quercetin,Androgen receptor,48,146,validated,0.857042,0.77,莲子,Lianzi,AR,A0A6H0MAE6
+98,MOL000098,quercetin,Peroxisome proliferator activated receptor gamma,78,238,,0.884196,0.708,莲子,Lianzi,ppar gamma2,Q9UEF6
+98,MOL000098,quercetin,Prostaglandin G/H synthase 2,94,290,validated,0.940132,0.82,莲子,Lianzi,PTGS2,A0A7P0T828
+98,MOL000098,quercetin,Heat shock protein HSP 90,444,1939,,0.963059,0.722,莲子,Lianzi,HSP90AB4P,Q58FF6
+98,MOL000098,quercetin,Nuclear receptor coactivator 2,3276,6241,,0.802254,0.788,莲子,Lianzi,NCOA2,H0YBB6
+98,MOL000098,quercetin,Dipeptidyl peptidase IV,332,952,,0.868838,0.702,莲子,Lianzi,dpp4,A0A7S5DJN1
+98,MOL000098,quercetin,Trypsin-1,2928,3176,,0.87955,0.796,莲子,Lianzi,PRSS1,Q7Z445
+98,MOL000098,quercetin,DNA topoisomerase II,287,817,,0.84204,0.714,莲子,Lianzi,TOP2A,J3KTB7
+98,MOL000098,quercetin,Potassium voltage-gated channel subfamily H member 2,37,101,,0.859815,0.702,莲子,Lianzi,KCNH2,A0AAQ5BGQ9
+98,MOL000098,quercetin,Sodium channel protein type 5 subunit alpha,70,220,,0.821585,0.714,莲子,Lianzi,SCN5A,Q14524
+98,MOL000098,quercetin,Beta-2 adrenergic receptor,261,766,,0.864494,0.708,莲子,Lianzi,ADRB2,Q9BYZ0
+98,MOL000098,quercetin,Stromelysin-1,441,1926,,0.840368,0.712,莲子,Lianzi,MMP3,P08254
+98,MOL000098,quercetin,Retinoic acid receptor RXR-alpha,158,459,,0.93284,0.704,莲子,Lianzi,RXRA,P19793
+98,MOL000098,quercetin,Acetylcholinesterase,165,474,,0.87927,0.7,莲子,Lianzi,ACHE,C9JD78
+98,MOL000098,quercetin,Amine oxidase [flavin-containing] B,565,3939,,0.801801,0.706,莲子,Lianzi,MAOB,P27338
+98,MOL000098,quercetin,Epidermal growth factor receptor,298,844,validated,,,莲子,Lianzi,EGFR,A0A068JCC9
+98,MOL000098,quercetin,RAC-alpha serine/threonine-protein kinase,4490,h001,validated,,,莲子,Lianzi,AKT1,B0LPE5
+98,MOL000098,quercetin,Vascular endothelial growth factor A,740,183,validated,,,莲子,Lianzi,VEGFA,P15692
+98,MOL000098,quercetin,Apoptosis regulator Bcl-2,86,273,validated,,,莲子,Lianzi,BCL2,A0A1L4AQQ8
+98,MOL000098,quercetin,Bcl-2-like protein 1,4054,h001,validated,,,莲子,Lianzi,BCL2L1,Q5QP59
+98,MOL000098,quercetin,Proto-oncogene c-Fos,4478,h001,validated,,,莲子,Lianzi,FOS,P01100
+98,MOL000098,quercetin,Eukaryotic translation initiation factor 6,4197,h001,validated,,,莲子,Lianzi,EIF6,A0A0B4J1Y7
+98,MOL000098,quercetin,Apoptosis regulator BAX,4033,h001,validated,,,莲子,Lianzi,Bax,A0A0C4MVT1
+98,MOL000098,quercetin,Caspase-9,4090,h001,validated,,,莲子,Lianzi,CASP9,F8VWA5
+98,MOL000098,quercetin,72 kDa type IV collagenase,238,707,validated,,,莲子,Lianzi,MMP2,P08253
+98,MOL000098,quercetin,Mitogen-activated protein kinase 1,354,1176,validated,,,莲子,Lianzi,MAPK1IP1L,Q8NDC0
+98,MOL000098,quercetin,Interleukin-10,4292,h001,validated,,,莲子,Lianzi,IL10,B3VI66
+98,MOL000098,quercetin,Pro-epidermal growth factor,734,1278,validated,,,莲子,Lianzi,EGF,A0A494C018
+98,MOL000098,quercetin,Retinoblastoma-associated protein,2915,3846,validated,,,莲子,Lianzi,RB1,A0A3B3IS71
+98,MOL000098,quercetin,Tumor necrosis factor,265,777,validated,,,莲子,Lianzi,TNF-alpha,A0A510GFL8
+98,MOL000098,quercetin,Transcription factor AP-1,414,1629,validated,,,莲子,Lianzi,JUNB,P17275
+98,MOL000098,quercetin,Interleukin-6,351,1159,validated,,,莲子,Lianzi,IL6,A0A8Q3SJL1
+98,MOL000098,quercetin,Activator of 90 kDa heat shock protein ATPase homolog 1,4007,h001,validated,,,莲子,Lianzi,AHSA1,O95433
+98,MOL000098,quercetin,Caspase-3,4087,h001,validated,,,莲子,Lianzi,CASP3,A0A8V8TPU5
+98,MOL000098,quercetin,Cellular tumor antigen p53,646,5788,validated,,,莲子,Lianzi,TP53,A0A0U1RQC9
+98,MOL000098,quercetin,ETS domain-containing protein Elk-1,4194,h001,validated,,,莲子,Lianzi,ELK1,Q6FG56
+98,MOL000098,quercetin,NF-kappa-B inhibitor alpha,4394,h001,validated,,,莲子,Lianzi,NFKBIA,A0A8V8TLE7
+98,MOL000098,quercetin,NADPH--cytochrome P450 reductase,744,4120,validated,,,莲子,Lianzi,POR,A0A9L9PY49
+98,MOL000098,quercetin,Xanthine dehydrogenase/oxidase,568,3947,validated,,,莲子,Lianzi,XDH,A0AA96C912
+98,MOL000098,quercetin,Caspase-8,4089,h001,validated,,,莲子,Lianzi,CASP8,A0A8Q3SID9
+98,MOL000098,quercetin,RAF proto-oncogene serine/threonine-protein kinase,4491,h001,validated,,,莲子,Lianzi,RAF1,L7RRS6
+98,MOL000098,quercetin,Protein kinase C alpha type,4469,h001,validated,,,莲子,Lianzi,PRKCA,P17252
+98,MOL000098,quercetin,Hypoxia-inducible factor 1-alpha,4263,h001,validated,,,莲子,Lianzi,HIF1A,D0VY79
+98,MOL000098,quercetin,Signal transducer and activator of transcription 1-alpha/beta,4525,h001,validated,,,莲子,Lianzi,STAT1,P42224
+98,MOL000098,quercetin,Protein CBFA2T1,4464,h001,validated,,,莲子,Lianzi,RUNX1T1,Q06455
+98,MOL000098,quercetin,Receptor tyrosine-protein kinase erbB-2,4496,h001,validated,,,莲子,Lianzi,ERBB2,E2I6F8
+98,MOL000098,quercetin,Peroxisome proliferator-activated receptor gamma,4422,h001,validated,,,莲子,Lianzi,ppar gamma2,Q9UEF6
+98,MOL000098,quercetin,Acetyl-CoA carboxylase 1,231,690,validated,,,莲子,Lianzi,ACC1,D3YTJ0
+98,MOL000098,quercetin,Heme oxygenase 1,2132,3391,validated,,,莲子,Lianzi,HMOX1,B1AHA8
+98,MOL000098,quercetin,Cytochrome P450 1A2,724,4200,validated,,,莲子,Lianzi,CYP1A2,P05177
+98,MOL000098,quercetin,Caveolin-1,4095,h001,validated,,,莲子,Lianzi,CAV1,A0A7P0YWJ6
+98,MOL000098,quercetin,Gap junction alpha-1 protein,436,1827,validated,,,莲子,Lianzi,CXNK1,A0A654IE86
+98,MOL000098,quercetin,Cytochrome P450 1A1,4149,h001,validated,,,莲子,Lianzi,CYP1A1,P04798
+98,MOL000098,quercetin,Intercellular adhesion molecule 1,4287,h001,validated,,,莲子,Lianzi,ICAM1,K7EKL8
+98,MOL000098,quercetin,Interleukin-1 beta,418,1654,validated,,,莲子,Lianzi,IL1B,A0AA51YZX7
+98,MOL000098,quercetin,C-C motif chemokine 2,417,1649,validated,,,莲子,Lianzi,CCL2,P13500
+98,MOL000098,quercetin,Vascular cell adhesion protein 1,440,1908,validated,,,莲子,Lianzi,VCAM1,E9PDD2
+98,MOL000098,quercetin,Prostaglandin E2 receptor EP3 subtype,593,4131,validated,,,莲子,Lianzi,EP3f,Q5CZ60
+98,MOL000098,quercetin,Interleukin-8,4303,h001,validated,,,莲子,Lianzi,IL8,A0A7U3S0Q4
+98,MOL000098,quercetin,Protein kinase C beta type,4470,h001,validated,,,莲子,Lianzi,PRKCB,P05771
+98,MOL000098,quercetin,Baculoviral IAP repeat-containing protein 5,4044,h001,validated,,,莲子,Lianzi,BIRC5,A3E0Z4
+98,MOL000098,quercetin,Dual oxidase 2,4174,h001,validated,,,莲子,Lianzi,DUOX2,S6BJ80
+98,MOL000098,quercetin,Heat shock protein beta-1,4247,h001,validated,,,莲子,Lianzi,HEL-S-102,V9HW43
+98,MOL000098,quercetin,Transforming growth factor beta-1,4568,h001,validated,,,莲子,Lianzi,TGFB1,A0A078BCH8
+98,MOL000098,quercetin,Estrogen sulfotransferase,781,1275,validated,,,莲子,Lianzi,SULT1E1,P49888
+98,MOL000098,quercetin,Interleukin-2,3978,1575,validated,,,莲子,Lianzi,IL2,Q6NZ91
+98,MOL000098,quercetin,Nuclear receptor subfamily 1 group I member 2,4403,h001,validated,,,莲子,Lianzi,NR1i2,F1D8P9
+98,MOL000098,quercetin,Cytochrome P450 1B1,4150,h001,validated,,,莲子,Lianzi,CYP1B1,Q4U3K8
+98,MOL000098,quercetin,G2/mitotic-specific cyclin-B1,4219,h001,validated,,,莲子,Lianzi,CCNB1,P14635
+98,MOL000098,quercetin,Tissue-type plasminogen activator,434,1792,validated,,,莲子,Lianzi,PLAT,B4DN26
+98,MOL000098,quercetin,Plasminogen activator inhibitor 1,4429,h001,validated,,,莲子,Lianzi,PAI-1,A0A5B9RUH0
+98,MOL000098,quercetin,Collagen alpha-1(I) chain,731,28,validated,,,莲子,Lianzi,COL1A1,Q9UE86
+98,MOL000098,quercetin,Arachidonate 5-lipoxygenase,88,275,validated,,,莲子,Lianzi,ALOX5,A0A087X109
+98,MOL000098,quercetin,"Phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN",4620,h001,validated,,,莲子,Lianzi,PTEN,A0A8V8TQX2
+98,MOL000098,quercetin,Interleukin-1 alpha,4297,h001,validated,,,莲子,Lianzi,IL1A,P01583
+98,MOL000098,quercetin,Myeloperoxidase,428,1757,validated,,,莲子,Lianzi,MPO,P05164
+98,MOL000098,quercetin,DNA topoisomerase 2-alpha,4172,h001,validated,,,莲子,Lianzi,TOP2A,P11388
+98,MOL000098,quercetin,ATP-binding cassette sub-family G member 2,4038,h001,validated,,,莲子,Lianzi,ABCG2,I7JB59
+98,MOL000098,quercetin,Glutathione S-transferase P,733,904,validated,,,莲子,Lianzi,GSTP1,B2C310
+98,MOL000098,quercetin,Nuclear factor erythroid 2-related factor 2,4398,h001,validated,,,莲子,Lianzi,NFE2L2,C9J0Y1
+98,MOL000098,quercetin,Poly [ADP-ribose] polymerase 1,4435,h001,validated,,,莲子,Lianzi,PARP1,A0A7I2V384
+98,MOL000098,quercetin,"Solute carrier family 2, facilitated glucose transporter member 4",4535,h001,validated,,,莲子,Lianzi,SLC2A4,F5H081
+98,MOL000098,quercetin,Collagen alpha-1(III) chain,2885,3853,validated,,,莲子,Lianzi,COL3A1,P02461
+98,MOL000098,quercetin,C-X-C motif chemokine 11,4137,h001,validated,,,莲子,Lianzi,CXCL11,O14625
+98,MOL000098,quercetin,C-X-C motif chemokine 2,4138,h001,validated,,,莲子,Lianzi,CXCL2,P19875
+98,MOL000098,quercetin,DDB1- and CUL4-associated factor 5,4159,h001,validated,,,莲子,Lianzi,DCAF5,G3V4Z1
+98,MOL000098,quercetin,Nuclear receptor subfamily 1 group I member 3,4404,h001,validated,,,莲子,Lianzi,NR1I3,D6REZ7
+98,MOL000098,quercetin,Serine/threonine-protein kinase Chk2,4513,h001,validated,,,莲子,Lianzi,CHEK2,B7ZBF2
+98,MOL000098,quercetin,Insulin receptor,11,36,validated,,,莲子,Lianzi,INSR,P06213
+98,MOL000098,quercetin,Peroxisome proliferator-activated receptor delta,4421,h001,validated,,,莲子,Lianzi,PPARD,Q03181
+98,MOL000098,quercetin,C-reactive protein,4130,h001,validated,,,莲子,Lianzi,CRP,P02741
+98,MOL000098,quercetin,C-X-C motif chemokine 10,4136,h001,validated,,,莲子,Lianzi,CXCL10,P02778
+98,MOL000098,quercetin,Osteopontin,4411,h001,validated,,,莲子,Lianzi,opn,C4B6Q2
+98,MOL000098,quercetin,Runt-related transcription factor 2,4505,h001,validated,,,莲子,Lianzi,RUNX2,Q13950
+98,MOL000098,quercetin,Ras association domain-containing protein 1,4492,h001,validated,,,莲子,Lianzi,RASSF1,Q9NS23
+98,MOL000098,quercetin,Transcription factor E2F1,4560,h001,validated,,,莲子,Lianzi,E2F1,Q01094
+98,MOL000098,quercetin,Transcription factor E2F2,4561,h001,validated,,,莲子,Lianzi,E2F2,Q14209
+98,MOL000098,quercetin,Prostatic acid phosphatase,2998,1859,validated,,,莲子,Lianzi,ACP3,P15309
+98,MOL000098,quercetin,Cathepsin D,363,1243,validated,,,莲子,Lianzi,CTSD,P07339
+98,MOL000098,quercetin,Insulin-like growth factor II,4279,h001,validated,,,莲子,Lianzi,IGF2R,Q13661
+98,MOL000098,quercetin,CD40 ligand,4107,h001,validated,,,莲子,Lianzi,CD40LG,A0A8Q3WKP2
+98,MOL000098,quercetin,Interferon regulatory factor 1,4290,h001,validated,,,莲子,Lianzi,IRF1,C9JD95
+98,MOL000098,quercetin,Serum paraoxonase/arylesterase 1,357,1198,validated,,,莲子,Lianzi,PON1,P27169
+98,MOL000098,quercetin,Type I iodothyronine deiodinase,4589,h001,validated,,,莲子,Lianzi,DIO1,P49895
+98,MOL000098,quercetin,Puromycin-sensitive aminopeptidase,4484,h001,validated,,,莲子,Lianzi,NPEPPSL1,A6NEC2
+98,MOL000098,quercetin,Homeobox protein Nkx-3.1,4259,h001,validated,,,莲子,Lianzi,NKX3-1,Q99801
+98,MOL000098,quercetin,Ras GTPase-activating protein 1,4493,h001,validated,,,莲子,Lianzi,SYNGAP1,A0A140T8W4
+98,MOL000098,quercetin,Glutathione S-transferase Mu 1,2952,896,validated,,,莲子,Lianzi,GSTM1,H3BQT3
+98,MOL000098,quercetin,Glutathione S-transferase Mu 2,3688,2165,validated,,,莲子,Lianzi,GSTM2,E9PGV1
+2039,MOL002039,Isopimaric acid,Retinoic acid receptor RXR-alpha,158,459,,0.852619,0.712,百合,Baihe,RXRA,P19793
+2039,MOL002039,Isopimaric acid,Progesterone receptor,209,614,,0.881066,0.728,百合,Baihe,PGR,A0A4P8D7F0
+2039,MOL002039,Isopimaric acid,Prostaglandin G/H synthase 2,94,290,,0.81548,0.762,百合,Baihe,PTGS2,A0A7P0T828
+2039,MOL002039,Isopimaric acid,Nuclear receptor coactivator 2,3276,6241,,0.80069,0.77,百合,Baihe,NCOA2,H0YBB6
+2039,MOL002039,Isopimaric acid,Nuclear receptor coactivator 1,3279,6228,,0.80984,0.732,百合,Baihe,NCOA1,B5MCN7
+449,MOL000449,Stigmasterol,Progesterone receptor,209,614,,0.91372,0.722,百合,Baihe,PGR,A0A4P8D7F0
+449,MOL000449,Stigmasterol,Nuclear receptor coactivator 2,3276,6241,,0.80043,0.724,百合,Baihe,NCOA2,H0YBB6
+449,MOL000449,Stigmasterol,Alcohol dehydrogenase 1C,727,517,,0.916712,0.718,百合,Baihe,ADH1C,A0A087WU81
+449,MOL000449,Stigmasterol,Ig gamma-1 chain C region,1201,4785,,0.865274,0.716,百合,Baihe,IGHG1,P01857
+449,MOL000449,Stigmasterol,Retinoic acid receptor RXR-alpha,158,459,,0.908315,0.702,百合,Baihe,RXRA,P19793
+449,MOL000449,Stigmasterol,Nuclear receptor coactivator 1,3279,6228,,0.903861,0.738,百合,Baihe,NCOA1,B5MCN7
+449,MOL000449,Stigmasterol,Prostaglandin G/H synthase 1,6,20,,0.926223,0.788,百合,Baihe,PTGS1,A0A087X296
+449,MOL000449,Stigmasterol,Prostaglandin G/H synthase 2,94,290,,0.952074,0.844,百合,Baihe,PTGS2,A0A7P0T828
+449,MOL000449,Stigmasterol,Alpha-2A adrenergic receptor,105,318,,0.80929,0.718,百合,Baihe,ADRA2A,P08913
+449,MOL000449,Stigmasterol,Sodium-dependent noradrenaline transporter,186,540,,0.829138,0.708,百合,Baihe,SLC6A2,P23975
+449,MOL000449,Stigmasterol,Sodium-dependent dopamine transporter,239,713,,0.836413,0.734,百合,Baihe,DAT1,Q6LC27
+449,MOL000449,Stigmasterol,Beta-2 adrenergic receptor,261,766,,0.849795,0.746,百合,Baihe,ADRB2,Q9BYZ0
+449,MOL000449,Stigmasterol,Leukotriene A-4 hydrolase,521,3060,,0.916724,0.734,百合,Baihe,LTA4H,P09960
+449,MOL000449,Stigmasterol,Amine oxidase [flavin-containing] B,565,3939,,0.958232,0.77,百合,Baihe,MAOB,P27338
+449,MOL000449,Stigmasterol,Amine oxidase [flavin-containing] A,566,3941,,0.96149,0.72,百合,Baihe,MAOA,A0A1W5KJW8
+449,MOL000449,Stigmasterol,Chymotrypsinogen B,1696,6011,,0.825543,0.724,百合,Baihe,CTRB1,P17538
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M3,16,51,,0.909264,0.752,百合,Baihe,CHRM3,P20309
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M1,38,103,,0.917348,0.76,百合,Baihe,CHRM1,P11229
+449,MOL000449,Stigmasterol,Beta-1 adrenergic receptor,63,193,,0.833128,0.72,百合,Baihe,ADRB1,P08588
+449,MOL000449,Stigmasterol,Sodium channel protein type 5 subunit alpha,70,220,,0.827658,0.7,百合,Baihe,SCN5A,Q14524
+449,MOL000449,Stigmasterol,Alpha-1A adrenergic receptor,191,556,,0.838547,0.738,百合,Baihe,ADRA1A,B0ZBD3
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M2,210,617,,0.914792,0.728,百合,Baihe,CHRM2,P08172
+449,MOL000449,Stigmasterol,Alpha-1B adrenergic receptor,216,632,,0.87389,0.752,百合,Baihe,ADRA1B,P35368
+358,MOL000358,beta-sitosterol,Progesterone receptor,209,614,,0.90711,0.728,百合,Baihe,PGR,A0A4P8D7F0
+358,MOL000358,beta-sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,百合,Baihe,NCOA2,H0YBB6
+358,MOL000358,beta-sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,百合,Baihe,PTGS1,A0A087X296
+358,MOL000358,beta-sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,百合,Baihe,PTGS2,A0A7P0T828
+358,MOL000358,beta-sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,百合,Baihe,HSP90AB4P,Q58FF6
+358,MOL000358,beta-sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,百合,Baihe,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,百合,Baihe,DRD1,P21728
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,百合,Baihe,CHRM3,P20309
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,百合,Baihe,CHRM1,P11229
+358,MOL000358,beta-sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,百合,Baihe,SCN5A,Q14524
+358,MOL000358,beta-sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,百合,Baihe,ADRA1A,B0ZBD3
+358,MOL000358,beta-sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,百合,Baihe,CHRM2,P08172
+358,MOL000358,beta-sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,百合,Baihe,ADRA1B,P35368
+358,MOL000358,beta-sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,百合,Baihe,ADRB2,Q9BYZ0
+358,MOL000358,beta-sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,百合,Baihe,CHRNA2,Q15822
+358,MOL000358,beta-sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,百合,Baihe,SLC6A4,P31645
+358,MOL000358,beta-sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,百合,Baihe,OPRM1,L0E130
+358,MOL000358,beta-sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,百合,Baihe,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,百合,Baihe,Bax,A0A0C4MVT1
+358,MOL000358,beta-sitosterol,Caspase-9,4090,h001,validated,,,百合,Baihe,CASP9,F8VWA5
+358,MOL000358,beta-sitosterol,Transcription factor AP-1,414,1629,validated,,,百合,Baihe,JUNB,P17275
+358,MOL000358,beta-sitosterol,Caspase-3,4087,h001,validated,,,百合,Baihe,CASP3,A0A8V8TPU5
+358,MOL000358,beta-sitosterol,Caspase-8,4089,h001,validated,,,百合,Baihe,CASP8,A0A8Q3SID9
+358,MOL000358,beta-sitosterol,Protein kinase C alpha type,4469,h001,validated,,,百合,Baihe,PRKCA,P17252
+358,MOL000358,beta-sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,百合,Baihe,TGFB1,A0A078BCH8
+358,MOL000358,beta-sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,百合,Baihe,PON1,P27169
+358,MOL000358,beta-sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,百合,Baihe,MAP2,E7EV03
+9458,MOL009458,3-Demethylcolchicine,Prostaglandin G/H synthase 1,6,20,,0.903143,0.716,百合,Baihe,PTGS1,A0A087X296
+9458,MOL009458,3-Demethylcolchicine,Potassium voltage-gated channel subfamily H member 2,37,101,,0.813926,0.714,百合,Baihe,KCNH2,A0AAQ5BGQ9
+9458,MOL009458,3-Demethylcolchicine,Estrogen receptor,46,136,,0.924645,0.806,百合,Baihe,ESR1,Q9H2M2
+9458,MOL009458,3-Demethylcolchicine,Androgen receptor,48,146,,0.858332,0.796,百合,Baihe,AR,A0A6H0MAE6
+9458,MOL009458,3-Demethylcolchicine,Prostaglandin G/H synthase 2,94,290,,0.89997,0.752,百合,Baihe,PTGS2,A0A7P0T828
+9458,MOL009458,3-Demethylcolchicine,DNA topoisomerase II,287,817,,0.816667,0.714,百合,Baihe,TOP2A,J3KTB7
+9458,MOL009458,3-Demethylcolchicine,Serine/threonine-protein kinase Chk1,647,5790,,0.909622,0.714,百合,Baihe,CHEK1,E9PKQ3
+9471,MOL009471,"26-O-β-D-glucopyranosyl-3β,26-dihydroxy-cholestan-16,22-dioxo-3-O-α-L-rhamnopyranosyl-(1→2)-β-D-glucopyranoside_qt",Progesterone receptor,209,614,,0.880376,0.708,百合,Baihe,PGR,A0A4P8D7F0
+1525,MOL001525,Daucosterol,Progesterone receptor,209,614,,0.908982,0.728,益智仁,Yizhiren,PGR,A0A4P8D7F0
+1525,MOL001525,Daucosterol,Nuclear receptor coactivator 2,3276,6241,,0.800352,0.71,益智仁,Yizhiren,NCOA2,H0YBB6
+359,MOL000359,sitosterol,Progesterone receptor,209,614,,0.900536,0.726,益智仁,Yizhiren,PGR,A0A4P8D7F0
+359,MOL000359,sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.805051,0.702,益智仁,Yizhiren,NCOA2,H0YBB6
+449,MOL000449,Stigmasterol,Progesterone receptor,209,614,,0.91372,0.722,益智仁,Yizhiren,PGR,A0A4P8D7F0
+449,MOL000449,Stigmasterol,Nuclear receptor coactivator 2,3276,6241,,0.80043,0.724,益智仁,Yizhiren,NCOA2,H0YBB6
+449,MOL000449,Stigmasterol,Alcohol dehydrogenase 1C,727,517,,0.916712,0.718,益智仁,Yizhiren,ADH1C,A0A087WU81
+449,MOL000449,Stigmasterol,Ig gamma-1 chain C region,1201,4785,,0.865274,0.716,益智仁,Yizhiren,IGHG1,P01857
+449,MOL000449,Stigmasterol,Retinoic acid receptor RXR-alpha,158,459,,0.908315,0.702,益智仁,Yizhiren,RXRA,P19793
+449,MOL000449,Stigmasterol,Nuclear receptor coactivator 1,3279,6228,,0.903861,0.738,益智仁,Yizhiren,NCOA1,B5MCN7
+449,MOL000449,Stigmasterol,Prostaglandin G/H synthase 1,6,20,,0.926223,0.788,益智仁,Yizhiren,PTGS1,A0A087X296
+449,MOL000449,Stigmasterol,Prostaglandin G/H synthase 2,94,290,,0.952074,0.844,益智仁,Yizhiren,PTGS2,A0A7P0T828
+449,MOL000449,Stigmasterol,Alpha-2A adrenergic receptor,105,318,,0.80929,0.718,益智仁,Yizhiren,ADRA2A,P08913
+449,MOL000449,Stigmasterol,Sodium-dependent noradrenaline transporter,186,540,,0.829138,0.708,益智仁,Yizhiren,SLC6A2,P23975
+449,MOL000449,Stigmasterol,Sodium-dependent dopamine transporter,239,713,,0.836413,0.734,益智仁,Yizhiren,DAT1,Q6LC27
+449,MOL000449,Stigmasterol,Beta-2 adrenergic receptor,261,766,,0.849795,0.746,益智仁,Yizhiren,ADRB2,Q9BYZ0
+449,MOL000449,Stigmasterol,Leukotriene A-4 hydrolase,521,3060,,0.916724,0.734,益智仁,Yizhiren,LTA4H,P09960
+449,MOL000449,Stigmasterol,Amine oxidase [flavin-containing] B,565,3939,,0.958232,0.77,益智仁,Yizhiren,MAOB,P27338
+449,MOL000449,Stigmasterol,Amine oxidase [flavin-containing] A,566,3941,,0.96149,0.72,益智仁,Yizhiren,MAOA,A0A1W5KJW8
+449,MOL000449,Stigmasterol,Chymotrypsinogen B,1696,6011,,0.825543,0.724,益智仁,Yizhiren,CTRB1,P17538
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M3,16,51,,0.909264,0.752,益智仁,Yizhiren,CHRM3,P20309
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M1,38,103,,0.917348,0.76,益智仁,Yizhiren,CHRM1,P11229
+449,MOL000449,Stigmasterol,Beta-1 adrenergic receptor,63,193,,0.833128,0.72,益智仁,Yizhiren,ADRB1,P08588
+449,MOL000449,Stigmasterol,Sodium channel protein type 5 subunit alpha,70,220,,0.827658,0.7,益智仁,Yizhiren,SCN5A,Q14524
+449,MOL000449,Stigmasterol,Alpha-1A adrenergic receptor,191,556,,0.838547,0.738,益智仁,Yizhiren,ADRA1A,B0ZBD3
+449,MOL000449,Stigmasterol,Muscarinic acetylcholine receptor M2,210,617,,0.914792,0.728,益智仁,Yizhiren,CHRM2,P08172
+449,MOL000449,Stigmasterol,Alpha-1B adrenergic receptor,216,632,,0.87389,0.752,益智仁,Yizhiren,ADRA1B,P35368
+4624,MOL004624,Longikaurin A,Muscarinic acetylcholine receptor M1,38,103,,0.839827,0.726,五味子,Wuweizi,CHRM1,P11229
+4624,MOL004624,Longikaurin A,Muscarinic acetylcholine receptor M2,210,617,,0.887024,0.764,五味子,Wuweizi,CHRM2,P08172
+4624,MOL004624,Longikaurin A,Trypsin-1,2928,3176,,0.878001,0.724,五味子,Wuweizi,PRSS1,Q7Z445
+4624,MOL004624,Longikaurin A,Gamma-aminobutyric-acid receptor subunit alpha-6,3284,841,,0.854813,0.706,五味子,Wuweizi,GABRA6,Q16445
+5317,MOL005317,Deoxyharringtonine,Androgen receptor,48,146,,0.845833,0.77,五味子,Wuweizi,AR,A0A6H0MAE6
+8956,MOL008956,Angeloylgomisin O,Androgen receptor,48,146,,0.94525,0.714,五味子,Wuweizi,AR,A0A6H0MAE6
+8956,MOL008956,Angeloylgomisin O,DNA topoisomerase II,287,817,,0.940227,0.71,五味子,Wuweizi,TOP2A,J3KTB7
+8957,MOL008957,Schizandrer B,Prostaglandin G/H synthase 2,94,290,,0.932829,0.706,五味子,Wuweizi,PTGS2,A0A7P0T828
+8957,MOL008957,Schizandrer B,DNA topoisomerase II,287,817,,0.930504,0.71,五味子,Wuweizi,TOP2A,J3KTB7
+8968,MOL008968,Gomisin-A,Acetylcholinesterase,165,474,,0.828749,0.744,五味子,Wuweizi,ACHE,C9JD78
+8974,MOL008974,Gomisin G,DNA topoisomerase II,287,817,,0.935953,0.704,五味子,Wuweizi,TOP2A,J3KTB7
+8978,MOL008978,Gomisin R,Estrogen receptor,46,136,,0.96456,0.78,五味子,Wuweizi,ESR1,Q9H2M2
+8978,MOL008978,Gomisin R,Androgen receptor,48,146,,0.939756,0.746,五味子,Wuweizi,AR,A0A6H0MAE6
+8978,MOL008978,Gomisin R,Prostaglandin G/H synthase 2,94,290,,0.935667,0.744,五味子,Wuweizi,PTGS2,A0A7P0T828
+8978,MOL008978,Gomisin R,DNA topoisomerase II,287,817,,0.907272,0.732,五味子,Wuweizi,TOP2A,J3KTB7
+8978,MOL008978,Gomisin R,Trypsin-1,2928,3176,,0.867466,0.71,五味子,Wuweizi,PRSS1,Q7Z445
+8978,MOL008978,Gomisin R,Nuclear receptor coactivator 2,3276,6241,,0.807284,0.744,五味子,Wuweizi,NCOA2,H0YBB6
+8978,MOL008978,Gomisin R,Calcium-activated potassium channel subunit alpha 1,3727,610,,0.94041,0.71,五味子,Wuweizi,KCNMA1,A0A1W2PRA7
+8992,MOL008992,Wuweizisu C,Acetylcholinesterase,165,474,,0.854227,0.736,五味子,Wuweizi,ACHE,C9JD78
+8992,MOL008992,Wuweizisu C,Dipeptidyl peptidase IV,332,952,,0.936296,0.712,五味子,Wuweizi,dpp4,A0A7S5DJN1
+1002,MOL001002,Ellagic acid,Cell division protein kinase 2,482,2240,,0.84108,0.716,龙眼肉,Longyanrou,CDK2,E7ESI2
+1002,MOL001002,Ellagic acid,Estrogen receptor,46,136,,0.896638,0.716,龙眼肉,Longyanrou,ESR1,Q9H2M2
+1002,MOL001002,Ellagic acid,Androgen receptor,48,146,,0.869762,0.764,龙眼肉,Longyanrou,AR,A0A6H0MAE6
+1002,MOL001002,Ellagic acid,Progesterone receptor,209,614,,0.863788,0.716,龙眼肉,Longyanrou,PGR,A0A4P8D7F0
+1002,MOL001002,Ellagic acid,Heat shock protein HSP 90,444,1939,,0.917517,0.708,龙眼肉,Longyanrou,HSP90AB4P,Q58FF6
+1002,MOL001002,Ellagic acid,Vascular endothelial growth factor A,740,183,validated,,,龙眼肉,Longyanrou,VEGFA,P15692
+1002,MOL001002,Ellagic acid,72 kDa type IV collagenase,238,707,validated,,,龙眼肉,Longyanrou,MMP2,P08253
+1002,MOL001002,Ellagic acid,NF-kappa-B inhibitor alpha,4394,h001,validated,,,龙眼肉,Longyanrou,NFKBIA,A0A8V8TLE7
+1002,MOL001002,Ellagic acid,Interleukin-8,4303,h001,validated,,,龙眼肉,Longyanrou,IL8,A0A7U3S0Q4
+1002,MOL001002,Ellagic acid,Protein kinase C beta type,4470,h001,validated,,,龙眼肉,Longyanrou,PRKCB,P05771
+1002,MOL001002,Ellagic acid,Glutathione S-transferase P,733,904,validated,,,龙眼肉,Longyanrou,GSTP1,B2C310
+1002,MOL001002,Ellagic acid,Insulin-like growth factor II,4279,h001,validated,,,龙眼肉,Longyanrou,IGF2R,Q13661
+1002,MOL001002,Ellagic acid,Glutathione S-transferase Mu 1,2952,896,validated,,,龙眼肉,Longyanrou,GSTM1,H3BQT3
+1002,MOL001002,Ellagic acid,Glutathione S-transferase Mu 2,3688,2165,validated,,,龙眼肉,Longyanrou,GSTM2,E9PGV1
+1002,MOL001002,Ellagic acid,Glutathione S-transferase A1,766,4031,validated,,,龙眼肉,Longyanrou,GSTA1,P08263
+1002,MOL001002,Ellagic acid,Glutathione S-transferase A2,3674,3932,validated,,,龙眼肉,Longyanrou,GSTA2,P09210
+98,MOL000098,Quercetin,Prostaglandin G/H synthase 1,6,20,validated,0.901555,0.716,龙眼肉,Longyanrou,PTGS1,A0A087X296
+98,MOL000098,Quercetin,Androgen receptor,48,146,validated,0.857042,0.77,龙眼肉,Longyanrou,AR,A0A6H0MAE6
+98,MOL000098,Quercetin,Peroxisome proliferator activated receptor gamma,78,238,,0.884196,0.708,龙眼肉,Longyanrou,ppar gamma2,Q9UEF6
+98,MOL000098,Quercetin,Prostaglandin G/H synthase 2,94,290,validated,0.940132,0.82,龙眼肉,Longyanrou,PTGS2,A0A7P0T828
+98,MOL000098,Quercetin,Heat shock protein HSP 90,444,1939,,0.963059,0.722,龙眼肉,Longyanrou,HSP90AB4P,Q58FF6
+98,MOL000098,Quercetin,Nuclear receptor coactivator 2,3276,6241,,0.802254,0.788,龙眼肉,Longyanrou,NCOA2,H0YBB6
+98,MOL000098,Quercetin,Dipeptidyl peptidase IV,332,952,,0.868838,0.702,龙眼肉,Longyanrou,dpp4,A0A7S5DJN1
+98,MOL000098,Quercetin,Trypsin-1,2928,3176,,0.87955,0.796,龙眼肉,Longyanrou,PRSS1,Q7Z445
+98,MOL000098,Quercetin,DNA topoisomerase II,287,817,,0.84204,0.714,龙眼肉,Longyanrou,TOP2A,J3KTB7
+98,MOL000098,Quercetin,Potassium voltage-gated channel subfamily H member 2,37,101,,0.859815,0.702,龙眼肉,Longyanrou,KCNH2,A0AAQ5BGQ9
+98,MOL000098,Quercetin,Sodium channel protein type 5 subunit alpha,70,220,,0.821585,0.714,龙眼肉,Longyanrou,SCN5A,Q14524
+98,MOL000098,Quercetin,Beta-2 adrenergic receptor,261,766,,0.864494,0.708,龙眼肉,Longyanrou,ADRB2,Q9BYZ0
+98,MOL000098,Quercetin,Stromelysin-1,441,1926,,0.840368,0.712,龙眼肉,Longyanrou,MMP3,P08254
+98,MOL000098,Quercetin,Retinoic acid receptor RXR-alpha,158,459,,0.93284,0.704,龙眼肉,Longyanrou,RXRA,P19793
+98,MOL000098,Quercetin,Acetylcholinesterase,165,474,,0.87927,0.7,龙眼肉,Longyanrou,ACHE,C9JD78
+98,MOL000098,Quercetin,Amine oxidase [flavin-containing] B,565,3939,,0.801801,0.706,龙眼肉,Longyanrou,MAOB,P27338
+98,MOL000098,Quercetin,Epidermal growth factor receptor,298,844,validated,,,龙眼肉,Longyanrou,EGFR,A0A068JCC9
+98,MOL000098,Quercetin,RAC-alpha serine/threonine-protein kinase,4490,h001,validated,,,龙眼肉,Longyanrou,AKT1,B0LPE5
+98,MOL000098,Quercetin,Vascular endothelial growth factor A,740,183,validated,,,龙眼肉,Longyanrou,VEGFA,P15692
+98,MOL000098,Quercetin,Apoptosis regulator Bcl-2,86,273,validated,,,龙眼肉,Longyanrou,BCL2,A0A1L4AQQ8
+98,MOL000098,Quercetin,Bcl-2-like protein 1,4054,h001,validated,,,龙眼肉,Longyanrou,BCL2L1,Q5QP59
+98,MOL000098,Quercetin,Proto-oncogene c-Fos,4478,h001,validated,,,龙眼肉,Longyanrou,FOS,P01100
+98,MOL000098,Quercetin,Eukaryotic translation initiation factor 6,4197,h001,validated,,,龙眼肉,Longyanrou,EIF6,A0A0B4J1Y7
+98,MOL000098,Quercetin,Apoptosis regulator BAX,4033,h001,validated,,,龙眼肉,Longyanrou,Bax,A0A0C4MVT1
+98,MOL000098,Quercetin,Caspase-9,4090,h001,validated,,,龙眼肉,Longyanrou,CASP9,F8VWA5
+98,MOL000098,Quercetin,72 kDa type IV collagenase,238,707,validated,,,龙眼肉,Longyanrou,MMP2,P08253
+98,MOL000098,Quercetin,Mitogen-activated protein kinase 1,354,1176,validated,,,龙眼肉,Longyanrou,MAPK1IP1L,Q8NDC0
+98,MOL000098,Quercetin,Interleukin-10,4292,h001,validated,,,龙眼肉,Longyanrou,IL10,B3VI66
+98,MOL000098,Quercetin,Pro-epidermal growth factor,734,1278,validated,,,龙眼肉,Longyanrou,EGF,A0A494C018
+98,MOL000098,Quercetin,Retinoblastoma-associated protein,2915,3846,validated,,,龙眼肉,Longyanrou,RB1,A0A3B3IS71
+98,MOL000098,Quercetin,Tumor necrosis factor,265,777,validated,,,龙眼肉,Longyanrou,TNF-alpha,A0A510GFL8
+98,MOL000098,Quercetin,Transcription factor AP-1,414,1629,validated,,,龙眼肉,Longyanrou,JUNB,P17275
+98,MOL000098,Quercetin,Interleukin-6,351,1159,validated,,,龙眼肉,Longyanrou,IL6,A0A8Q3SJL1
+98,MOL000098,Quercetin,Activator of 90 kDa heat shock protein ATPase homolog 1,4007,h001,validated,,,龙眼肉,Longyanrou,AHSA1,O95433
+98,MOL000098,Quercetin,Caspase-3,4087,h001,validated,,,龙眼肉,Longyanrou,CASP3,A0A8V8TPU5
+98,MOL000098,Quercetin,Cellular tumor antigen p53,646,5788,validated,,,龙眼肉,Longyanrou,TP53,A0A0U1RQC9
+98,MOL000098,Quercetin,ETS domain-containing protein Elk-1,4194,h001,validated,,,龙眼肉,Longyanrou,ELK1,Q6FG56
+98,MOL000098,Quercetin,NF-kappa-B inhibitor alpha,4394,h001,validated,,,龙眼肉,Longyanrou,NFKBIA,A0A8V8TLE7
+98,MOL000098,Quercetin,NADPH--cytochrome P450 reductase,744,4120,validated,,,龙眼肉,Longyanrou,POR,A0A9L9PY49
+98,MOL000098,Quercetin,Xanthine dehydrogenase/oxidase,568,3947,validated,,,龙眼肉,Longyanrou,XDH,A0AA96C912
+98,MOL000098,Quercetin,Caspase-8,4089,h001,validated,,,龙眼肉,Longyanrou,CASP8,A0A8Q3SID9
+98,MOL000098,Quercetin,RAF proto-oncogene serine/threonine-protein kinase,4491,h001,validated,,,龙眼肉,Longyanrou,RAF1,L7RRS6
+98,MOL000098,Quercetin,Protein kinase C alpha type,4469,h001,validated,,,龙眼肉,Longyanrou,PRKCA,P17252
+98,MOL000098,Quercetin,Hypoxia-inducible factor 1-alpha,4263,h001,validated,,,龙眼肉,Longyanrou,HIF1A,D0VY79
+98,MOL000098,Quercetin,Signal transducer and activator of transcription 1-alpha/beta,4525,h001,validated,,,龙眼肉,Longyanrou,STAT1,P42224
+98,MOL000098,Quercetin,Protein CBFA2T1,4464,h001,validated,,,龙眼肉,Longyanrou,RUNX1T1,Q06455
+98,MOL000098,Quercetin,Receptor tyrosine-protein kinase erbB-2,4496,h001,validated,,,龙眼肉,Longyanrou,ERBB2,E2I6F8
+98,MOL000098,Quercetin,Peroxisome proliferator-activated receptor gamma,4422,h001,validated,,,龙眼肉,Longyanrou,ppar gamma2,Q9UEF6
+98,MOL000098,Quercetin,Acetyl-CoA carboxylase 1,231,690,validated,,,龙眼肉,Longyanrou,ACC1,D3YTJ0
+98,MOL000098,Quercetin,Heme oxygenase 1,2132,3391,validated,,,龙眼肉,Longyanrou,HMOX1,B1AHA8
+98,MOL000098,Quercetin,Cytochrome P450 1A2,724,4200,validated,,,龙眼肉,Longyanrou,CYP1A2,P05177
+98,MOL000098,Quercetin,Caveolin-1,4095,h001,validated,,,龙眼肉,Longyanrou,CAV1,A0A7P0YWJ6
+98,MOL000098,Quercetin,Gap junction alpha-1 protein,436,1827,validated,,,龙眼肉,Longyanrou,CXNK1,A0A654IE86
+98,MOL000098,Quercetin,Cytochrome P450 1A1,4149,h001,validated,,,龙眼肉,Longyanrou,CYP1A1,P04798
+98,MOL000098,Quercetin,Intercellular adhesion molecule 1,4287,h001,validated,,,龙眼肉,Longyanrou,ICAM1,K7EKL8
+98,MOL000098,Quercetin,Interleukin-1 beta,418,1654,validated,,,龙眼肉,Longyanrou,IL1B,A0AA51YZX7
+98,MOL000098,Quercetin,C-C motif chemokine 2,417,1649,validated,,,龙眼肉,Longyanrou,CCL2,P13500
+98,MOL000098,Quercetin,Vascular cell adhesion protein 1,440,1908,validated,,,龙眼肉,Longyanrou,VCAM1,E9PDD2
+98,MOL000098,Quercetin,Prostaglandin E2 receptor EP3 subtype,593,4131,validated,,,龙眼肉,Longyanrou,EP3f,Q5CZ60
+98,MOL000098,Quercetin,Interleukin-8,4303,h001,validated,,,龙眼肉,Longyanrou,IL8,A0A7U3S0Q4
+98,MOL000098,Quercetin,Protein kinase C beta type,4470,h001,validated,,,龙眼肉,Longyanrou,PRKCB,P05771
+98,MOL000098,Quercetin,Baculoviral IAP repeat-containing protein 5,4044,h001,validated,,,龙眼肉,Longyanrou,BIRC5,A3E0Z4
+98,MOL000098,Quercetin,Dual oxidase 2,4174,h001,validated,,,龙眼肉,Longyanrou,DUOX2,S6BJ80
+98,MOL000098,Quercetin,Heat shock protein beta-1,4247,h001,validated,,,龙眼肉,Longyanrou,HEL-S-102,V9HW43
+98,MOL000098,Quercetin,Transforming growth factor beta-1,4568,h001,validated,,,龙眼肉,Longyanrou,TGFB1,A0A078BCH8
+98,MOL000098,Quercetin,Estrogen sulfotransferase,781,1275,validated,,,龙眼肉,Longyanrou,SULT1E1,P49888
+98,MOL000098,Quercetin,Interleukin-2,3978,1575,validated,,,龙眼肉,Longyanrou,IL2,Q6NZ91
+98,MOL000098,Quercetin,Nuclear receptor subfamily 1 group I member 2,4403,h001,validated,,,龙眼肉,Longyanrou,NR1i2,F1D8P9
+98,MOL000098,Quercetin,Cytochrome P450 1B1,4150,h001,validated,,,龙眼肉,Longyanrou,CYP1B1,Q4U3K8
+98,MOL000098,Quercetin,G2/mitotic-specific cyclin-B1,4219,h001,validated,,,龙眼肉,Longyanrou,CCNB1,P14635
+98,MOL000098,Quercetin,Tissue-type plasminogen activator,434,1792,validated,,,龙眼肉,Longyanrou,PLAT,B4DN26
+98,MOL000098,Quercetin,Plasminogen activator inhibitor 1,4429,h001,validated,,,龙眼肉,Longyanrou,PAI-1,A0A5B9RUH0
+98,MOL000098,Quercetin,Collagen alpha-1(I) chain,731,28,validated,,,龙眼肉,Longyanrou,COL1A1,Q9UE86
+98,MOL000098,Quercetin,Arachidonate 5-lipoxygenase,88,275,validated,,,龙眼肉,Longyanrou,ALOX5,A0A087X109
+98,MOL000098,Quercetin,"Phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN",4620,h001,validated,,,龙眼肉,Longyanrou,PTEN,A0A8V8TQX2
+98,MOL000098,Quercetin,Interleukin-1 alpha,4297,h001,validated,,,龙眼肉,Longyanrou,IL1A,P01583
+98,MOL000098,Quercetin,Myeloperoxidase,428,1757,validated,,,龙眼肉,Longyanrou,MPO,P05164
+98,MOL000098,Quercetin,DNA topoisomerase 2-alpha,4172,h001,validated,,,龙眼肉,Longyanrou,TOP2A,P11388
+98,MOL000098,Quercetin,ATP-binding cassette sub-family G member 2,4038,h001,validated,,,龙眼肉,Longyanrou,ABCG2,I7JB59
+98,MOL000098,Quercetin,Glutathione S-transferase P,733,904,validated,,,龙眼肉,Longyanrou,GSTP1,B2C310
+98,MOL000098,Quercetin,Nuclear factor erythroid 2-related factor 2,4398,h001,validated,,,龙眼肉,Longyanrou,NFE2L2,C9J0Y1
+98,MOL000098,Quercetin,Poly [ADP-ribose] polymerase 1,4435,h001,validated,,,龙眼肉,Longyanrou,PARP1,A0A7I2V384
+98,MOL000098,Quercetin,"Solute carrier family 2, facilitated glucose transporter member 4",4535,h001,validated,,,龙眼肉,Longyanrou,SLC2A4,F5H081
+98,MOL000098,Quercetin,Collagen alpha-1(III) chain,2885,3853,validated,,,龙眼肉,Longyanrou,COL3A1,P02461
+98,MOL000098,Quercetin,C-X-C motif chemokine 11,4137,h001,validated,,,龙眼肉,Longyanrou,CXCL11,O14625
+98,MOL000098,Quercetin,C-X-C motif chemokine 2,4138,h001,validated,,,龙眼肉,Longyanrou,CXCL2,P19875
+98,MOL000098,Quercetin,DDB1- and CUL4-associated factor 5,4159,h001,validated,,,龙眼肉,Longyanrou,DCAF5,G3V4Z1
+98,MOL000098,Quercetin,Nuclear receptor subfamily 1 group I member 3,4404,h001,validated,,,龙眼肉,Longyanrou,NR1I3,D6REZ7
+98,MOL000098,Quercetin,Serine/threonine-protein kinase Chk2,4513,h001,validated,,,龙眼肉,Longyanrou,CHEK2,B7ZBF2
+98,MOL000098,Quercetin,Insulin receptor,11,36,validated,,,龙眼肉,Longyanrou,INSR,P06213
+98,MOL000098,Quercetin,Peroxisome proliferator-activated receptor delta,4421,h001,validated,,,龙眼肉,Longyanrou,PPARD,Q03181
+98,MOL000098,Quercetin,C-reactive protein,4130,h001,validated,,,龙眼肉,Longyanrou,CRP,P02741
+98,MOL000098,Quercetin,C-X-C motif chemokine 10,4136,h001,validated,,,龙眼肉,Longyanrou,CXCL10,P02778
+98,MOL000098,Quercetin,Osteopontin,4411,h001,validated,,,龙眼肉,Longyanrou,opn,C4B6Q2
+98,MOL000098,Quercetin,Runt-related transcription factor 2,4505,h001,validated,,,龙眼肉,Longyanrou,RUNX2,Q13950
+98,MOL000098,Quercetin,Ras association domain-containing protein 1,4492,h001,validated,,,龙眼肉,Longyanrou,RASSF1,Q9NS23
+98,MOL000098,Quercetin,Transcription factor E2F1,4560,h001,validated,,,龙眼肉,Longyanrou,E2F1,Q01094
+98,MOL000098,Quercetin,Transcription factor E2F2,4561,h001,validated,,,龙眼肉,Longyanrou,E2F2,Q14209
+98,MOL000098,Quercetin,Prostatic acid phosphatase,2998,1859,validated,,,龙眼肉,Longyanrou,ACP3,P15309
+98,MOL000098,Quercetin,Cathepsin D,363,1243,validated,,,龙眼肉,Longyanrou,CTSD,P07339
+98,MOL000098,Quercetin,Insulin-like growth factor II,4279,h001,validated,,,龙眼肉,Longyanrou,IGF2R,Q13661
+98,MOL000098,Quercetin,CD40 ligand,4107,h001,validated,,,龙眼肉,Longyanrou,CD40LG,A0A8Q3WKP2
+98,MOL000098,Quercetin,Interferon regulatory factor 1,4290,h001,validated,,,龙眼肉,Longyanrou,IRF1,C9JD95
+98,MOL000098,Quercetin,Serum paraoxonase/arylesterase 1,357,1198,validated,,,龙眼肉,Longyanrou,PON1,P27169
+98,MOL000098,Quercetin,Type I iodothyronine deiodinase,4589,h001,validated,,,龙眼肉,Longyanrou,DIO1,P49895
+98,MOL000098,Quercetin,Puromycin-sensitive aminopeptidase,4484,h001,validated,,,龙眼肉,Longyanrou,NPEPPSL1,A6NEC2
+98,MOL000098,Quercetin,Homeobox protein Nkx-3.1,4259,h001,validated,,,龙眼肉,Longyanrou,NKX3-1,Q99801
+98,MOL000098,Quercetin,Ras GTPase-activating protein 1,4493,h001,validated,,,龙眼肉,Longyanrou,SYNGAP1,A0A140T8W4
+98,MOL000098,Quercetin,Glutathione S-transferase Mu 1,2952,896,validated,,,龙眼肉,Longyanrou,GSTM1,H3BQT3
+98,MOL000098,Quercetin,Glutathione S-transferase Mu 2,3688,2165,validated,,,龙眼肉,Longyanrou,GSTM2,E9PGV1
+1788,MOL001788,Adenine,Purine nucleoside phosphorylase,90,277,,0.881245,0.704,龙眼肉,Longyanrou,PNP,G3V2H3
+1788,MOL001788,Adenine,Putative adenosylhomocysteinase 2,4485,h001,validated,,,龙眼肉,Longyanrou,AHCYL1,O43865
+358,MOL000358,beta-Sitosterol,Progesterone receptor,209,614,,0.90711,0.728,龙眼肉,Longyanrou,PGR,A0A4P8D7F0
+358,MOL000358,beta-Sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,龙眼肉,Longyanrou,NCOA2,H0YBB6
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,龙眼肉,Longyanrou,PTGS1,A0A087X296
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,龙眼肉,Longyanrou,PTGS2,A0A7P0T828
+358,MOL000358,beta-Sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,龙眼肉,Longyanrou,HSP90AB4P,Q58FF6
+358,MOL000358,beta-Sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,龙眼肉,Longyanrou,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-Sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,龙眼肉,Longyanrou,DRD1,P21728
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,龙眼肉,Longyanrou,CHRM3,P20309
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,龙眼肉,Longyanrou,CHRM1,P11229
+358,MOL000358,beta-Sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,龙眼肉,Longyanrou,SCN5A,Q14524
+358,MOL000358,beta-Sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,龙眼肉,Longyanrou,ADRA1A,B0ZBD3
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,龙眼肉,Longyanrou,CHRM2,P08172
+358,MOL000358,beta-Sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,龙眼肉,Longyanrou,ADRA1B,P35368
+358,MOL000358,beta-Sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,龙眼肉,Longyanrou,ADRB2,Q9BYZ0
+358,MOL000358,beta-Sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,龙眼肉,Longyanrou,CHRNA2,Q15822
+358,MOL000358,beta-Sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,龙眼肉,Longyanrou,SLC6A4,P31645
+358,MOL000358,beta-Sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,龙眼肉,Longyanrou,OPRM1,L0E130
+358,MOL000358,beta-Sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,龙眼肉,Longyanrou,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-Sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,龙眼肉,Longyanrou,Bax,A0A0C4MVT1
+358,MOL000358,beta-Sitosterol,Caspase-9,4090,h001,validated,,,龙眼肉,Longyanrou,CASP9,F8VWA5
+358,MOL000358,beta-Sitosterol,Transcription factor AP-1,414,1629,validated,,,龙眼肉,Longyanrou,JUNB,P17275
+358,MOL000358,beta-Sitosterol,Caspase-3,4087,h001,validated,,,龙眼肉,Longyanrou,CASP3,A0A8V8TPU5
+358,MOL000358,beta-Sitosterol,Caspase-8,4089,h001,validated,,,龙眼肉,Longyanrou,CASP8,A0A8Q3SID9
+358,MOL000358,beta-Sitosterol,Protein kinase C alpha type,4469,h001,validated,,,龙眼肉,Longyanrou,PRKCA,P17252
+358,MOL000358,beta-Sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,龙眼肉,Longyanrou,TGFB1,A0A078BCH8
+358,MOL000358,beta-Sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,龙眼肉,Longyanrou,PON1,P27169
+358,MOL000358,beta-Sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,龙眼肉,Longyanrou,MAP2,E7EV03
+358,MOL000358,beta-Sitosterol,Progesterone receptor,209,614,,0.90711,0.728,龙眼肉,Longyanrou,PGR,A0A4P8D7F0
+358,MOL000358,beta-Sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,龙眼肉,Longyanrou,NCOA2,H0YBB6
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,龙眼肉,Longyanrou,PTGS1,A0A087X296
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,龙眼肉,Longyanrou,PTGS2,A0A7P0T828
+358,MOL000358,beta-Sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,龙眼肉,Longyanrou,HSP90AB4P,Q58FF6
+358,MOL000358,beta-Sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,龙眼肉,Longyanrou,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-Sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,龙眼肉,Longyanrou,DRD1,P21728
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,龙眼肉,Longyanrou,CHRM3,P20309
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,龙眼肉,Longyanrou,CHRM1,P11229
+358,MOL000358,beta-Sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,龙眼肉,Longyanrou,SCN5A,Q14524
+358,MOL000358,beta-Sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,龙眼肉,Longyanrou,ADRA1A,B0ZBD3
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,龙眼肉,Longyanrou,CHRM2,P08172
+358,MOL000358,beta-Sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,龙眼肉,Longyanrou,ADRA1B,P35368
+358,MOL000358,beta-Sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,龙眼肉,Longyanrou,ADRB2,Q9BYZ0
+358,MOL000358,beta-Sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,龙眼肉,Longyanrou,CHRNA2,Q15822
+358,MOL000358,beta-Sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,龙眼肉,Longyanrou,SLC6A4,P31645
+358,MOL000358,beta-Sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,龙眼肉,Longyanrou,OPRM1,L0E130
+358,MOL000358,beta-Sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,龙眼肉,Longyanrou,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-Sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,龙眼肉,Longyanrou,Bax,A0A0C4MVT1
+358,MOL000358,beta-Sitosterol,Caspase-9,4090,h001,validated,,,龙眼肉,Longyanrou,CASP9,F8VWA5
+358,MOL000358,beta-Sitosterol,Transcription factor AP-1,414,1629,validated,,,龙眼肉,Longyanrou,JUNB,P17275
+358,MOL000358,beta-Sitosterol,Caspase-3,4087,h001,validated,,,龙眼肉,Longyanrou,CASP3,A0A8V8TPU5
+358,MOL000358,beta-Sitosterol,Caspase-8,4089,h001,validated,,,龙眼肉,Longyanrou,CASP8,A0A8Q3SID9
+358,MOL000358,beta-Sitosterol,Protein kinase C alpha type,4469,h001,validated,,,龙眼肉,Longyanrou,PRKCA,P17252
+358,MOL000358,beta-Sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,龙眼肉,Longyanrou,TGFB1,A0A078BCH8
+358,MOL000358,beta-Sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,龙眼肉,Longyanrou,PON1,P27169
+358,MOL000358,beta-Sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,龙眼肉,Longyanrou,MAP2,E7EV03
+358,MOL000358,beta-Sitosterol,Progesterone receptor,209,614,,0.90711,0.728,龙眼肉,Longyanrou,PGR,A0A4P8D7F0
+358,MOL000358,beta-Sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,龙眼肉,Longyanrou,NCOA2,H0YBB6
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,龙眼肉,Longyanrou,PTGS1,A0A087X296
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,龙眼肉,Longyanrou,PTGS2,A0A7P0T828
+358,MOL000358,beta-Sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,龙眼肉,Longyanrou,HSP90AB4P,Q58FF6
+358,MOL000358,beta-Sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,龙眼肉,Longyanrou,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-Sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,龙眼肉,Longyanrou,DRD1,P21728
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,龙眼肉,Longyanrou,CHRM3,P20309
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,龙眼肉,Longyanrou,CHRM1,P11229
+358,MOL000358,beta-Sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,龙眼肉,Longyanrou,SCN5A,Q14524
+358,MOL000358,beta-Sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,龙眼肉,Longyanrou,ADRA1A,B0ZBD3
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,龙眼肉,Longyanrou,CHRM2,P08172
+358,MOL000358,beta-Sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,龙眼肉,Longyanrou,ADRA1B,P35368
+358,MOL000358,beta-Sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,龙眼肉,Longyanrou,ADRB2,Q9BYZ0
+358,MOL000358,beta-Sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,龙眼肉,Longyanrou,CHRNA2,Q15822
+358,MOL000358,beta-Sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,龙眼肉,Longyanrou,SLC6A4,P31645
+358,MOL000358,beta-Sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,龙眼肉,Longyanrou,OPRM1,L0E130
+358,MOL000358,beta-Sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,龙眼肉,Longyanrou,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-Sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,龙眼肉,Longyanrou,Bax,A0A0C4MVT1
+358,MOL000358,beta-Sitosterol,Caspase-9,4090,h001,validated,,,龙眼肉,Longyanrou,CASP9,F8VWA5
+358,MOL000358,beta-Sitosterol,Transcription factor AP-1,414,1629,validated,,,龙眼肉,Longyanrou,JUNB,P17275
+358,MOL000358,beta-Sitosterol,Caspase-3,4087,h001,validated,,,龙眼肉,Longyanrou,CASP3,A0A8V8TPU5
+358,MOL000358,beta-Sitosterol,Caspase-8,4089,h001,validated,,,龙眼肉,Longyanrou,CASP8,A0A8Q3SID9
+358,MOL000358,beta-Sitosterol,Protein kinase C alpha type,4469,h001,validated,,,龙眼肉,Longyanrou,PRKCA,P17252
+358,MOL000358,beta-Sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,龙眼肉,Longyanrou,TGFB1,A0A078BCH8
+358,MOL000358,beta-Sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,龙眼肉,Longyanrou,PON1,P27169
+358,MOL000358,beta-Sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,龙眼肉,Longyanrou,MAP2,E7EV03
+635,MOL000635,Vanillin,Amine oxidase [flavin-containing] B,565,3939,,0.835161,0.752,天麻,Tianma,MAOB,P27338
+635,MOL000635,Vanillin,Amine oxidase [flavin-containing] A,566,3941,,0.848149,0.732,天麻,Tianma,MAOA,A0A1W5KJW8
+635,MOL000635,Vanillin,Lysozyme,1172,2300,,0.861297,0.744,天麻,Tianma,LYZD2,A0A080YUZ9
+635,MOL000635,Vanillin,Prostaglandin G/H synthase 2,94,290,,0.859492,0.71,天麻,Tianma,PTGS2,A0A7P0T828
+635,MOL000635,Vanillin,Alcohol dehydrogenase 1C,727,517,,0.827399,0.726,天麻,Tianma,ADH1C,A0A087WU81
+635,MOL000635,Vanillin,Mitogen-activated protein kinase 1,354,1176,validated,,,天麻,Tianma,MAPK1IP1L,Q8NDC0
+635,MOL000635,Vanillin,Transcription factor AP-1,414,1629,validated,,,天麻,Tianma,JUNB,P17275
+358,MOL000358,beta-Sitosterol,Progesterone receptor,209,614,,0.90711,0.728,天麻,Tianma,PGR,A0A4P8D7F0
+358,MOL000358,beta-Sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,天麻,Tianma,NCOA2,H0YBB6
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,天麻,Tianma,PTGS1,A0A087X296
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,天麻,Tianma,PTGS2,A0A7P0T828
+358,MOL000358,beta-Sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,天麻,Tianma,HSP90AB4P,Q58FF6
+358,MOL000358,beta-Sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,天麻,Tianma,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-Sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,天麻,Tianma,DRD1,P21728
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,天麻,Tianma,CHRM3,P20309
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,天麻,Tianma,CHRM1,P11229
+358,MOL000358,beta-Sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,天麻,Tianma,SCN5A,Q14524
+358,MOL000358,beta-Sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,天麻,Tianma,ADRA1A,B0ZBD3
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,天麻,Tianma,CHRM2,P08172
+358,MOL000358,beta-Sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,天麻,Tianma,ADRA1B,P35368
+358,MOL000358,beta-Sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,天麻,Tianma,ADRB2,Q9BYZ0
+358,MOL000358,beta-Sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,天麻,Tianma,CHRNA2,Q15822
+358,MOL000358,beta-Sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,天麻,Tianma,SLC6A4,P31645
+358,MOL000358,beta-Sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,天麻,Tianma,OPRM1,L0E130
+358,MOL000358,beta-Sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,天麻,Tianma,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-Sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,天麻,Tianma,Bax,A0A0C4MVT1
+358,MOL000358,beta-Sitosterol,Caspase-9,4090,h001,validated,,,天麻,Tianma,CASP9,F8VWA5
+358,MOL000358,beta-Sitosterol,Transcription factor AP-1,414,1629,validated,,,天麻,Tianma,JUNB,P17275
+358,MOL000358,beta-Sitosterol,Caspase-3,4087,h001,validated,,,天麻,Tianma,CASP3,A0A8V8TPU5
+358,MOL000358,beta-Sitosterol,Caspase-8,4089,h001,validated,,,天麻,Tianma,CASP8,A0A8Q3SID9
+358,MOL000358,beta-Sitosterol,Protein kinase C alpha type,4469,h001,validated,,,天麻,Tianma,PRKCA,P17252
+358,MOL000358,beta-Sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,天麻,Tianma,TGFB1,A0A078BCH8
+358,MOL000358,beta-Sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,天麻,Tianma,PON1,P27169
+358,MOL000358,beta-Sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,天麻,Tianma,MAP2,E7EV03
+358,MOL000358,beta-Sitosterol,Progesterone receptor,209,614,,0.90711,0.728,天麻,Tianma,PGR,A0A4P8D7F0
+358,MOL000358,beta-Sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,天麻,Tianma,NCOA2,H0YBB6
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,天麻,Tianma,PTGS1,A0A087X296
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,天麻,Tianma,PTGS2,A0A7P0T828
+358,MOL000358,beta-Sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,天麻,Tianma,HSP90AB4P,Q58FF6
+358,MOL000358,beta-Sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,天麻,Tianma,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-Sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,天麻,Tianma,DRD1,P21728
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,天麻,Tianma,CHRM3,P20309
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,天麻,Tianma,CHRM1,P11229
+358,MOL000358,beta-Sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,天麻,Tianma,SCN5A,Q14524
+358,MOL000358,beta-Sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,天麻,Tianma,ADRA1A,B0ZBD3
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,天麻,Tianma,CHRM2,P08172
+358,MOL000358,beta-Sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,天麻,Tianma,ADRA1B,P35368
+358,MOL000358,beta-Sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,天麻,Tianma,ADRB2,Q9BYZ0
+358,MOL000358,beta-Sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,天麻,Tianma,CHRNA2,Q15822
+358,MOL000358,beta-Sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,天麻,Tianma,SLC6A4,P31645
+358,MOL000358,beta-Sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,天麻,Tianma,OPRM1,L0E130
+358,MOL000358,beta-Sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,天麻,Tianma,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-Sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,天麻,Tianma,Bax,A0A0C4MVT1
+358,MOL000358,beta-Sitosterol,Caspase-9,4090,h001,validated,,,天麻,Tianma,CASP9,F8VWA5
+358,MOL000358,beta-Sitosterol,Transcription factor AP-1,414,1629,validated,,,天麻,Tianma,JUNB,P17275
+358,MOL000358,beta-Sitosterol,Caspase-3,4087,h001,validated,,,天麻,Tianma,CASP3,A0A8V8TPU5
+358,MOL000358,beta-Sitosterol,Caspase-8,4089,h001,validated,,,天麻,Tianma,CASP8,A0A8Q3SID9
+358,MOL000358,beta-Sitosterol,Protein kinase C alpha type,4469,h001,validated,,,天麻,Tianma,PRKCA,P17252
+358,MOL000358,beta-Sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,天麻,Tianma,TGFB1,A0A078BCH8
+358,MOL000358,beta-Sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,天麻,Tianma,PON1,P27169
+358,MOL000358,beta-Sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,天麻,Tianma,MAP2,E7EV03
+358,MOL000358,beta-Sitosterol,Progesterone receptor,209,614,,0.90711,0.728,天麻,Tianma,PGR,A0A4P8D7F0
+358,MOL000358,beta-Sitosterol,Nuclear receptor coactivator 2,3276,6241,,0.800966,0.71,天麻,Tianma,NCOA2,H0YBB6
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 1,6,20,,0.90499,0.716,天麻,Tianma,PTGS1,A0A087X296
+358,MOL000358,beta-Sitosterol,Prostaglandin G/H synthase 2,94,290,,0.94352,0.814,天麻,Tianma,PTGS2,A0A7P0T828
+358,MOL000358,beta-Sitosterol,Heat shock protein HSP 90,444,1939,,0.96518,0.718,天麻,Tianma,HSP90AB4P,Q58FF6
+358,MOL000358,beta-Sitosterol,Potassium voltage-gated channel subfamily H member 2,37,101,,0.92578,0.722,天麻,Tianma,KCNH2,A0AAQ5BGQ9
+358,MOL000358,beta-Sitosterol,Dopamine D1 receptor,7,23,,0.820323,0.712,天麻,Tianma,DRD1,P21728
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M3,16,51,,0.878176,0.756,天麻,Tianma,CHRM3,P20309
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M1,38,103,,0.893231,0.746,天麻,Tianma,CHRM1,P11229
+358,MOL000358,beta-Sitosterol,Sodium channel protein type 5 subunit alpha,70,220,,0.831169,0.718,天麻,Tianma,SCN5A,Q14524
+358,MOL000358,beta-Sitosterol,Alpha-1A adrenergic receptor,191,556,,0.810836,0.704,天麻,Tianma,ADRA1A,B0ZBD3
+358,MOL000358,beta-Sitosterol,Muscarinic acetylcholine receptor M2,210,617,,0.910096,0.722,天麻,Tianma,CHRM2,P08172
+358,MOL000358,beta-Sitosterol,Alpha-1B adrenergic receptor,216,632,,0.810689,0.742,天麻,Tianma,ADRA1B,P35368
+358,MOL000358,beta-Sitosterol,Beta-2 adrenergic receptor,261,766,,0.865213,0.712,天麻,Tianma,ADRB2,Q9BYZ0
+358,MOL000358,beta-Sitosterol,Neuronal acetylcholine receptor subunit alpha-2,284,813,,0.832431,0.704,天麻,Tianma,CHRNA2,Q15822
+358,MOL000358,beta-Sitosterol,Sodium-dependent serotonin transporter,290,824,,0.869181,0.704,天麻,Tianma,SLC6A4,P31645
+358,MOL000358,beta-Sitosterol,Mu-type opioid receptor,299,847,,0.818472,0.704,天麻,Tianma,OPRM1,L0E130
+358,MOL000358,beta-Sitosterol,Apoptosis regulator Bcl-2,86,273,validated,,,天麻,Tianma,BCL2,A0A1L4AQQ8
+358,MOL000358,beta-Sitosterol,Apoptosis regulator BAX,4033,h001,validated,,,天麻,Tianma,Bax,A0A0C4MVT1
+358,MOL000358,beta-Sitosterol,Caspase-9,4090,h001,validated,,,天麻,Tianma,CASP9,F8VWA5
+358,MOL000358,beta-Sitosterol,Transcription factor AP-1,414,1629,validated,,,天麻,Tianma,JUNB,P17275
+358,MOL000358,beta-Sitosterol,Caspase-3,4087,h001,validated,,,天麻,Tianma,CASP3,A0A8V8TPU5
+358,MOL000358,beta-Sitosterol,Caspase-8,4089,h001,validated,,,天麻,Tianma,CASP8,A0A8Q3SID9
+358,MOL000358,beta-Sitosterol,Protein kinase C alpha type,4469,h001,validated,,,天麻,Tianma,PRKCA,P17252
+358,MOL000358,beta-Sitosterol,Transforming growth factor beta-1,4568,h001,validated,,,天麻,Tianma,TGFB1,A0A078BCH8
+358,MOL000358,beta-Sitosterol,Serum paraoxonase/arylesterase 1,357,1198,validated,,,天麻,Tianma,PON1,P27169
+358,MOL000358,beta-Sitosterol,Microtubule-associated protein 2,3987,1852,validated,,,天麻,Tianma,MAP2,E7EV03
+1525,MOL001525,Daucosterol,Progesterone receptor,209,614,,0.908982,0.728,天麻,Tianma,PGR,A0A4P8D7F0
+1525,MOL001525,Daucosterol,Nuclear receptor coactivator 2,3276,6241,,0.800352,0.71,天麻,Tianma,NCOA2,H0YBB6
+1525,MOL001525,Daucosterol,Progesterone receptor,209,614,,0.908982,0.728,天麻,Tianma,PGR,A0A4P8D7F0
+1525,MOL001525,Daucosterol,Nuclear receptor coactivator 2,3276,6241,,0.800352,0.71,天麻,Tianma,NCOA2,H0YBB6
+346,MOL000346,Succinic acid,"4-aminobutyrate aminotransferase, mitochondrial",92,280,,0.912811,0.744,天麻,Tianma,ABAT,H3BNQ7
+346,MOL000346,Succinic acid,"Aspartate aminotransferase, cytoplasmic",202,586,,0.941375,0.734,天麻,Tianma,GOT1L1,Q8NHS2
+346,MOL000346,Succinic acid,Proto-oncogene tyrosine-protein kinase SRC,319,933,,0.854495,0.722,天麻,Tianma,SRC,P12931
+346,MOL000346,Succinic acid,Cathepsin D,363,1243,,0.858463,0.73,天麻,Tianma,CTSD,P07339
+346,MOL000346,Succinic acid,M-phase inducer phosphatase 2,525,3105,,0.850485,0.704,天麻,Tianma,CDC25B,P30305
+346,MOL000346,Succinic acid,Cholinesterase,559,3923,,0.879291,0.736,天麻,Tianma,BCHE,P06276
+346,MOL000346,Succinic acid,Alcohol dehydrogenase 1C,727,517,,0.910328,0.752,天麻,Tianma,ADH1C,A0A087WU81
+346,MOL000346,Succinic acid,Alcohol dehydrogenase 1A,729,251,,0.835966,0.71,天麻,Tianma,ADH1A,P07327
+346,MOL000346,Succinic acid,Aspartate aminotransferase,1161,2249,,0.921854,0.778,天麻,Tianma,GIG18,Q2TU84
+346,MOL000346,Succinic acid,"NAD-dependent malic enzyme, mitochondrial",3826,166,,0.840251,0.76,天麻,Tianma,ME2,P23368
+346,MOL000346,Succinic acid,"NADP-dependent malic enzyme, mitochondrial",3853,363,,0.894409,0.7,天麻,Tianma,ME3,Q16798
+346,MOL000346,Succinic acid,Trypsin-3,3952,2886,,0.885988,0.704,天麻,Tianma,PRSS3,P35030
+346,MOL000346,Succinic acid,"Nitric-oxide synthase, brain",28,76,,0.920763,0.7,天麻,Tianma,NOS1,P29475
+346,MOL000346,Succinic acid,"Succinate semialdehyde dehydrogenase, mitochondrial",59,170,,0.973325,0.722,天麻,Tianma,ALDH5A1,X5DNC0
+346,MOL000346,Succinic acid,"Ornithine aminotransferase, mitochondrial",164,472,,0.97362,0.7,天麻,Tianma,OAT,P04181
+346,MOL000346,Succinic acid,Acetyl-CoA acetyltransferase,1316,2596,,0.938423,0.716,天麻,Tianma,ACAT1,H0YEL7
+346,MOL000346,Succinic acid,Adenylosuccinate synthetase,1458,2632,,0.967149,0.716,天麻,Tianma,ADSS1,Q8N142
+346,MOL000346,Succinic acid,Malate dehydrogenase,2162,2329,,0.904355,0.712,天麻,Tianma,MDH2,G3XAL0
+346,MOL000346,Succinic acid,"Glutamate dehydrogenase 1, mitochondrial",2870,201,,0.969815,0.7,天麻,Tianma,GLUD1,E9KL48
+346,MOL000346,Succinic acid,"Ornithine carbamoyltransferase, mitochondrial",2872,336,,0.949126,0.704,天麻,Tianma,OTC,A0AAQ5BGV3
+346,MOL000346,Succinic acid,Oxidoreductase,3054,1410,,0.914769,0.7,天麻,Tianma,HHCMA56,Q12953
+346,MOL000346,Succinic acid,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial",3182,197,,0.963851,0.74,天麻,Tianma,SDHA,D6RFM5
+346,MOL000346,Succinic acid,Prolyl 3-hydroxylase 1,3300,3945,,0.934992,0.708,天麻,Tianma,P3H1,H7C2W6
+346,MOL000346,Succinic acid,"Succinyl-CoA:3-ketoacid-coenzyme A transferase 2, mitochondrial",3426,4008,,0.910306,0.722,天麻,Tianma,OXCT2,Q9BYC2
+346,MOL000346,Succinic acid,Prolyl 4-hydroxylase subunit alpha-2,3697,4000,,0.961666,0.712,天麻,Tianma,P4HA2,A8MXE0
+346,MOL000346,Succinic acid,Glucose--fructose oxidoreductase,2269,2826,,0.96138,0.7,天麻,Tianma,GFOD2,Q3B7J2
+346,MOL000346,Succinic acid,Caspase-3,4087,h001,validated,,,天麻,Tianma,CASP3,A0A8V8TPU5
+346,MOL000346,Succinic acid,"4-aminobutyrate aminotransferase, mitochondrial",92,280,,0.912811,0.744,天麻,Tianma,ABAT,H3BNQ7
+346,MOL000346,Succinic acid,"Aspartate aminotransferase, cytoplasmic",202,586,,0.941375,0.734,天麻,Tianma,GOT1L1,Q8NHS2
+346,MOL000346,Succinic acid,Proto-oncogene tyrosine-protein kinase SRC,319,933,,0.854495,0.722,天麻,Tianma,SRC,P12931
+346,MOL000346,Succinic acid,Cathepsin D,363,1243,,0.858463,0.73,天麻,Tianma,CTSD,P07339
+346,MOL000346,Succinic acid,M-phase inducer phosphatase 2,525,3105,,0.850485,0.704,天麻,Tianma,CDC25B,P30305
+346,MOL000346,Succinic acid,Cholinesterase,559,3923,,0.879291,0.736,天麻,Tianma,BCHE,P06276
+346,MOL000346,Succinic acid,Alcohol dehydrogenase 1C,727,517,,0.910328,0.752,天麻,Tianma,ADH1C,A0A087WU81
+346,MOL000346,Succinic acid,Alcohol dehydrogenase 1A,729,251,,0.835966,0.71,天麻,Tianma,ADH1A,P07327
+346,MOL000346,Succinic acid,Aspartate aminotransferase,1161,2249,,0.921854,0.778,天麻,Tianma,GIG18,Q2TU84
+346,MOL000346,Succinic acid,"NAD-dependent malic enzyme, mitochondrial",3826,166,,0.840251,0.76,天麻,Tianma,ME2,P23368
+346,MOL000346,Succinic acid,"NADP-dependent malic enzyme, mitochondrial",3853,363,,0.894409,0.7,天麻,Tianma,ME3,Q16798
+346,MOL000346,Succinic acid,Trypsin-3,3952,2886,,0.885988,0.704,天麻,Tianma,PRSS3,P35030
+346,MOL000346,Succinic acid,"Nitric-oxide synthase, brain",28,76,,0.920763,0.7,天麻,Tianma,NOS1,P29475
+346,MOL000346,Succinic acid,"Succinate semialdehyde dehydrogenase, mitochondrial",59,170,,0.973325,0.722,天麻,Tianma,ALDH5A1,X5DNC0
+346,MOL000346,Succinic acid,"Ornithine aminotransferase, mitochondrial",164,472,,0.97362,0.7,天麻,Tianma,OAT,P04181
+346,MOL000346,Succinic acid,Acetyl-CoA acetyltransferase,1316,2596,,0.938423,0.716,天麻,Tianma,ACAT1,H0YEL7
+346,MOL000346,Succinic acid,Adenylosuccinate synthetase,1458,2632,,0.967149,0.716,天麻,Tianma,ADSS1,Q8N142
+346,MOL000346,Succinic acid,Malate dehydrogenase,2162,2329,,0.904355,0.712,天麻,Tianma,MDH2,G3XAL0
+346,MOL000346,Succinic acid,"Glutamate dehydrogenase 1, mitochondrial",2870,201,,0.969815,0.7,天麻,Tianma,GLUD1,E9KL48
+346,MOL000346,Succinic acid,"Ornithine carbamoyltransferase, mitochondrial",2872,336,,0.949126,0.704,天麻,Tianma,OTC,A0AAQ5BGV3
+346,MOL000346,Succinic acid,Oxidoreductase,3054,1410,,0.914769,0.7,天麻,Tianma,HHCMA56,Q12953
+346,MOL000346,Succinic acid,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial",3182,197,,0.963851,0.74,天麻,Tianma,SDHA,D6RFM5
+346,MOL000346,Succinic acid,Prolyl 3-hydroxylase 1,3300,3945,,0.934992,0.708,天麻,Tianma,P3H1,H7C2W6
+346,MOL000346,Succinic acid,"Succinyl-CoA:3-ketoacid-coenzyme A transferase 2, mitochondrial",3426,4008,,0.910306,0.722,天麻,Tianma,OXCT2,Q9BYC2
+346,MOL000346,Succinic acid,Prolyl 4-hydroxylase subunit alpha-2,3697,4000,,0.961666,0.712,天麻,Tianma,P4HA2,A8MXE0
+346,MOL000346,Succinic acid,Glucose--fructose oxidoreductase,2269,2826,,0.96138,0.7,天麻,Tianma,GFOD2,Q3B7J2
+346,MOL000346,Succinic acid,Caspase-3,4087,h001,validated,,,天麻,Tianma,CASP3,A0A8V8TPU5

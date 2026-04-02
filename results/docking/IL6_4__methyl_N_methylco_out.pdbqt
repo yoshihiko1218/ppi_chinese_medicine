@@ -1,0 +1,159 @@
+MODEL 1
+REMARK VINA RESULT:      -5.3      0.000      0.000
+REMARK  Name = results/docking/ligands/4__methyl_N_methylcoclaurine.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: C_7  and  O_22
+REMARK    3  A    between atoms: C_8  and  O_21
+REMARK    4  A    between atoms: C_11  and  C_12
+REMARK    5  A    between atoms: C_12  and  C_13
+REMARK    6  A    between atoms: C_16  and  O_19
+REMARK    7  A    between atoms: O_19  and  C_20
+REMARK    8  A    between atoms: O_22  and  C_23
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      14.982 -15.495  -3.557  0.00  0.00    +0.000 C 
+ATOM      2  N   UNL     1      14.009 -14.459  -3.302  0.00  0.00    +0.000 NA
+ATOM      3  C   UNL     1      14.528 -13.114  -3.508  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      13.370 -12.133  -3.723  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      12.132 -12.426  -2.910  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      11.068 -11.514  -2.950  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       9.893 -11.765  -2.252  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       9.787 -12.950  -1.513  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      10.830 -13.874  -1.450  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      12.018 -13.620  -2.153  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      13.210 -14.578  -2.065  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  12
+ATOM     12  O   UNL     1       8.635 -13.216  -0.822  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1       8.299 -12.344  -0.551  0.00  0.00    +0.000 HD
+ENDBRANCH   8  12
+BRANCH   7  14
+ATOM     14  O   UNL     1       8.791 -10.946  -2.213  0.00  0.00    +0.000 OA
+ATOM     15  C   UNL     1       8.258 -10.561  -3.477  0.00  0.00    +0.000 C 
+ENDBRANCH   7  14
+BRANCH  11  16
+ATOM     16  C   UNL     1      13.953 -14.519  -0.667  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      13.140 -14.801   0.586  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      12.639 -16.082   0.838  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      11.624 -16.277   1.773  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      11.188 -15.224   2.566  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      11.815 -13.982   2.460  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      12.786 -13.770   1.466  0.00  0.00    +0.000 A 
+BRANCH  20  23
+ATOM     23  O   UNL     1      10.095 -15.512   3.333  0.00  0.00    +0.000 OA
+ATOM     24  C   UNL     1       9.243 -14.429   3.662  0.00  0.00    +0.000 C 
+ENDBRANCH  20  23
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.2     27.520     29.500
+REMARK  Name = results/docking/ligands/4__methyl_N_methylcoclaurine.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: C_7  and  O_22
+REMARK    3  A    between atoms: C_8  and  O_21
+REMARK    4  A    between atoms: C_11  and  C_12
+REMARK    5  A    between atoms: C_12  and  C_13
+REMARK    6  A    between atoms: C_16  and  O_19
+REMARK    7  A    between atoms: O_19  and  C_20
+REMARK    8  A    between atoms: O_22  and  C_23
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -5.722 -31.244  21.374  0.00  0.00    +0.000 C 
+ATOM      2  N   UNL     1      -5.674 -31.146  19.934  0.00  0.00    +0.000 NA
+ATOM      3  C   UNL     1      -5.682 -32.439  19.265  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -6.137 -32.273  17.811  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -5.675 -31.000  17.144  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -5.940 -30.820  15.779  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -5.573 -29.645  15.135  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -4.938 -28.640  15.875  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -4.657 -28.791  17.233  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      -5.026 -29.979  17.884  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -4.684 -30.212  19.358  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  12
+ATOM     12  O   UNL     1      -4.572 -27.473  15.257  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -4.048 -27.752  14.487  0.00  0.00    +0.000 HD
+ENDBRANCH   8  12
+BRANCH   7  14
+ATOM     14  O   UNL     1      -5.776 -29.360  13.806  0.00  0.00    +0.000 OA
+ATOM     15  C   UNL     1      -5.500 -30.420  12.895  0.00  0.00    +0.000 C 
+ENDBRANCH   7  14
+BRANCH  11  16
+ATOM     16  C   UNL     1      -3.144 -30.485  19.604  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -2.256 -29.302  19.956  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -2.818 -28.075  20.323  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -2.051 -26.911  20.310  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -0.686 -26.971  20.061  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -0.077 -28.213  19.885  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -0.864 -29.377  19.827  0.00  0.00    +0.000 A 
+BRANCH  20  23
+ATOM     23  O   UNL     1      -0.083 -25.752  19.932  0.00  0.00    +0.000 OA
+ATOM     24  C   UNL     1       0.506 -25.206  21.099  0.00  0.00    +0.000 C 
+ENDBRANCH  20  23
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -3.9     27.259     29.530
+REMARK  Name = results/docking/ligands/4__methyl_N_methylcoclaurine.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: C_7  and  O_22
+REMARK    3  A    between atoms: C_8  and  O_21
+REMARK    4  A    between atoms: C_11  and  C_12
+REMARK    5  A    between atoms: C_12  and  C_13
+REMARK    6  A    between atoms: C_16  and  O_19
+REMARK    7  A    between atoms: O_19  and  C_20
+REMARK    8  A    between atoms: O_22  and  C_23
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.247 -28.695  18.607  0.00  0.00    +0.000 C 
+ATOM      2  N   UNL     1      -8.097 -29.391  17.351  0.00  0.00    +0.000 NA
+ATOM      3  C   UNL     1      -8.931 -30.580  17.245  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -9.114 -30.961  15.772  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -7.907 -30.717  14.899  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.942 -31.148  13.565  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -6.870 -30.905  12.714  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -5.757 -30.216  13.211  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -5.691 -29.779  14.534  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      -6.772 -30.026  15.395  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -6.719 -29.617  16.869  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  12
+ATOM     12  O   UNL     1      -4.693 -29.965  12.385  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -4.202 -29.248  12.821  0.00  0.00    +0.000 HD
+ENDBRANCH   8  12
+BRANCH   7  14
+ATOM     14  O   UNL     1      -6.790 -31.283  11.396  0.00  0.00    +0.000 OA
+ATOM     15  C   UNL     1      -7.642 -30.580  10.496  0.00  0.00    +0.000 C 
+ENDBRANCH   7  14
+BRANCH  11  16
+ATOM     16  C   UNL     1      -5.747 -30.523  17.732  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -4.522 -29.869  18.350  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -4.113 -28.596  17.943  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -2.829 -28.136  18.233  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -1.983 -28.880  19.045  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -2.450 -30.063  19.618  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -3.716 -30.559  19.265  0.00  0.00    +0.000 A 
+BRANCH  20  23
+ATOM     23  O   UNL     1      -0.710 -28.390  19.130  0.00  0.00    +0.000 OA
+ATOM     24  C   UNL     1      -0.563 -26.983  19.061  0.00  0.00    +0.000 C 
+ENDBRANCH  20  23
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+TORSDOF 5
+ENDMDL
