@@ -275,9 +275,9 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 
 | File | Description |
 |---|---|
-| **`results/figures/venn_drug_disease.pdf`** | Venn diagram: Drug targets (197) vs All disease targets (1,483), showing 55 overlapping targets |
-| **`results/figures/venn_per_disease.pdf`** | Three panels showing Drug vs Insomnia (11), Drug vs Alzheimer (32), Drug vs Anxiety (34) |
-| **`results/figures/venn_three_diseases.pdf`** | 3-way Venn of common targets distributed across the three diseases |
+| **`venn_drug_disease.pdf`** | Drug vs Disease Venn diagram (55 overlap) |
+| **`venn_per_disease.pdf`** | Drug vs each disease (3 panels) |
+| **`venn_three_diseases.pdf`** | 3-way Venn across three diseases |
 
 **Figure 4.1** Drug Targets vs Disease Targets Venn Diagram
 ![Drug-Disease Venn](results/figures/venn_drug_disease.png){width=80%}
@@ -348,17 +348,17 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 
 | File | Description |
 |---|---|
-| **`results/figures/ppi_network.pdf`** | Full PPI network (54 nodes, 346 edges). Node size and color represent Degree. Labels shown for core targets only. |
-| **`results/figures/ppi_core_network.pdf`** | Core hub PPI subnetwork (27 nodes). All nodes labeled. |
+| **`ppi_network.pdf`** | Full PPI network (54 nodes, 346 edges) |
+| **`ppi_core_network.pdf`** | Core hub PPI subnetwork (27 nodes) |
+| `ppi_topology.csv` | Topology metrics for all 54 nodes |
+| `core_targets.csv` | Core target list (27 genes) |
+| `ppi_edges.csv` | Edge list (Cytoscape-importable) |
 
 **Figure 5.1** Full PPI Network (54 nodes, 346 edges)
 ![PPI Network](results/figures/ppi_network.png){width=85%}
 
 **Figure 5.2** Core Hub PPI Subnetwork (27 nodes)
 ![Core PPI Network](results/figures/ppi_core_network.png){width=80%}
-| `results/tables/ppi_topology.csv` | Full topology metrics (Degree, Betweenness, Closeness) for all 54 nodes |
-| `results/tables/core_targets.csv` | Core target list (27 genes) with topology metrics |
-| `results/tables/ppi_edges.csv` | Edge list with STRING confidence scores (Cytoscape-importable) |
 
 ---
 
@@ -426,18 +426,18 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 
 | File | Description |
 |---|---|
-| **`results/figures/go_barplot.pdf`** | Bar plot of top 10 GO terms per category (BP, CC, MF). X-axis: -log10(Adjusted P-value). Three panels. |
-| **`results/figures/kegg_bubble.pdf`** | Bubble plot of top 20 KEGG pathways. X-axis: Gene Ratio. Bubble size: gene count. Color: -log10(Adjusted P-value). |
+| **`go_barplot.pdf`** | GO enrichment bar plots (BP, CC, MF) |
+| **`kegg_bubble.pdf`** | KEGG pathway bubble plot (top 20) |
+| `GO_Biological_Process_2023.csv` | Full GO-BP results (311 terms) |
+| `GO_Cellular_Component_2023.csv` | Full GO-CC results (4 terms) |
+| `GO_Molecular_Function_2023.csv` | Full GO-MF results (34 terms) |
+| `KEGG_2021_Human.csv` | Full KEGG results (147 pathways) |
 
 **Figure 6.1** GO Enrichment Bar Plot (BP, CC, MF — Top 10 each)
 ![GO Bar Plot](results/figures/go_barplot.png){width=100%}
 
 **Figure 6.2** KEGG Pathway Enrichment Bubble Plot (Top 20)
 ![KEGG Bubble Plot](results/figures/kegg_bubble.png){width=90%}
-| `data/enrichment/GO_Biological_Process_2023.csv` | Full GO-BP results (311 terms) |
-| `data/enrichment/GO_Cellular_Component_2023.csv` | Full GO-CC results (4 terms) |
-| `data/enrichment/GO_Molecular_Function_2023.csv` | Full GO-MF results (34 terms) |
-| `data/enrichment/KEGG_2021_Human.csv` | Full KEGG results (147 pathways) |
 
 ---
 
@@ -513,29 +513,29 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 
 | File | Description |
 |---|---|
-| **`results/figures/docking_heatmap.pdf`** | Heatmap of binding energies (5 targets × 5 compounds). Color scale: green (strong) to red (weak). Annotated with energy values. |
+| **`docking_heatmap.pdf`** | Binding energy heatmap (5 targets x 5 compounds) |
+| `docking_results.csv` | All 25 docking results with binding energies |
+| `docking/receptors/` | Receptor PDB and PDBQT files |
+| `docking/ligands/` | Ligand PDB, SDF, and PDBQT files |
+| `docking/*_out.pdbqt` | Docking output poses (best 3 modes per pair) |
 
 **Figure 7.1** Molecular Docking Binding Energy Heatmap
 ![Docking Heatmap](results/figures/docking_heatmap.png){width=85%}
-| `results/tables/docking_results.csv` | All 25 docking results with binding energies |
-| `results/docking/receptors/` | Receptor PDB and PDBQT files |
-| `results/docking/ligands/` | Ligand PDB, SDF, and PDBQT files |
-| `results/docking/*_out.pdbqt` | Docking output poses (best 3 modes per pair) |
 
 ---
 
 ## Summary of All Output Figures (PDF)
 
-| # | File Path | Content |
-|---|---|---|
-| 1 | `results/figures/venn_drug_disease.pdf` | Drug targets vs Disease targets Venn diagram |
-| 2 | `results/figures/venn_per_disease.pdf` | Drug vs each disease (3 panels) |
-| 3 | `results/figures/venn_three_diseases.pdf` | 3-way Venn across Insomnia/Alzheimer/Anxiety |
-| 4 | `results/figures/ppi_network.pdf` | Full PPI network (54 nodes, 346 edges) |
-| 5 | `results/figures/ppi_core_network.pdf` | Core hub PPI subnetwork (27 nodes) |
-| 6 | `results/figures/go_barplot.pdf` | GO enrichment bar plots (BP, CC, MF) |
-| 7 | `results/figures/kegg_bubble.pdf` | KEGG pathway bubble plot (top 20) |
-| 8 | `results/figures/docking_heatmap.pdf` | Molecular docking binding energy heatmap |
+1. **venn_drug_disease.pdf** — Drug targets vs Disease targets Venn diagram
+2. **venn_per_disease.pdf** — Drug vs each disease (3 panels)
+3. **venn_three_diseases.pdf** — 3-way Venn across Insomnia/Alzheimer/Anxiety
+4. **ppi_network.pdf** — Full PPI network (54 nodes, 346 edges)
+5. **ppi_core_network.pdf** — Core hub PPI subnetwork (27 nodes)
+6. **go_barplot.pdf** — GO enrichment bar plots (BP, CC, MF)
+7. **kegg_bubble.pdf** — KEGG pathway bubble plot (top 20)
+8. **docking_heatmap.pdf** — Molecular docking binding energy heatmap
+
+All figures are located in the `results/figures/` directory, available in both PNG and PDF formats.
 
 ---
 
