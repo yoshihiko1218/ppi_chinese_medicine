@@ -477,6 +477,144 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 
 ---
 
+## Appendix: How Each Calculation Works
+
+### A1. Oral Bioavailability (OB)
+
+OB represents the fraction of an orally administered drug that reaches systemic circulation in unchanged form. In TCMSP, OB (%) is pre-calculated for each compound using the OBioavail 1.1 model, which is a support vector machine (SVM)-based prediction model trained on 805 structurally diverse drugs with known bioavailability data. The model uses molecular descriptors (e.g., P-glycoprotein interactions, CYP450 metabolism, intestinal permeability) to predict the percentage of the oral dose that reaches the bloodstream. A threshold of **OB ≥ 30%** means we keep compounds predicted to have at least 30% bioavailability — i.e., the compound is likely absorbable when taken orally.
+
+### A2. Drug-Likeness (DL)
+
+DL quantifies how "drug-like" a compound is compared to known drugs. TCMSP calculates DL using the Tanimoto coefficient (a similarity metric) between a compound's molecular descriptors and the average descriptors of all drugs in the DrugBank database:
+
+```
+DL(A) = (A · B) / (|A|² + |B|² − A · B)
+```
+
+where **A** is the molecular descriptor vector of the candidate compound and **B** is the average descriptor vector of all DrugBank drugs. The value ranges from 0 to 1; higher means more drug-like. A threshold of **DL ≥ 0.18** is the conventional cutoff used in most network pharmacology studies, representing compounds that share sufficient structural features with established drugs to be considered pharmacologically relevant.
+
+### A3. STRING Interaction Confidence Score
+
+STRING assigns a combined confidence score (0–1) to each protein-protein interaction, representing the probability that the interaction is biologically meaningful. It integrates evidence from multiple channels:
+
+- **Experimental data** — physical binding assays (e.g., co-immunoprecipitation, yeast two-hybrid)
+- **Curated databases** — known interactions from pathway databases (KEGG, Reactome, BioCyc)
+- **Text mining** — co-occurrence of protein names in PubMed abstracts
+- **Co-expression** — correlated mRNA expression patterns across conditions
+- **Genomic context** — gene neighborhood, gene fusion, phylogenetic co-occurrence
+
+Each channel produces a sub-score; the combined score is calculated as:
+
+```
+S_combined = 1 − ∏(1 − S_i)
+```
+
+where S_i is the individual channel score. We used **score ≥ 0.4** (medium confidence), meaning there is at least moderate evidence from one or more sources that the two proteins functionally interact.
+
+### A4. PPI Network Topology Metrics
+
+Three centrality metrics were calculated using NetworkX (Python) to identify hub targets in the PPI network:
+
+**Degree** — The number of direct interaction partners (edges) for a node. A node with Degree = 30 (e.g., PTGS2) directly interacts with 30 other proteins. Higher degree = more connected = more likely to be a key regulatory node.
+
+**Betweenness Centrality** — Measures how often a node lies on the shortest path between other node pairs:
+
+```
+BC(v) = Σ [σ_st(v) / σ_st]  for all pairs s ≠ v ≠ t
+```
+
+where σ_st is the total number of shortest paths from node s to node t, and σ_st(v) is the number of those paths passing through v. Normalized to [0, 1]. High betweenness = the protein is a "bridge" or "bottleneck" controlling information flow between different parts of the network. For example, ESR1 (Betweenness = 0.098) sits on ~10% of all shortest paths, suggesting it mediates cross-talk between different signaling modules.
+
+**Closeness Centrality** — Measures how close a node is to all other nodes:
+
+```
+CC(v) = (N − 1) / Σ d(v, u)  for all u ≠ v
+```
+
+where d(v, u) is the shortest path length between v and u, and N is the number of nodes. High closeness = the protein can quickly influence or be influenced by others. IL6 (Closeness = 0.697) is on average only ~1.4 steps away from any other protein in the network.
+
+**Core target selection:** We selected nodes with Degree ≥ median Degree (12.5) as core hub targets, following the convention used in CentiScaPe analysis in Cytoscape.
+
+### A5. GO and KEGG Enrichment Analysis
+
+Enrichment analysis tests whether certain biological categories (GO terms or KEGG pathways) appear more frequently in our target gene list than expected by chance.
+
+**Fisher's Exact Test (used by Enrichr):**
+
+For each GO term or KEGG pathway, a 2×2 contingency table is constructed:
+
+|  | In pathway | Not in pathway |
+|---|---|---|
+| **In our gene list** | a | b |
+| **Not in our gene list** | c | d |
+
+The P-value is calculated using Fisher's exact test:
+
+```
+P = C(a+b, a) × C(c+d, c) / C(a+b+c+d, a+c)
+```
+
+This tests the null hypothesis that our genes are NOT enriched in this pathway. A small P-value means the overlap is unlikely by chance.
+
+**Adjusted P-value (Benjamini-Hochberg FDR):** Because we test hundreds of GO terms/pathways simultaneously, we correct for multiple testing. The Benjamini-Hochberg procedure ranks all P-values, then adjusts:
+
+```
+P_adjusted(i) = P(i) × (total tests / rank_i)
+```
+
+We use **Adjusted P-value < 0.05** as the significance cutoff, meaning we accept a 5% false discovery rate.
+
+**Gene Ratio** (shown in KEGG bubble plot): The fraction of pathway genes present in our list. For example, "17/341" for Neuroactive ligand-receptor interaction means 17 of the 341 genes in that pathway are among our 55 common targets.
+
+### A6. Molecular Docking (AutoDock Vina)
+
+Molecular docking predicts the preferred orientation and binding strength of a small molecule (ligand) within a protein's binding site (receptor).
+
+**How Vina works:**
+
+1. **Search algorithm:** Vina uses an iterated local search global optimizer. It randomly places the ligand in the search box, then iteratively:
+   - Mutates the ligand pose (random translation, rotation, torsion angle changes)
+   - Locally optimizes using the scoring function gradient
+   - Accepts or rejects based on a Metropolis criterion (simulated annealing-like)
+   - The `exhaustiveness` parameter (set to 8) controls how many independent runs are performed — more runs = more thorough search.
+
+2. **Scoring function:** Vina's empirical scoring function estimates binding free energy (kcal/mol) as a sum of intermolecular interaction terms:
+
+```
+ΔG_bind ≈ ΔG_vdw + ΔG_hbond + ΔG_elec + ΔG_desolv + ΔG_torsion
+```
+
+   - **ΔG_vdw** — van der Waals (steric) interactions: attractive at optimal distance, repulsive if too close
+   - **ΔG_hbond** — hydrogen bond donor-acceptor interactions
+   - **ΔG_elec** — electrostatic (charge-charge) interactions
+   - **ΔG_desolv** — desolvation penalty: energetic cost of removing water from the binding interface
+   - **ΔG_torsion** — entropy penalty for restricting rotatable bonds upon binding
+
+3. **Output:** The binding energy in kcal/mol. **More negative = stronger binding:**
+   - \> −5.0 kcal/mol: Weak or no meaningful binding
+   - −5.0 to −7.0 kcal/mol: Moderate (good) binding
+   - < −7.0 kcal/mol: Strong binding
+
+   For example, 4'-methyl-N-methylcoclaurine binding to EGFR at −7.7 kcal/mol suggests strong complementarity between the compound's shape/chemistry and the EGFR binding pocket.
+
+4. **Search box:** A 25 × 25 × 25 Å cubic box was centered on the protein's center of mass. This is a "blind docking" approach covering a large area of the protein surface, allowing the ligand to find the most favorable binding site without prior knowledge of the active site location.
+
+### A7. Open Targets Association Score
+
+Open Targets calculates an overall association score (0–1) between a disease and a target gene by integrating evidence from multiple data sources:
+
+- **Genetic associations** — GWAS studies, ClinVar, UniProt variants
+- **Somatic mutations** — Cancer-related mutations (COSMIC, IntOGen)
+- **Known drugs** — Approved drugs targeting the protein for the disease (ChEMBL)
+- **Pathways & systems biology** — Reactome pathway perturbation
+- **RNA expression** — Differential expression in disease tissues
+- **Literature** — Text-mined co-occurrences in publications
+- **Animal models** — Phenotype data from model organisms
+
+Each source produces a sub-score; the overall score is computed by a harmonic sum that weights the strongest evidence most heavily. We retrieved the top 500 targets per disease ranked by this score.
+
+---
+
 ## Software and Databases Summary
 
 | Tool/Database | Version/URL | Purpose |
