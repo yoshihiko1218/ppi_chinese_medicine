@@ -31,7 +31,45 @@
 | 龙眼肉 | *Not in TCMSP — supplemented from literature* | 10 (supplemented) |
 | 天麻 | *Not in TCMSP — supplemented from literature* | 11 (supplemented) |
 
-**Note:** 龙眼肉 (Longan Arillus) and 天麻 (Gastrodiae Rhizoma) were not registered in the TCMSP database. Their active compounds were supplemented from published network pharmacology literature. Known active compounds include Gallic acid, Ellagic acid, Quercetin, Kaempferol, beta-Sitosterol, Corilagin (for 龙眼肉) and Gastrodin, Vanillin, 4-Hydroxybenzyl alcohol, Parishin A/B/C, beta-Sitosterol, Daucosterol, Succinic acid (for 天麻).
+**Note:** 龙眼肉 (Longan Arillus) and 天麻 (Gastrodiae Rhizoma) were not registered in the TCMSP database. Their active compounds were supplemented from published phytochemistry and pharmacology literature, as detailed below.
+
+#### 龙眼肉 (Longan Arillus) — Literature Sources for Active Compounds
+
+The active compounds of longan arillus (Gallic acid, Ellagic acid, Quercetin, Kaempferol, beta-Sitosterol, Adenine, Adenosine, Uridine, Ethyl gallate, Corilagin) were compiled from the following references:
+
+1. **Rangkadilok N, et al.** "Quantification of gallic acid and ellagic acid from longan (Dimocarpus longan Lour.) seed and mango (Mangifera indica L.) kernel and their effects on antioxidant activity." *Food Chemistry*, 2007, 104(3): 1109-1117. DOI: 10.1016/j.foodchem.2007.01.018
+   — Reported gallic acid and ellagic acid as major phenolic compounds in longan.
+
+2. **Soong YY, Barlow PJ.** "Isolation and structure elucidation of phenolic compounds from longan (Dimocarpus longan Lour.) seed by high-performance liquid chromatography–electrospray ionization mass spectrometry." *Journal of Chromatography A*, 2005, 1085(2): 270-277. PMID: 16106708
+   — Identified gallic acid, ellagic acid, corilagin, quercetin-3-O-rhamnoside, and procyanidins in longan.
+
+3. **Zheng G, et al.** "Chemical constituents from pericarp of longan fruits." *Research Gate*, 2016.
+   — Reported β-sitosterol, β-daucosterol, gallic acid, corilagin, and ellagic acid from longan pericarp.
+
+4. **Yang C, et al.** "Longan Arillus: A comprehensive review of botany, traditional uses, phytochemistry, pharmacologic activities, pharmacokinetics, quality control, toxicity, and clinical applications." *Journal of Ethnopharmacology*, 2025. PMID: 40505758
+   — Comprehensive review identifying >378 compounds from longan arillus including polyphenols, nucleosides (adenine, adenosine, uridine), and steroids (β-sitosterol).
+
+5. **Prasad KN, et al.** "Extraction and pharmacological properties of bioactive compounds from longan (Dimocarpus longan Lour.) fruit — A review." *Food Research International*, 2009.
+   — Reviewed quercetin, kaempferol, and gallic acid as notable antioxidant compounds in longan fruit.
+
+#### 天麻 (Gastrodiae Rhizoma) — Literature Sources for Active Compounds
+
+The active compounds of Gastrodia elata (Gastrodin, 4-Hydroxybenzyl alcohol, Vanillin, 4-Hydroxybenzaldehyde, Vanillyl alcohol, beta-Sitosterol, Parishin A/B/C, Daucosterol, Succinic acid) were compiled from the following references:
+
+1. **Wang YL, et al.** "Neuropharmacological effects of Gastrodia elata Blume and its active ingredients." *Frontiers in Neurology*, 2025, 16: 1574277. DOI: 10.3389/fneur.2025.1574277. PMC: PMC12074926
+   — Identified the primary bioactive compounds of Gastrodia elata as gastrodin, p-hydroxybenzyl alcohol (4-Hydroxybenzyl alcohol), vanillyl alcohol, polysaccharides, and β-sitosterol.
+
+2. **Liu Y, et al.** "From molecules to medicine: a systematic review of Gastrodia elata's bioactive metabolites and therapeutic potential." *Frontiers in Pharmacology*, 2025, 16: 1641443. DOI: 10.3389/fphar.2025.1641443
+   — Systematic review identifying 143 metabolites including gastrodin, parishins, 4-hydroxybenzaldehyde, vanillin, succinic acid, and sterols (β-sitosterol, daucosterol).
+
+3. **Li YX, et al.** "Isolation, Bioactivity, and Molecular Docking of a Rare Gastrodin Isocitrate and Diverse Parishin Derivatives from Gastrodia elata Blume." *ACS Omega*, 2024, 9(14): 16430-16440. DOI: 10.1021/acsomega.4c00436
+   — Isolated parishin A, B, C and novel derivatives; confirmed neuroprotective activity and molecular docking against AD-related targets.
+
+4. **Zhu XL, et al.** "Gastrodin, a Promising Natural Small Molecule for the Treatment of Central Nervous System Disorders, and Its Recent Progress in Synthesis, Pharmacology and Pharmacokinetics." *Current Topics in Medicinal Chemistry*, 2024. PMC: PMC11394983
+   — Reviewed gastrodin as the principal active component of Gastrodia elata with neuroprotective, anti-inflammatory, and sedative effects.
+
+5. **Zhan HD, et al.** "The traditional uses, phytochemistry and pharmacology of Gastrodia elata Blume: A comprehensive review." *Arabian Journal of Chemistry*, 2016.
+   — Listed gastrodin, p-hydroxybenzyl alcohol, vanillin, 4-hydroxybenzaldehyde, parishin A/B/C, β-sitosterol, daucosterol, and succinic acid as major constituents of Gastrodia elata rhizome.
 
 **Total raw compounds retrieved:** 908 entries (812 unique by MOL_ID)
 
