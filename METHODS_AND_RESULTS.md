@@ -4,7 +4,31 @@
 
 ---
 
+## Overall Pipeline Logic
+
+Network pharmacology asks: **"How does a multi-herb formula treat a disease at the molecular level?"** The pipeline answers this by connecting herbs → compounds → protein targets → disease mechanisms, step by step:
+
+```
+Herbs (14) → Active Compounds (145) → Drug Targets (197 genes)
+                                              ↓
+                              Disease Targets (1,483 genes)
+                                              ↓
+                                    Common Targets (55 genes)
+                                              ↓
+                              PPI Network → Core Hubs (27 genes)
+                                              ↓
+                              GO/KEGG → Key Pathways & Processes
+                                              ↓
+                              Molecular Docking → Binding Validation
+```
+
+Each stage narrows the focus: from thousands of compounds down to the handful of proteins and pathways that most likely explain how this formula works.
+
+---
+
 ## 1. Active Compound Screening
+
+**Purpose:** TCM formulas contain hundreds of chemical compounds, but most are not pharmacologically active when taken orally — they may not be absorbed, may be too unlike known drugs, or may be present in trace amounts. This stage identifies the subset of compounds that are most likely to exert therapeutic effects, by filtering for oral bioavailability (can it reach the bloodstream?) and drug-likeness (does it resemble known drugs?).
 
 ### 1.1 TCMSP Database Search
 
@@ -104,6 +128,8 @@ For TCMSP-sourced herbs (12 herbs), the strict OB ≥ 30% and DL ≥ 0.18 filter
 
 ### 1.3 SMILES Retrieval
 
+**Purpose:** TCMSP provides compound names and pharmacokinetic properties but not machine-readable chemical structures. SMILES (Simplified Molecular Input Line Entry System) is a text notation encoding a molecule's structure as a string (e.g., quercetin = `C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O`). We need SMILES for two downstream steps: (1) Swiss Target Prediction requires SMILES to predict protein targets based on structural similarity to known ligands, and (2) Molecular Docking requires 3D coordinates, which are generated from SMILES using Open Babel.
+
 **Platform:** PubChem (https://pubchem.ncbi.nlm.nih.gov/), accessed via PUG REST API
 
 **Method:** For each unique compound, queried PubChem by compound name to retrieve the Canonical SMILES (Simplified Molecular Input Line Entry System) notation and PubChem CID.
@@ -117,6 +143,8 @@ For TCMSP-sourced herbs (12 herbs), the strict OB ≥ 30% and DL ≥ 0.18 filter
 ---
 
 ## 2. Drug Target Prediction
+
+**Purpose:** Each active compound exerts its effect by physically binding to specific proteins (targets) in the body, altering their function. This stage identifies which human proteins are predicted to interact with our 145 filtered compounds. These "drug targets" represent the molecular entry points through which the formula influences the body. By collecting targets for all compounds across all 14 herbs, we build a comprehensive picture of the formula's potential mechanism of action.
 
 ### 2.1 TCMSP Target Retrieval
 
@@ -176,6 +204,8 @@ For 龙眼肉 and 天麻, targets were obtained by:
 
 ## 3. Disease Target Collection
 
+**Purpose:** To understand how the formula treats the target diseases, we need to know which genes/proteins are involved in those diseases. This stage collects genes that have been linked to Insomnia, Alzheimer's Disease, and Anxiety Disorder through genetic studies (GWAS), clinical evidence, expression data, and literature. These "disease targets" represent the molecular basis of the diseases themselves. Later, by overlapping drug targets with disease targets, we can pinpoint exactly which disease-relevant proteins the formula acts on.
+
 ### 3.1 Databases Used
 
 **Platform 1:** Open Targets Platform (https://platform.opentargets.org/), GraphQL API
@@ -221,6 +251,8 @@ For 龙眼肉 and 天麻, targets were obtained by:
 
 ## 4. Intersection Analysis & Venn Diagram
 
+**Purpose:** This is the central step of network pharmacology — finding the overlap between "what the formula targets" (drug targets) and "what drives the disease" (disease targets). The overlapping genes are the **common targets** — the proteins through which the formula is most likely exerting its therapeutic effects on the diseases. The Venn diagram visualizes how many targets are shared versus unique to each set, and the per-disease breakdown shows whether the formula preferentially targets certain diseases.
+
 ### 4.1 Method
 
 Drug target genes (197) were intersected with the union of all disease target genes (1,483) to identify common drug-disease targets. Additional per-disease intersections were computed.
@@ -253,6 +285,8 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 ---
 
 ## 5. PPI Network Construction & Core Target Selection
+
+**Purpose:** The 55 common targets do not work in isolation — proteins interact with each other in signaling cascades and regulatory networks. By building a protein-protein interaction (PPI) network, we reveal which targets are most "central" or "connected" in the biological network. The most connected nodes (hub targets) are likely the key mediators of the formula's therapeutic effect, because disrupting a hub protein affects many downstream pathways. This step prioritizes the most important targets for further investigation and molecular docking.
 
 ### 5.1 STRING Database Query
 
@@ -314,6 +348,8 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 ---
 
 ## 6. GO & KEGG Enrichment Analysis
+
+**Purpose:** Knowing the individual target genes is not enough — we need to understand what biological processes and signaling pathways they collectively participate in. GO (Gene Ontology) enrichment reveals the biological processes (e.g., "inflammatory response"), cellular locations (e.g., "synapse"), and molecular functions (e.g., "receptor binding") that are over-represented among our targets. KEGG enrichment identifies specific signaling pathways (e.g., "Dopaminergic synapse", "PI3K-Akt signaling") that are significantly enriched. Together, they explain the higher-level biological mechanisms through which the formula treats the diseases, moving from individual proteins to systems-level understanding.
 
 ### 6.1 Method
 
@@ -385,6 +421,8 @@ ACHE, ADCY2, ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1, ADRB2, ALDH5
 ---
 
 ## 7. Molecular Docking
+
+**Purpose:** The previous stages are all based on database predictions and statistical analysis. Molecular docking provides a physics-based validation by computationally simulating whether the key active compounds can actually fit into the binding pockets of the top target proteins. If a compound shows strong binding energy (< −7.0 kcal/mol), it provides structural-level evidence that the predicted compound-target interaction is physically plausible. This strengthens the confidence in the network pharmacology predictions and identifies the most promising compound-target pairs for future experimental validation (e.g., in vitro binding assays).
 
 ### 7.1 Target and Ligand Selection
 
