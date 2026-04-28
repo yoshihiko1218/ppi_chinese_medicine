@@ -1,0 +1,56 @@
+{
+  "project_name": "qsfsg",
+  "description": "QSFSG (芪参芙参颗) formula for NAFLD / Liver Injury / abnormal lipid metabolism",
+
+  "herbs": [
+    {"cn": "红参",    "pinyin": "Hongshen",  "latin": ["Ginseng Radix et Rhizoma Rubra", "Red Ginseng", "Panax Ginseng"]},
+    {"cn": "黄芪",    "pinyin": "Huangqi",   "latin": ["Astragali Radix", "Astragalus membranaceus"]},
+    {"cn": "熟地黄",  "pinyin": "Shudihuang","latin": ["Rehmanniae Radix Praeparata", "Rehmannia glutinosa"]},
+    {"cn": "山药",    "pinyin": "Shanyao",   "latin": ["Rhizoma Dioscoreae", "Dioscoreae Rhizoma", "Dioscorea opposita"]},
+    {"cn": "酒萸肉",  "pinyin": "Shanzhuyu", "latin": ["Cornus Officinalis Sieb. et Zucc.", "Corni Fructus", "Cornus officinalis", "Fructus Corni"]},
+    {"cn": "茯苓",    "pinyin": "Fuling",    "latin": ["Poria", "Poria Cocos(Schw.) Wolf.", "Poria cocos"]},
+    {"cn": "牡丹皮",  "pinyin": "Mudanpi",   "latin": ["Moutan Cortex", "Cortex Moutan", "Paeonia suffruticosa"]},
+    {"cn": "蝉蜕",    "pinyin": "Chantui",   "latin": ["Cicadae Periostracum", "Cryptotympana atrata", "Cicada slough"]},
+    {"cn": "僵蚕",    "pinyin": "Jiangcan",  "latin": ["Bombyx Batryticatus", "Stiff silkworm"],
+     "supplement_compounds_csv": "../../data/supplements/jiangcan.csv",
+     "supplement_references": [
+       "Hu M, Yu Z, Wang J, et al. Traditional Uses, Origins, Chemistry and Pharmacology of Bombyx batryticatus: A Review. Molecules. 2017;22(10):1779. doi:10.3390/molecules22101779. PMID: 29053625; PMC: PMC6151799. — Comprehensive review listing flavonoids (quercetin, kaempferol), sterols (β-sitosterol, stigmasterol, daucosterol, ergostane derivatives), nucleosides (adenosine, uridine, adenine, hypoxanthine, xanthine), peptides (BB octapeptide, beauvericin, cyclic dipeptides) and amides (nicotinamide, aurantiamide) as documented constituents.",
+       "Liu et al. Discovery of antiepileptic Q-Markers for Bombyx batryticatus: Integrating serum pharmacochemistry, network pharmacology and temporal-efficacy validation. J Ethnopharmacol. 2025; doi:10.1016/j.jep.2025. — Identified beauvericin (192.3 µg/g), bassianolide (325.6 µg/g), and ammonium oxalate (66515 µg/g) as quality markers for antiepileptic effect.",
+       "Wang et al. Anticonvulsant Activity of Bombyx batryticatus and Analysis of Bioactive Extracts Based on UHPLC-Q-TOF MS/MS and Molecular Networking. Front Pharmacol. 2022. PMC: PMC9740854. — UHPLC-Q-TOF/MS analysis identified 65 compounds in Bombyx batryticatus extract."
+     ]},
+    {"cn": "水蛭",    "pinyin": "Shuizhi",   "latin": ["Hirudo", "Leech"],
+     "supplement_compounds_csv": "../../data/supplements/shuizhi.csv",
+     "supplement_references": [
+       "Dong H, Ren JX, Wang JJ, et al. Chinese Medicinal Leech: Ethnopharmacology, Phytochemistry, and Pharmacological Activities. Evidence-Based Complementary and Alternative Medicine. 2016; doi:10.1155/2016/7895935. — Comprehensive review of phytochemistry of Hirudo / Whitmania pigra reporting >51 small-molecule constituents including pteridines, sterols (β-sitosterol, stigmasterol, cholesterol, daucosterol), squalene, fatty acids, organic acids and bioactive peptides.",
+       "Chen et al. A Comprehensive Quality Evaluation System for Medicinal Leeches by Integrating Macromolecular Protein Analysis and Small-Molecule Marker Detection. Pharmaceuticals. 2025;18(6):887. PMC: PMC12195895. — Identified 13 small-molecule quality markers including 6 pteridines (Hirudinoidine A/B/C, Whitmanine B, Poecilobdellasulfide B, SZ-1), 3 nucleosides (inosine, hypoxanthine, xanthine), 3 amino acids (leucine, phenylalanine, tryptophan), and 1 piperidine (2-piperidone).",
+       "Zhang et al. Antithrombotic pharmacodynamics and metabolomics study in raw and processed products of Whitmania pigra Whitman. PMC: PMC11002550. — Metabolomics study identifying 66 differential metabolites including sphinganine, phosphorylcholine, arachidoyl ethanolamide and amino-acid derivatives.",
+       "Note: hirudin and hirudin-like peptide factors are the principal antithrombotic agents of medicinal leech but are large peptides (≈ 7 kDa) and therefore outside the small-molecule scope of this network-pharmacology pipeline (Müller et al., J Thromb Haemost 2022, doi:10.1111/jth.15762)."
+     ]},
+    {"cn": "生大黄",  "pinyin": "Dahuang",   "latin": ["Rhei Radix et Rhizoma", "Rheum palmatum", "Rhubarb"]},
+    {"cn": "炙甘草",  "pinyin": "Gancao",    "latin": ["Glycyrrhizae Radix et Rhizoma Praeparata", "Glycyrrhiza uralensis", "Licorice"]}
+  ],
+
+  "diseases": [
+    {"key": "nafld",        "name": "Non-alcoholic fatty liver disease",
+                            "opentargets_query": "non-alcoholic fatty liver disease"},
+    {"key": "liver_injury", "name": "Liver Injury",
+                            "opentargets_query": "liver injury"},
+    {"key": "dyslipidemia", "name": "Abnormal lipid metabolism",
+                            "opentargets_query": "dyslipidemia"}
+  ],
+
+  "filters": {
+    "ob_min": 30,
+    "dl_min": 0.18,
+    "supp_ob_min": 30,
+    "supp_dl_min": null,
+    "string_score_min": 400,
+    "disease_top_n": 500
+  },
+
+  "docking": {
+    "enabled": false,
+    "n_receptors": 5,
+    "n_ligands": 5
+  }
+}

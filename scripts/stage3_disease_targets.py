@@ -9,13 +9,19 @@ import pandas as pd
 import time
 import json
 import re
+import os
+import sys
 from bs4 import BeautifulSoup
 
-DISEASES = {
-    "insomnia": "Insomnia",
-    "alzheimer": "Alzheimer's disease",
-    "anxiety": "Anxiety disorder",
-}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pipeline_config as PC
+
+# DISEASES comes from config as {key: {name, opentargets_query}}.
+# Build two views: DISEASES (name) for OT/NCBI queries, and
+# DISEASES_QUERY (opentargets_query) for OT disambiguation.
+DISEASES = {k: v["name"] for k, v in PC.DISEASES.items()}
+DISEASES_QUERY = {k: v.get("opentargets_query", v["name"]) for k, v in PC.DISEASES.items()}
+os.makedirs("data/targets", exist_ok=True)
 
 def get_disgenet_targets(disease_name):
     """Get disease targets from DisGeNET (open access)."""
@@ -147,7 +153,7 @@ for key, disease_name in DISEASES.items():
 
     # 1. Open Targets Platform (most comprehensive)
     print("  Querying Open Targets...")
-    ot_targets = get_opentargets(disease_name)
+    ot_targets = get_opentargets(DISEASES_QUERY.get(key, disease_name))
     print(f"  Open Targets: {len(ot_targets)} targets")
     targets.extend(ot_targets)
 

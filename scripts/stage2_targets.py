@@ -9,27 +9,45 @@ import pandas as pd
 import requests
 import time
 import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pipeline_config as PC
 
 # Load filtered compounds and TCMSP targets
 compounds = pd.read_csv("data/compounds/compounds_filtered_all.csv")
-tcmsp_targets = pd.read_csv("data/targets/tcmsp_targets_raw.csv")
+tcmsp_targets = pd.read_csv("data/targets/tcmsp_targets_raw.csv") if os.path.exists("data/targets/tcmsp_targets_raw.csv") else pd.DataFrame(columns=["MOL_ID", "molecule_name", "target_name"])
 
 print("=== TCMSP Target Data ===")
 print(f"Total target entries: {len(tcmsp_targets)}")
 print(f"Unique MOL_IDs: {tcmsp_targets['MOL_ID'].nunique()}")
 print(f"Unique targets: {tcmsp_targets['target_name'].nunique()}")
 
-# Filter targets for our filtered compounds only
+# Filter targets for our filtered compounds only.
+# Re-attribute herb_cn from compounds_filtered_all.csv (the source of truth):
+# tcmsp_targets_raw.csv labels each row by the herb whose TCMSP page produced it,
+# but a compound may belong to multiple herbs (and TCMSP may return target rows
+# only on some of those herb pages). So we drop the original herb_cn and join
+# back on MOL_ID with our compound list — one target row per (herb, MOL_ID).
 filtered_mol_ids = set(compounds['MOL_ID'].unique())
-drug_targets = tcmsp_targets[tcmsp_targets['MOL_ID'].isin(filtered_mol_ids)].copy()
-print(f"\nTargets for filtered compounds: {len(drug_targets)}")
+tt = tcmsp_targets[tcmsp_targets['MOL_ID'].isin(filtered_mol_ids)].copy()
+print(f"\nRaw target rows (any herb attribution): {len(tt)}")
+# Dedup target rows per MOL_ID — same target may have come from multiple herb pages
+tt_dedup = tt.drop(columns=[c for c in ['herb_cn', 'herb_pinyin'] if c in tt.columns])
+tt_dedup = tt_dedup.drop_duplicates(subset=['MOL_ID', 'target_name'])
+print(f"Deduped target rows: {len(tt_dedup)} (unique MOL_ID × target pairs)")
+
+herb_index = compounds[['MOL_ID', 'herb_cn', 'herb_pinyin']].drop_duplicates()
+drug_targets = tt_dedup.merge(herb_index, on='MOL_ID', how='inner')
+print(f"After re-attributing to all source herbs: {len(drug_targets)} (MOL_ID × herb × target)")
 print(f"Unique targets: {drug_targets['target_name'].nunique()}")
 
-# For supplementary herbs (龙眼肉, 天麻) that don't have TCMSP targets,
-# use Swiss Target Prediction via their SMILES
-supp_compounds = compounds[compounds['herb_cn'].isin(['龙眼肉', '天麻'])].copy()
-supp_compounds = supp_compounds.dropna(subset=['SMILES'])
-print(f"\nSupplementary compounds needing STP: {len(supp_compounds)}")
+# Herbs whose compounds come from a literature supplement CSV
+supp_herb_names = [h["cn"] for h in PC.supplement_herbs()]
+supp_compounds = compounds[compounds['herb_cn'].isin(supp_herb_names)].copy()
+supp_compounds = supp_compounds.dropna(subset=['SMILES']) if 'SMILES' in supp_compounds.columns else supp_compounds
+print(f"\nSupplementary compounds needing STP: {len(supp_compounds)} (herbs: {supp_herb_names})")
 
 # Try Swiss Target Prediction for supplementary compounds
 # STP web scraping approach

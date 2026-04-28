@@ -8,6 +8,10 @@ import pandas as pd
 from bs4 import BeautifulSoup as bs
 import lxml.html
 import time
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pipeline_config as PC
 
 class TCMSPScraper:
     def __init__(self):
@@ -53,26 +57,44 @@ class TCMSPScraper:
                         pass
         return results
 
-# Herb mapping with alternative names to try
-HERB_MAP = [
-    ("酸枣仁", "Suanzaoren", ["Ziziphi Spinosae Semen"]),
-    ("核桃仁", "Hetaoren", ["Juglandis Semen"]),
-    ("黄精", "Huangjing", ["Polygonati Rhizoma"]),
-    ("枸杞子", "Gouqizi", ["Lycii Fructus"]),
-    ("桑葚", "Sangshen", ["Mori Fructus"]),
-    ("当归", "Danggui", ["Angelicae Sinensis Radix"]),
-    ("龙眼肉", "Longyanrou", ["Arillus Longan", "Longan Arillus", "Dimocarpus Longan"]),
-    ("茯苓", "Fuling", ["Poria Cocos(Schw.) Wolf."]),
-    ("莲子", "Lianzi", ["Nelumbinis Semen", "Nelumbinis Plumula"]),
-    ("百合", "Baihe", ["Lilii Bulbus"]),
-    ("益智仁", "Yizhiren", ["Alpiniae Oxyphyliae Fructus"]),
-    ("五味子", "Wuweizi", ["Schisandrae Chinensis Fructus"]),
-    ("天麻", "Tianma", ["Gastrodiae Rhizoma", "Gastrodia Elata"]),
-    ("山药", "Shanyao", ["Rhizoma Dioscoreae"]),
-]
+    def resolve_cn_name(self, cn_name):
+        """Resolve a Chinese herb name to TCMSP's official (cn, en, pinyin) triples.
+
+        Uses the `qs=herb_all_name` endpoint which returns matches across all
+        three name columns. Returns a list of dicts with herb_cn_name,
+        herb_en_name, herb_pinyin. Empty list if no match.
+        """
+        import urllib.parse as _up
+        url = (f"{self.root_url}?qs=herb_all_name"
+               f"&q={_up.quote(cn_name)}&token={self.token}")
+        try:
+            resp = requests.get(url, headers=self.headers, timeout=30)
+        except Exception:
+            return []
+        soup = bs(resp.text, "html.parser")
+        for script in soup.find_all("script"):
+            text = str(script)
+            m = re.search(r"data:\s*(\[[\s\S]*?\])\s*,", text, re.DOTALL)
+            if m:
+                raw = re.sub(r'\n\s*', ' ', m.group(1))
+                try:
+                    rows = json.loads(raw)
+                    if isinstance(rows, list):
+                        return rows
+                except Exception:
+                    pass
+        return []
+
+# Herb mapping loaded from pipeline_config.json (falls back to 健脑安神 defaults)
+HERB_MAP = PC.herb_map_tuples()
 
 if __name__ == "__main__":
     os.makedirs("data/compounds", exist_ok=True)
+    os.makedirs("data/targets", exist_ok=True)
+    ob_min = PC.FILTERS["ob_min"]
+    dl_min = PC.FILTERS["dl_min"]
+    print(f"Pipeline: {PC.CONFIG['project_name']} "
+          f"({len(HERB_MAP)} herbs, OB>={ob_min}%, DL>={dl_min})")
 
     scraper = TCMSPScraper()
     if not scraper.get_token():
@@ -95,6 +117,28 @@ if __name__ == "__main__":
                 used_name = en_name
                 break
             time.sleep(1)
+
+        # If user-supplied names all failed, try auto-resolving via Chinese name
+        if not (data and data.get("ingredients")):
+            # Try the raw Chinese name and (for processed herbs) drop common prefixes
+            for probe_cn in [cn_name,
+                             cn_name.lstrip("酒生熟炙炒焦").strip() if cn_name[0] in "酒生熟炙炒焦" else None]:
+                if not probe_cn:
+                    continue
+                rows = scraper.resolve_cn_name(probe_cn)
+                for row in rows:
+                    resolved_en = row.get("herb_en_name")
+                    if not resolved_en:
+                        continue
+                    print(f"  Auto-resolved {probe_cn} -> {resolved_en}")
+                    time.sleep(1)
+                    data = scraper.get_herb_data(resolved_en)
+                    if data and data.get("ingredients"):
+                        used_name = f"{resolved_en} (auto-resolved from {probe_cn})"
+                        break
+                if data and data.get("ingredients"):
+                    break
+                time.sleep(0.5)
 
         if data and "ingredients" in data:
             print(f"  Found via: {used_name}")
@@ -131,12 +175,12 @@ if __name__ == "__main__":
         print(f"Total raw ingredients: {len(combined)}")
         print(f"Unique compounds (by MOL_ID): {combined['MOL_ID'].nunique()}")
 
-        # Filter: OB >= 30%, DL >= 0.18
+        # Filter: OB and DL thresholds from config
         combined['ob'] = pd.to_numeric(combined['ob'], errors='coerce')
         combined['dl'] = pd.to_numeric(combined['dl'], errors='coerce')
-        filtered = combined[(combined['ob'] >= 30) & (combined['dl'] >= 0.18)].copy()
+        filtered = combined[(combined['ob'] >= ob_min) & (combined['dl'] >= dl_min)].copy()
         filtered.to_csv("data/compounds/compounds_filtered.csv", index=False)
-        print(f"After OB>=30%, DL>=0.18: {len(filtered)} entries ({filtered['MOL_ID'].nunique()} unique compounds)")
+        print(f"After OB>={ob_min}%, DL>={dl_min}: {len(filtered)} entries ({filtered['MOL_ID'].nunique()} unique compounds)")
 
         # Summary per herb
         print(f"\nPer-herb summary (filtered):")

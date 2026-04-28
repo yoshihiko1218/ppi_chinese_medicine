@@ -1,0 +1,11 @@
+MOL_ID,molecule_name,ob,dl,herb_cn,herb_pinyin,source_note
+SZ001,beta-Sitosterol,36.91,0.75,水蛭,Shuizhi,Dong2016_ECAM_7895935 — phytosterol documented in Hirudo / Whitmania pigra constituent profile
+SZ002,Stigmasterol,43.83,0.76,水蛭,Shuizhi,Dong2016_ECAM_7895935 — sterol identified in medicinal leech lipidome
+SZ003,Cholesterol,37.87,0.68,水蛭,Shuizhi,Dong2016_ECAM_7895935 — sterol present in animal-derived medicinal leech
+SZ004,Squalene,33.55,0.42,水蛭,Shuizhi,Dong2016_ECAM_7895935 — triterpene precursor in leech lipid fraction
+SZ005,Daucosterol,36.91,0.62,水蛭,Shuizhi,Dong2016_ECAM_7895935 — sterol glycoside reported in Whitmania pigra
+SZ006,Hypoxanthine,14.59,0.04,水蛭,Shuizhi,Chen2025_quality_marker_PMC12195895 — nucleobase quality marker in medicinal leech (relaxed-DL filter retained per supplement convention)
+SZ007,Xanthine,11.46,0.04,水蛭,Shuizhi,Chen2025_quality_marker_PMC12195895 — nucleobase quality marker in medicinal leech (relaxed-DL filter retained per supplement convention)
+SZ008,Inosine,40.20,0.21,水蛭,Shuizhi,Chen2025_quality_marker_PMC12195895 — nucleoside marker in medicinal leech
+SZ009,Tryptophan,55.65,0.25,水蛭,Shuizhi,Chen2025_quality_marker_PMC12195895 — amino-acid quality marker
+SZ010,Phenylalanine,53.95,0.07,水蛭,Shuizhi,Chen2025_quality_marker_PMC12195895 — amino-acid quality marker (relaxed-DL filter)

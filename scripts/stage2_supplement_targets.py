@@ -7,14 +7,24 @@ Supplement targets for 龙眼肉 and 天麻 using:
 import pandas as pd
 import requests
 import time
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pipeline_config as PC
 
 # Load current data
 compounds = pd.read_csv("data/compounds/compounds_filtered_all.csv")
 drug_targets = pd.read_csv("data/targets/drug_targets.csv")
-tcmsp_all_targets = pd.read_csv("data/targets/tcmsp_targets_raw.csv")
+tcmsp_all_targets = pd.read_csv("data/targets/tcmsp_targets_raw.csv") if os.path.exists("data/targets/tcmsp_targets_raw.csv") else pd.DataFrame()
 
-# Get compounds for 龙眼肉 and 天麻
-supp_herbs = compounds[compounds['herb_cn'].isin(['龙眼肉', '天麻'])].copy()
+# Supplement herbs declared in pipeline_config.json
+supp_herb_names = [h["cn"] for h in PC.supplement_herbs()]
+if not supp_herb_names:
+    print("No supplement herbs declared in config — nothing to do.")
+    sys.exit(0)
+supp_herbs = compounds[compounds['herb_cn'].isin(supp_herb_names)].copy()
+print(f"Supplement herbs: {supp_herb_names}")
 print("Supplementary compounds:")
 print(supp_herbs[['MOL_ID', 'molecule_name', 'herb_cn']].to_string())
 
@@ -33,9 +43,12 @@ for _, row in supp_herbs.iterrows():
     herb_cn = row['herb_cn']
 
     # Search for this compound name in ALL TCMSP target data
-    name_matches = tcmsp_all_targets[
-        tcmsp_all_targets['molecule_name'].str.lower() == mol_name.lower()
-    ]
+    if tcmsp_all_targets.empty or 'molecule_name' not in tcmsp_all_targets.columns:
+        name_matches = pd.DataFrame()
+    else:
+        name_matches = tcmsp_all_targets[
+            tcmsp_all_targets['molecule_name'].str.lower() == mol_name.lower()
+        ]
 
     if len(name_matches) > 0:
         # Copy targets and reassign to our herb

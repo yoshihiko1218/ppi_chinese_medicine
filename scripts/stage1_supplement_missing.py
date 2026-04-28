@@ -1,119 +1,93 @@
 #!/usr/bin/env python3
 """
-Supplement missing herbs (龙眼肉, 天麻) with known active compounds from literature.
-These compounds are well-documented in network pharmacology papers.
-Sources: Published NP studies in PubMed/CNKI for these herbs.
+Stage 1.5: Supplement herbs that TCMSP doesn't cover well.
+
+For each herb that declares `supplement_compounds_csv` in pipeline_config.json,
+load that CSV and union its compounds into compounds_filtered_all.csv. The CSV
+must have columns: MOL_ID, molecule_name, ob, dl (herb_cn/herb_pinyin will be
+filled in from the herb entry if absent).
+
+Supplement herbs use a relaxed filter (FILTERS['supp_ob_min'], typically OB-only)
+because many well-documented bioactives (e.g. gastrodin) fall below the
+standard DL>=0.18 cutoff.
+
+If no herb declares a supplement CSV, this stage just copies
+compounds_filtered.csv → compounds_filtered_all.csv so downstream stages have
+a consistent input name.
 """
+import os
+import sys
 import pandas as pd
-import requests
-import time
-import json
 
-def get_pubchem_smiles(compound_name):
-    """Get SMILES from PubChem by compound name."""
-    try:
-        url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/{compound_name}/property/CanonicalSMILES,MolecularWeight/JSON"
-        r = requests.get(url, timeout=15)
-        if r.status_code == 200:
-            data = r.json()
-            props = data["PropertyTable"]["Properties"][0]
-            return props.get("CanonicalSMILES", ""), props.get("MolecularWeight", "")
-    except:
-        pass
-    return "", ""
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pipeline_config as PC
 
-# 龙眼肉 (Longan Arillus) - well-known active compounds from literature
-# Sources: Multiple network pharmacology papers on Longan
-longyanrou_compounds = [
-    {"MOL_ID": "LYR001", "molecule_name": "Gallic acid", "ob": 31.69, "dl": 0.04, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR002", "molecule_name": "Ellagic acid", "ob": 43.06, "dl": 0.43, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR003", "molecule_name": "Quercetin", "ob": 46.43, "dl": 0.28, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR004", "molecule_name": "Kaempferol", "ob": 41.88, "dl": 0.24, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR005", "molecule_name": "Adenine", "ob": 34.72, "dl": 0.04, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR006", "molecule_name": "Adenosine", "ob": 32.52, "dl": 0.11, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR007", "molecule_name": "beta-Sitosterol", "ob": 36.91, "dl": 0.75, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR008", "molecule_name": "Uridine", "ob": 32.30, "dl": 0.05, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR009", "molecule_name": "Ethyl gallate", "ob": 52.38, "dl": 0.06, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-    {"MOL_ID": "LYR010", "molecule_name": "Corilagin", "ob": 35.82, "dl": 0.68, "herb_cn": "龙眼肉", "herb_pinyin": "Longyanrou"},
-]
 
-# 天麻 (Gastrodia Rhizoma) - well-known active compounds
-# Sources: Multiple network pharmacology papers on Gastrodia elata
-tianma_compounds = [
-    {"MOL_ID": "TM001", "molecule_name": "Gastrodin", "ob": 37.69, "dl": 0.06, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM002", "molecule_name": "4-Hydroxybenzyl alcohol", "ob": 43.09, "dl": 0.02, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM003", "molecule_name": "Vanillin", "ob": 52.00, "dl": 0.03, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM004", "molecule_name": "4-Hydroxybenzaldehyde", "ob": 57.78, "dl": 0.02, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM005", "molecule_name": "Vanillyl alcohol", "ob": 42.06, "dl": 0.04, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM006", "molecule_name": "beta-Sitosterol", "ob": 36.91, "dl": 0.75, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM007", "molecule_name": "Parishin", "ob": 31.27, "dl": 0.52, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM008", "molecule_name": "Parishin B", "ob": 33.15, "dl": 0.48, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM009", "molecule_name": "Parishin C", "ob": 30.89, "dl": 0.45, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM010", "molecule_name": "Palmitic acid", "ob": 19.30, "dl": 0.10, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM011", "molecule_name": "Daucosterol", "ob": 36.91, "dl": 0.75, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-    {"MOL_ID": "TM012", "molecule_name": "Succinic acid", "ob": 36.21, "dl": 0.01, "herb_cn": "天麻", "herb_pinyin": "Tianma"},
-]
+def main():
+    main_path = "data/compounds/compounds_filtered.csv"
+    out_path = "data/compounds/compounds_filtered_all.csv"
+    main_df = pd.read_csv(main_path)
+    print(f"Main filtered compounds: {len(main_df)} entries "
+          f"({main_df['MOL_ID'].nunique()} unique MOL_IDs)")
 
-# Combine and filter
-all_supp = pd.DataFrame(longyanrou_compounds + tianma_compounds)
+    supp_herbs = PC.supplement_herbs()
+    if not supp_herbs:
+        print("No supplement_compounds_csv declared in config — "
+              "copying main filtered compounds to compounds_filtered_all.csv")
+        main_df.to_csv(out_path, index=False)
+        return
 
-# Apply OB>=30%, DL>=0.18 filter
-filtered = all_supp[(all_supp['ob'] >= 30) & (all_supp['dl'] >= 0.18)].copy()
+    ob_min = PC.FILTERS.get("supp_ob_min", 30)
+    dl_min = PC.FILTERS.get("supp_dl_min")  # may be None
 
-print("=== Supplementary compounds (OB>=30%, DL>=0.18) ===")
-print(f"龙眼肉: {len(filtered[filtered['herb_cn']=='龙眼肉'])} compounds")
-print(f"天麻: {len(filtered[filtered['herb_cn']=='天麻'])} compounds")
-print()
-print(filtered[['MOL_ID', 'molecule_name', 'ob', 'dl', 'herb_cn']].to_string())
+    print(f"Supplement filter: OB>={ob_min}"
+          + (f", DL>={dl_min}" if dl_min is not None else " (no DL filter)"))
 
-# NOTE: For these herbs, many key compounds have low DL values
-# (small molecules like gastrodin). Following thesis convention,
-# we also include key bioactive compounds with lower DL but high OB
-# if they are well-documented active ingredients.
-# Let's use a relaxed filter for these well-known herbs: OB>=30% only
-relaxed = all_supp[all_supp['ob'] >= 30].copy()
-print(f"\n=== With relaxed filter (OB>=30% only) ===")
-print(f"龙眼肉: {len(relaxed[relaxed['herb_cn']=='龙眼肉'])} compounds")
-print(f"天麻: {len(relaxed[relaxed['herb_cn']=='天麻'])} compounds")
-print()
-print(relaxed[['MOL_ID', 'molecule_name', 'ob', 'dl', 'herb_cn']].to_string())
+    supp_frames = []
+    for herb in supp_herbs:
+        csv_path = herb["supplement_compounds_csv"]
+        if not os.path.exists(csv_path):
+            # try relative to scripts dir
+            alt = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                               "..", csv_path)
+            if os.path.exists(alt):
+                csv_path = alt
+            else:
+                print(f"WARNING: supplement CSV for {herb['cn']} not found at "
+                      f"{herb['supplement_compounds_csv']} — skipping")
+                continue
+        sdf = pd.read_csv(csv_path)
+        if "herb_cn" not in sdf.columns:
+            sdf["herb_cn"] = herb["cn"]
+        if "herb_pinyin" not in sdf.columns:
+            sdf["herb_pinyin"] = herb["pinyin"]
+        sdf["ob"] = pd.to_numeric(sdf["ob"], errors="coerce")
+        sdf["dl"] = pd.to_numeric(sdf["dl"], errors="coerce")
 
-# Save supplementary data
-all_supp.to_csv("data/compounds/Longyanrou_ingredients_supplement.csv", index=False)
-all_supp.to_csv("data/compounds/Tianma_ingredients_supplement.csv", index=False)
+        mask = sdf["ob"] >= ob_min
+        if dl_min is not None:
+            mask &= sdf["dl"] >= dl_min
+        filt = sdf[mask].copy()
+        print(f"  {herb['cn']} ({herb['pinyin']}): {len(filt)}/{len(sdf)} compounds "
+              f"kept from {os.path.basename(csv_path)}")
+        # Persist per-herb supplement file for traceability
+        out_supp = f"data/compounds/{herb['pinyin']}_ingredients_supplement.csv"
+        sdf.to_csv(out_supp, index=False)
+        supp_frames.append(filt)
 
-# Now merge with main filtered compounds
-main_filtered = pd.read_csv("data/compounds/compounds_filtered.csv")
-# Use strict filter for TCMSP herbs, relaxed for supplementary (OB>=30)
-supp_filtered = relaxed.copy()
-combined = pd.concat([main_filtered, supp_filtered], ignore_index=True)
-combined.to_csv("data/compounds/compounds_filtered_all.csv", index=False)
-print(f"\n=== Combined total ===")
-print(f"Total entries: {len(combined)}")
-print(f"Unique compounds: {combined['MOL_ID'].nunique()}")
-print(f"\nPer-herb summary:")
-for cn in combined['herb_cn'].unique():
-    n = combined[combined['herb_cn'] == cn]['MOL_ID'].nunique()
-    print(f"  {cn}: {n} compounds")
-
-# Get SMILES for all unique compounds from PubChem
-print("\n\nFetching SMILES from PubChem...")
-unique_compounds = combined.drop_duplicates(subset='molecule_name')['molecule_name'].tolist()
-smiles_map = {}
-for name in unique_compounds:
-    smiles, mw = get_pubchem_smiles(name)
-    if smiles:
-        smiles_map[name] = smiles
-        print(f"  {name}: OK")
+    if supp_frames:
+        supp_all = pd.concat(supp_frames, ignore_index=True)
+        combined = pd.concat([main_df, supp_all], ignore_index=True)
     else:
-        print(f"  {name}: NOT FOUND in PubChem")
-    time.sleep(0.3)  # Rate limit
+        combined = main_df
 
-# Add SMILES to combined data
-combined['SMILES'] = combined['molecule_name'].map(smiles_map)
-combined.to_csv("data/compounds/compounds_filtered_all.csv", index=False)
+    combined.to_csv(out_path, index=False)
+    print(f"\nCombined total: {len(combined)} entries "
+          f"({combined['MOL_ID'].nunique()} unique compounds)")
+    for cn in combined["herb_cn"].dropna().unique():
+        n = combined[combined["herb_cn"] == cn]["MOL_ID"].nunique()
+        print(f"  {cn}: {n} compounds")
 
-n_with_smiles = combined['SMILES'].notna().sum()
-n_unique_smiles = combined.dropna(subset=['SMILES'])['MOL_ID'].nunique()
-print(f"\nCompounds with SMILES: {n_with_smiles}/{len(combined)} entries")
-print(f"Unique compounds with SMILES: {n_unique_smiles}")
+
+if __name__ == "__main__":
+    main()

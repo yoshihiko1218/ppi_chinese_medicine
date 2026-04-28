@@ -1,0 +1,11 @@
+MOL_ID,molecule_name,ob,dl,herb_cn,herb_pinyin,source_note
+JC001,Quercetin,46.43,0.28,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.3 — flavonol documented at 0.2 mg/g in Bombyx batryticatus
+JC002,Kaempferol,41.88,0.24,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.3 — flavonol documented at 0.6 mg/g in Bombyx batryticatus
+JC003,beta-Sitosterol,36.91,0.75,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.5 — phytosterol from Bombyx batryticatus
+JC004,Stigmasterol,43.83,0.76,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.5 — sterol family in Bombyx batryticatus
+JC005,Daucosterol,36.91,0.62,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.5 — sterol glycoside isolated from Bombyx batryticatus
+JC006,"Ergosta-5,7,22-trien-3beta-ol",42.98,0.71,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.5 — ergostane-type sterol
+JC007,Adenosine,32.52,0.11,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.4 — nucleoside (relaxed-DL filter retained per supplement convention)
+JC008,Uridine,32.30,0.05,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.4 — nucleoside (relaxed-DL filter retained per supplement convention)
+JC009,Nicotinamide,44.51,0.04,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.9 — small amide (relaxed-DL filter retained per supplement convention)
+JC010,Beauvericin,18.85,0.85,僵蚕,Jiangcan,Hu2017_PMC6151799_section4.1 + Liu2025_serum_pharmacochemistry — cyclic depsipeptide Q-marker for antiepileptic activity (high DL despite low OB)
