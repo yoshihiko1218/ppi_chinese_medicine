@@ -51,6 +51,8 @@ STAGES = [
         ["results/tables/active_compounds.xlsx"]),
     (9,   "report_md",        "make_report.py",
         ["METHODS_AND_RESULTS.md"]),
+    (9.5, "report_pdf",       "make_pdf.py",
+        ["METHODS_AND_RESULTS.pdf"]),
 ]
 
 
