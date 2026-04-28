@@ -10,7 +10,17 @@
     {"cn": "酒萸肉",  "pinyin": "Shanzhuyu", "latin": ["Cornus Officinalis Sieb. et Zucc.", "Corni Fructus", "Cornus officinalis", "Fructus Corni"]},
     {"cn": "茯苓",    "pinyin": "Fuling",    "latin": ["Poria", "Poria Cocos(Schw.) Wolf.", "Poria cocos"]},
     {"cn": "牡丹皮",  "pinyin": "Mudanpi",   "latin": ["Moutan Cortex", "Cortex Moutan", "Paeonia suffruticosa"]},
-    {"cn": "蝉蜕",    "pinyin": "Chantui",   "latin": ["Cicadae Periostracum", "Cryptotympana atrata", "Cicada slough"]},
+    {"cn": "蝉蜕",    "pinyin": "Chantui",   "latin": ["Cicadae Periostracum", "Cryptotympana atrata", "Cicada slough"],
+     "supplement_compounds_csv": "../../data/supplements/chantui.csv",
+     "supplement_filters": {"ob_min": 20, "dl_min": 0.18},
+     "supplement_references": [
+       "Liu H, Yan YM, Liao L, Wang SX, Zhang Y, Cheng YX. Cicadamides A and B, N-Acetyldopamine Dimers From the Insect Periostracum cicadae. Natural Product Communications. 2019;14. doi:10.1177/1934578X19850019. — Isolated two new N-acetyldopamine (NADA) dimers (cicadamides A, B) plus 8 known compounds (6 NADA dimers + 2 monomers) from Periostracum cicadae.",
+       "Xu MZ et al. N-Acetyldopamine derivatives from Periostracum Cicadae. Fitoterapia. 2014. doi:10.1016/j.fitote.2014.10.007. — Reported 11 N-acetyldopamine derivatives including dimers and pentamers from Periostracum Cicadae.",
+       "Matsumoto H, Konno K, Kazuma K. A Comprehensive LC-MS and Isolation Study of Cicada Slough as a Crude Drug. Natural Product Communications. 2017;12(11). doi:10.1177/1934578X1701201136. — LC-MS analysis identified N-acetyldopamine oligomers up to octamers and four known compounds: 2,3',4'-trihydroxyacetophenone, 2-oxo-N-acetyldopamine, protocatechuic acid, and paeonol.",
+       "Wang Y et al. Periostracum Cicadae Extract and N-Acetyldopamine Regulate the Sleep-Related Neurotransmitters in PCPA-Induced Insomnia Rats. Molecules. 2024;29(15):3638. PMC: PMC11314497. — Demonstrated NADA dimer A forms stable complexes with 5-HT1A, BDNF, and D2R proteins; PC extract restores 5-HT/GABA/BDNF and reduces DA/DOPAC/HVA in insomnia model.",
+       "Lee H et al. Cryptotympana pustulata Extract and Its Main Active Component, Oleic Acid, Inhibit Ovalbumin-Induced Allergic Airway Inflammation. Molecules. 2021;26(7):1854. — Identified oleic acid as the primary anti-asthmatic component in Cryptotympana pustulata extract acting via Th2/GATA-3 and IL-17/RORγt pathways.",
+       "Note: many NADA dimers in TCMSP register OB ~20–23% with DL=0.51 — they fail the strict OB≥30%/DL≥0.18 filter on OB only despite excellent drug-likeness. A per-herb filter override of OB≥20%, DL≥0.18 is therefore applied to admit these well-documented bioactives."
+     ]},
     {"cn": "僵蚕",    "pinyin": "Jiangcan",  "latin": ["Bombyx Batryticatus", "Stiff silkworm"],
      "supplement_compounds_csv": "../../data/supplements/jiangcan.csv",
      "supplement_references": [

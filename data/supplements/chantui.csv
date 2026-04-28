@@ -1,0 +1,9 @@
+MOL_ID,molecule_name,ob,dl,herb_cn,herb_pinyin,source_note
+CT001,N-Acetyldopamine dimer A,21.37,0.51,蝉蜕,Chantui,Liu2019_NPC_1934578X19850019 (cicadamide A) + TCMSP MOL011680 — primary documented bioactive
+CT002,N-Acetyldopamine dimer B,23.11,0.51,蝉蜕,Chantui,Liu2019_NPC_1934578X19850019 (cicadamide B) + TCMSP MOL011681 — primary documented bioactive
+CT003,N-Acetyldopamine dimer C,20.66,0.51,蝉蜕,Chantui,Xu2014_FITOTE_S1874390014002456 + TCMSP MOL011682 — N-acetyldopamine derivative
+CT004,Protocatechualdehyde,38.35,0.028,蝉蜕,Chantui,Matsumoto2017_NPC_1934578X1701201136 + TCMSP MOL001452 — phenolic aldehyde (relaxed-DL filter)
+CT005,Oleic acid,33.13,0.14,蝉蜕,Chantui,Lee2021_Molecules_26_1854 — primary anti-asthmatic active in Cryptotympana pustulata extract (relaxed-DL)
+CT006,Stigmasterol,43.83,0.76,蝉蜕,Chantui,Documented sterol constituent in cicada slough literature
+CT007,Paeonol,28.79,0.04,蝉蜕,Chantui,Matsumoto2017_NPC_1934578X1701201136 — phenolic ketone identified by LC-MS (fails OB; documented for completeness)
+CT008,N-Acetyldopamine,8.63,0.057,蝉蜕,Chantui,Wang2024_PCPA-insomnia_PMC11314497 + TCMSP MOL011683 — sleep-related neurotransmitter modulator (fails filter; included for documentation)

@@ -37,11 +37,11 @@ def main():
         main_df.to_csv(out_path, index=False)
         return
 
-    ob_min = PC.FILTERS.get("supp_ob_min", 30)
-    dl_min = PC.FILTERS.get("supp_dl_min")  # may be None
+    global_ob_min = PC.FILTERS.get("supp_ob_min", 30)
+    global_dl_min = PC.FILTERS.get("supp_dl_min")  # may be None
 
-    print(f"Supplement filter: OB>={ob_min}"
-          + (f", DL>={dl_min}" if dl_min is not None else " (no DL filter)"))
+    print(f"Default supplement filter: OB>={global_ob_min}"
+          + (f", DL>={global_dl_min}" if global_dl_min is not None else " (no DL filter)"))
 
     supp_frames = []
     for herb in supp_herbs:
@@ -64,12 +64,21 @@ def main():
         sdf["ob"] = pd.to_numeric(sdf["ob"], errors="coerce")
         sdf["dl"] = pd.to_numeric(sdf["dl"], errors="coerce")
 
+        # Per-herb filter override (e.g. animal-derived herbs whose
+        # main bioactives sit at OB ~20% but with high DL)
+        hf = herb.get("supplement_filters") or {}
+        ob_min = hf.get("ob_min", global_ob_min)
+        dl_min = hf.get("dl_min", global_dl_min)
+        filter_label = (f"OB>={ob_min}"
+                        + (f", DL>={dl_min}" if dl_min is not None else ""))
+
         mask = sdf["ob"] >= ob_min
         if dl_min is not None:
             mask &= sdf["dl"] >= dl_min
         filt = sdf[mask].copy()
-        print(f"  {herb['cn']} ({herb['pinyin']}): {len(filt)}/{len(sdf)} compounds "
-              f"kept from {os.path.basename(csv_path)}")
+        override_tag = " (override)" if hf else ""
+        print(f"  {herb['cn']} ({herb['pinyin']}) [{filter_label}{override_tag}]: "
+              f"{len(filt)}/{len(sdf)} compounds kept from {os.path.basename(csv_path)}")
         # Persist per-herb supplement file for traceability
         out_supp = f"data/compounds/{herb['pinyin']}_ingredients_supplement.csv"
         sdf.to_csv(out_supp, index=False)
